@@ -1,4 +1,4 @@
 title: Open Science Community Nijmegen
 description: A community for developing open science practices in Nijmegen.
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
 permalink: /:title/
