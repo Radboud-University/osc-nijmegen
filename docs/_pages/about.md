@@ -1,7 +1,8 @@
 ---
-title: "About"
-layout: page
+title: About
+#layout: page
 toc: true
+permalink: /about/
 ---
 
 ## About
