@@ -1,5 +1,5 @@
 main:
- - title: "Quick-Start Guide"
-   url: /docs/quick-start-guide/
  - title: "About"
-   url: /about/
+   url: /pages/about/
+ - title: "Contact"
+   url: /_pages/contact/
