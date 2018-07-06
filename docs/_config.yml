@@ -4,3 +4,4 @@ permalink: /:title/
 plugins:
   - jekyll-remote-theme
 remote_theme: mmistakes/minimal-mistakes
+include: ["_pages"]
