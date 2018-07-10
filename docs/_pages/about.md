@@ -1,6 +1,6 @@
 ---
 title: About
-#layout: page
+layout: home
 toc: true
 permalink: /about/
 ---
