@@ -1,4 +1,6 @@
 main:
+ - title: "Home"
+   url: /index.html
  - title: "About"
    url: /_pages/about/
  - title: "Contact"
