@@ -1,7 +1,7 @@
 main:
  - title: "Home"
-   url: /index.html
+   url: /index
  - title: "About"
-   url: /_pages/about.html
+   url: /_pages/about
  - title: "Contact"
-   url: /_pages/contact.html
+   url: /_pages/contact
