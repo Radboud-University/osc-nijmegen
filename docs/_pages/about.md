@@ -1,8 +1,8 @@
 ---
 title: About
-layout: home
+layout: single
 toc: true
-permalink: /about/
+#permalink: /about/
 ---
 
 ## About
