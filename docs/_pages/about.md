@@ -5,6 +5,7 @@ toc: true
 #permalink: /about/
 ---
 
-## About
+Coming soon...
 
-First contents here.
+“He that can have patience can have what he will.”  
+― Benjamin Franklin
