@@ -90,8 +90,8 @@ analytics:
 author:
   name             : "OSC Nijmegen"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              :
-  location         : "Nijmegen"
+  bio              : " "
+  location         : "Nijmegen, the Netherlands"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -101,7 +101,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "Radboud-University/osc-nijmegen"
   gitlab           :
   google_plus      :
   keybase          :
