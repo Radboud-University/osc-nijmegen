@@ -3,5 +3,7 @@ main:
    url: /index
  - title: "About"
    url: /_pages/about
+ - title: "Links"
+   url: /_pages/links
  - title: "Contact"
    url: /_pages/contact
