@@ -3,15 +3,15 @@ title: Links
 layout: single
 ---
 
-## other organisations/communities
+## Organisations/communities
 
 ### international
-
 [opensourceforneuroscience.org](https://opensourceforneuroscience.org) Pledge to do only open (source) science from now on
-### national
+
+### National
 [Netherlands](https://www.openscience.nl/)
 
-### local
+### Local
 [Utrecht](https://openscience-utrecht.com/)
 [Nijmegen](https://radboud-university.github.io/osc-nijmegen)
 
