@@ -7,3 +7,17 @@ main:
    url: /_pages/links
  - title: "Contact"
    url: /_pages/contact
+
+# documentation links
+about-sidebar:
+  - title: Our community
+    url: _pages/home.md
+    children:
+      - title: "Nijmegen campus"
+        url: _pages/about/
+      - title: "Mission"
+        url: _pages/about/
+      - title: "Agenda"
+        url: _pages/about/
+      - title: "Contribute"
+        url: _pages/about/

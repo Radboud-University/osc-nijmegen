@@ -1,7 +1,8 @@
 ---
 title: About
 layout: single
-author_profile: true 
+sidebar:
+  nav: "about-sidebar"
 #permalink: /about/
 ---
 
