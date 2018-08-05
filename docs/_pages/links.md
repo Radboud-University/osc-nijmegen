@@ -8,17 +8,17 @@ toc_icon: "list-ul"
 
 ## Organisations/communities
 
-### international
+### International
 [opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open (source) science from now on_
 
-### national
+### National
 [Netherlands](https://www.openscience.nl/)
 
-### local
+### Local
 [Utrecht](https://openscience-utrecht.com/) _Open Science Community Utrecht_  
 [Nijmegen](https://radboud-university.github.io/osc-nijmegen) _you are already here_
 
-## events
+## Events
 [Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings)  
 _Documentary about the need for open access in academic publishing_
 
@@ -34,3 +34,8 @@ _fighting for realization of open science and more_
 
 ## Other
 [Sci-Hub](http://sci-hub.tw) _free access to science paywalled articles_
+
+## New Tech
+[DEIP](https://deip.world) _decentralized research platform_
+[Artifacts](https://artifacts.ai) _getting the full fragmentstack on a block-chain_ 
+[eLife's Gigantum initiative](https://elifesciences.org/labs/bdbeac92/gigantum-a-simple-way-to-create-and-share-reproducible-data-science-and-research) _open data science platform versioning of data, code and environment_
