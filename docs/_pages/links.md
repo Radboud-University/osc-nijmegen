@@ -38,6 +38,8 @@ _fighting for realization of open science and more_
 ## New Tech
 [DEIP](https://deip.world) _decentralized research platform_
 
+[frankl](https://frankl.io) _block-chain open science platform_
+
 [Artifacts](https://artifacts.ai) _getting the full fragmentstack on a block-chain_ 
 
 [eLife's Gigantum initiative](https://elifesciences.org/labs/bdbeac92/gigantum-a-simple-way-to-create-and-share-reproducible-data-science-and-research) _open data science platform versioning of data, code and environment_
