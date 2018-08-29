@@ -3,6 +3,8 @@ main:
    url: /index
  - title: "About"
    url: /_pages/about
+ - title: "Agenda"
+   url: /_pages/agenda
  - title: "Links"
    url: /_pages/links
  - title: "Contact"
