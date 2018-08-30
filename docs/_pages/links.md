@@ -34,7 +34,9 @@ _fighting for realization of open science and more_
 
 ## Other
 [Sci-Hub](http://sci-hub.tw) _free access to science paywalled articles_
+
 [freejournals.org](https://freejournals.org/) _where to submit your work next_
+
 [freeourknowledge.org](https://freeourknowledge.org/) _initatitive to gain commitment away from publishers_
 
 ## New Tech
