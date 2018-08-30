@@ -1,10 +1,8 @@
 ---
-title: Agenda
+title: Upcoming events
 layout: collection
 collection: events
 ---
-
-## Upcoming events
 
 See below for upcoming events. Have an idea for an event? Get
 [in touch](https://radboud-university.github.io/osc-nijmegen/_pages/contact/)
