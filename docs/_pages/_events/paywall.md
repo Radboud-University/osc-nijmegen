@@ -1,5 +1,5 @@
 ---
-title: "OSCN Launch: Screening Paywall the Movie"
+title: "OSCN Launch: Paywall, the Business of Scholarship"
 layout: single
 excerpt: Join us for the official community launch!
 ---
