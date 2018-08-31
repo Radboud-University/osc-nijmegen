@@ -8,19 +8,15 @@ toc_icon: "list-ul"
 
 ## Organisations/communities
 
-#### International
+### International
 [opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open (source) science from now on_
 
-#### National
+### National
 [Netherlands](https://www.openscience.nl/)
 
-#### Local
+### Local
 [Utrecht](https://openscience-utrecht.com/) _Open Science Community Utrecht_  
 [Nijmegen](https://radboud-university.github.io/osc-nijmegen) _you are here_
-
-## Events
-[Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings)  
-_Documentary about the need for open access in academic publishing_
 
 ## Research and data management
 [hypothes.is](https://hypothes.is) _annotate the web, including pdfs and preprints and every thing you
@@ -39,7 +35,11 @@ _fighting for realization of open science and more_
 [freejournals.org](https://freejournals.org/) _where to submit your work next_  
 [freeourknowledge.org](https://freeourknowledge.org/) _initiative to move towards community-owned free open access publication systems_  
 
-#### Decentralized publishing
+### Decentralized publishing
 [DEIP](https://deip.world) _decentralized research platform_  
 [frankl](https://frankl.io) _block-chain open science platform_  
 [Artifacts](https://artifacts.ai) _getting the full fragmentstack on a block-chain_  
+
+## Other
+[Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings)  
+_Documentary about the need for open access in academic publishing_
