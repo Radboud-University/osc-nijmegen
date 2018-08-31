@@ -5,9 +5,9 @@ layout: single
 ---
 
 The list below gives a cursory overview of open science related
-initiatives maintained by various institutions at Nijmegen campus.
+initiatives maintained by various institutions on Nijmegen campus.
 
-## Research Data Sharing
+## Research data sharing
 
 [Research data management](https://repository.ubn.ru.nl/), Radboud University  
 [The Language Archive](https://tla.mpi.nl/), Max Planck Institute for Psycholinguistics  
@@ -19,8 +19,8 @@ initiatives maintained by various institutions at Nijmegen campus.
 
 ## Open source tools
 
-[Fieldtrip toolbox](http://www.fieldtriptoolbox.org/),  
-[LaMachine software](https://proycon.github.io/LaMachine/)  
+[Fieldtrip toolbox](http://www.fieldtriptoolbox.org/), Donders Institute  
+[LaMachine software](https://proycon.github.io/LaMachine/), Centre for Language and Speech Technology 
 
 ## Science evaluation
 
