@@ -4,14 +4,15 @@ layout: single
 
 ---
 
-The list below gives a cursory overview of open science related
+The list below gives a cursory overview and links to open science related
 initiatives maintained by various institutions on Nijmegen campus.
 
 ## Research data sharing
 
 [Research data management](https://repository.ubn.ru.nl/), Radboud University  
 [The Language Archive](https://tla.mpi.nl/), Max Planck Institute for Psycholinguistics  
-[Nijmegen Corpora](https://www.ru.nl/cls/our-research/research-output/corpora/), Centre for Language Studies  
+[Nijmegen Corpora](https://www.ru.nl/cls/our-research/research-output/corpora/), Centre for Language Studies 
+[Donders repository](https://data.donders.ru.nl), Donders Institute
 
 ## Open access
 
