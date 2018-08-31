@@ -20,6 +20,6 @@ about-sidebar:
       - title: "Mission"
         url: _pages/mission/
       - title: "Agenda"
-        url: _pages/about/
+        url: _pages/agenda/
       - title: "Contribute"
         url: _pages/about/
