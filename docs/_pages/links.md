@@ -6,10 +6,15 @@ toc_label: "Contents"
 toc_icon: "list-ul"
 ---
 
+## Educational resources
+[Open Science Mooc](https://opensciencemooc.eu/)  _online course on open science tools_  
+[The Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) _an open, living handbook on open science training_  
+[Foster Open Science](https://www.fosteropenscience.eu/) _e-learning platform for open science training resources_  
+
 ## Organisations/communities
 
 ### International
-[opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open (source) science from now on_
+[opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open source science from now on_
 
 ### National
 [Netherlands](https://www.openscience.nl/)
@@ -27,11 +32,14 @@ and never stop it_
 
 ## Blogs
 [Björn Brembs](http://bjoern.brembs.net/)
-_fighting for realization of open science and more_
+_fighting for realization of open science and more_  
+[Fossils and shit](http://fossilsandshit.com/) _personal blog of Jon Tennant_
 
 ## Scholarly publishing
+[Open Access Netherlands](http://openaccess.nl/en)_information on OA deals with Dutch universities_  
 [Sci-Hub](http://sci-hub.tw) _free access to paywalled scientific articles_  
 [Unpaywall](http://unpaywall.org/) _a database of open access articles_  
+[Open Access Button](https://openaccessbutton.org/) _find OA research contents_  
 [freejournals.org](https://freejournals.org/) _where to submit your work next_  
 [freeourknowledge.org](https://freeourknowledge.org/) _initiative to move towards community-owned free open access publication systems_  
 
