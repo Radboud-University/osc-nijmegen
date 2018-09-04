@@ -10,12 +10,14 @@ toc_icon: "list-ul"
 [Open Science Mooc](https://opensciencemooc.eu/)  _online course on open science tools_  
 [The Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) _an open, living handbook on open science training_  
 [Foster Open Science](https://www.fosteropenscience.eu/) _e-learning platform for open science training resources_  
+[Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings) _Documentary about the need for open access in academic publishing_    
 
 ## Organisations/communities
 
 ### International
 [cOAlition S](https://www.scienceeurope.org/coalition-s/) _an initiative campainging for full and immediate Open Access to research publications_  
 [opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open source science from now on_
+[rOpenSci](https://ropensci.org/) _a non-profit initiative developing an ecosystem of open source tools centered on R language_  
 
 ### National
 [Netherlands](https://www.openscience.nl/)
@@ -31,13 +33,9 @@ toc_icon: "list-ul"
 and never stop it_  
 [eLife's Gigantum initiative](https://elifesciences.org/labs/bdbeac92/gigantum-a-simple-way-to-create-and-share-reproducible-data-science-and-research) _open data science platform versioning of data, code and environment_  
 
-## Blogs
-[Björn Brembs](http://bjoern.brembs.net/)
-_fighting for realization of open science and more_  
-[Fossils and shit](http://fossilsandshit.com/) _personal blog of Jon Tennant_
-
 ## Scholarly publishing
-[Open Access Netherlands](http://openaccess.nl/en)_information on OA deals with Dutch universities_  
+[Open Access Netherlands](http://openaccess.nl/en) _information on OA deals with Dutch universities_  
+[Innovations in scholarly communication](https://101innovations.wordpress.com/) _a survey on tool development in scholarly communication_  
 [Sci-Hub](http://sci-hub.tw) _free access to paywalled scientific articles_  
 [Unpaywall](http://unpaywall.org/) _a database of open access articles_  
 [Open Access Button](https://openaccessbutton.org/) _find OA research contents_  
@@ -49,6 +47,7 @@ _fighting for realization of open science and more_
 [frankl](https://frankl.io) _block-chain open science platform_  
 [Artifacts](https://artifacts.ai) _getting the full fragmentstack on a block-chain_  
 
-## Other
-[Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings)  
-_Documentary about the need for open access in academic publishing_
+## Blogs
+[Björn Brembs](http://bjoern.brembs.net/)
+_fighting for realization of open science and more_  
+[Fossils and shit](http://fossilsandshit.com/) _personal blog of Jon Tennant_
