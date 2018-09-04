@@ -14,6 +14,7 @@ toc_icon: "list-ul"
 ## Organisations/communities
 
 ### International
+[cOAlition S](https://www.scienceeurope.org/coalition-s/) _an initiative campainging for full and immediate Open Access to research publications_  
 [opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open source science from now on_
 
 ### National
