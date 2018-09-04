@@ -10,13 +10,15 @@ initiatives maintained by various institutions on Nijmegen campus.
 ## Research data sharing
 
 [Research data management](https://repository.ubn.ru.nl/), Radboud University  
-[The Language Archive](https://tla.mpi.nl/), Max Planck Institute for Psycholinguistics  
-[Nijmegen Corpora](https://www.ru.nl/cls/our-research/research-output/corpora/), Centre for Language Studies 
+[The language archive](https://tla.mpi.nl/), Max Planck Institute for Psycholinguistics  
+[Nijmegen corpora](https://www.ru.nl/cls/our-research/research-output/corpora/), Centre for Language Studies  
 [Donders repository](https://data.donders.ru.nl), Donders Institute
 
 ## Open access
 
-[Radboud repository](https://www.ru.nl/library/services/research/open-access/radboud-repository/), Radboud University Library  
+[Radboud repository and open access deals](https://www.ru.nl/library/services/research/open-access/), Radboud University Library   
+[Max Planck publication repository](http://pubman.mpdl.mpg.de/pubman/), Max Planck Society  
+[Max Planck digital library](https://www.mpdl.mpg.de/21-specials/50-open-access-publishing.html), Max Planck Society
 
 ## Open source tools
 
