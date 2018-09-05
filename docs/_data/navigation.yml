@@ -17,8 +17,8 @@ about-sidebar:
     children:
       - title: "OS @ Nijmegen campus"
         url: _pages/os_nijmegen/
-      - title: "Mission"
-        url: _pages/mission/
+      - title: "Goals and activities"
+        url: _pages/goals/
       - title: "Agenda"
         url: _pages/agenda/
       - title: "Contribute"
