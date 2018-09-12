@@ -13,7 +13,6 @@ main:
 # documentation links
 about-sidebar:
   - title: Our community
-    url: _pages/home.md
     children:
       - title: "OS @ Nijmegen campus"
         url: _pages/os_nijmegen/
