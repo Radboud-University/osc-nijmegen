@@ -4,7 +4,4 @@ layout: single
 author_profile: true
 ---
 
-Coming soon ...
-
-“Patience is a conquering virtue.”  
-― Geoffrey Chaucer
+To get in touch with us, drop us a line to: contact@openscience-nijmegen.nl
