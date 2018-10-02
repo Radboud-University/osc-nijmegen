@@ -16,4 +16,4 @@ To stay up to date about about our upcoming plans and events, you can sign up to
 
 <br>
 
-You can unsubscribe from the mailing list at any time by submitting the unsubscribe form at [this link](https://openscience-nijmegen.nl/_pages/unsubscribe.md).
+You can unsubscribe from the mailing list at any time by submitting the unsubscribe form at [this link](https://openscience-nijmegen.nl/_pages/unsubscribe/).

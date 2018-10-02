@@ -1,7 +1,6 @@
 ---
-title: Contact
+title: Unsubscribe
 layout: single
-author_profile: true
 ---
 
 You can unsubscribe from the OSCN mailing list by submitting the following form:
