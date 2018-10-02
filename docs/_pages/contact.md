@@ -4,4 +4,13 @@ layout: single
 author_profile: true
 ---
 
-To get in touch with us, drop us a line to: <contact@openscience-nijmegen.nl>
+To stay up to date, join our mailing list:
+
+<form>
+<form action="https://formspree.io/contact@openscience-nijmegen.nl"
+      method="POST">
+
+    <input type = "text" placeholder = "your e-mail" name = "Your e-mail address">
+    <input type = "submit" value= "Send">
+
+</form>
