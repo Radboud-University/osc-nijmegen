@@ -10,7 +10,7 @@ To stay up to date about about our upcoming plans and events, you can sign up to
       method="POST">
 
     <input type = "text" placeholder = "type your e-mail" name = "newaddress">
-    <input type = "submit" value= "Send">
+    <input type = "submit" name = "action" value= "subscribe">
 
 </form>
 
