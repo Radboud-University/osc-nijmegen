@@ -4,13 +4,16 @@ layout: single
 author_profile: true
 ---
 
-To stay up to date, join our mailing list:
+To stay up to date about about our upcoming plans and events, you can sign up to our mailing list:
 
-<form>
 <form action="https://formspree.io/contact@openscience-nijmegen.nl"
       method="POST">
 
-    <input type = "text" placeholder = "your e-mail" name = "Your e-mail address">
+    <input type = "text" placeholder = "type your e-mail" name = "newaddress">
     <input type = "submit" value= "Send">
 
 </form>
+
+<br>
+
+You can unsubscribe from the mailing list at any time by submitting the unsubscribe form at [this link](https://openscience-nijmegen.nl/_pages/unsubscribe.md).
