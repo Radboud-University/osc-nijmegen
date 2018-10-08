@@ -3,16 +3,18 @@ title: "Goals and activities"
 layout: single
 ---
 
-The activity of the OSCN revolves around three types:
+The core mission of Open Science Community Nijmegen is twofold: raising awareness
+about the principles and values of open scholarship and facilitating
+the adoption of open practices at the local level of individal scholars, groups, and
+institutions present on the Nijmegen campus.
 
-## Organization of educational events
+### Open scholarship advocacy
 
-[content coming soon...]
+Organization of panel discussions and informal meetings (science cafes) where recent developments in
+open scholarship are discussed between members of different institutions. We also collaborate in events
+organized at the national and international levels.
 
-## Development of tools and initiatives
+### Facilitating the adoption of open practices
 
-[content coming soon...]
-
-## Policy formation
-
-[content coming soon...]
+We organize workshops and discussion session for fostering open scholarship skill development among individual workers
+on Nijmegen campus.
