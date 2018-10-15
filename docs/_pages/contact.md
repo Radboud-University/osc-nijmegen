@@ -19,4 +19,4 @@ To stay up to date about about our upcoming plans and events, you can sign up to
 You can unsubscribe from the mailing list at any time by submitting the unsubscribe form at [this link](https://openscience-nijmegen.nl/_pages/unsubscribe/).
 
 
-Want to share an idea or give feedback? Then send us a line to _contact at openscience-nijmegen.nl!_ If you prefer to get started immediately, see our [contributing](https://openscience-nijmegen.nl/_pages/contribute/) page.
+Want to share an idea or give feedback? Then send us a line to __contact at openscience-nijmegen.nl__. If you prefer to get started immediately, see our [contributing](https://openscience-nijmegen.nl/_pages/contribute/) page.
