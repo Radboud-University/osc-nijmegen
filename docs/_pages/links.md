@@ -32,6 +32,7 @@ toc_icon: "list-ul"
 [osf.io](https://osf.io) and [cos.io](https://cos.io) _open science framework, start your science here
 and never stop it_  
 [eLife's Gigantum initiative](https://elifesciences.org/labs/bdbeac92/gigantum-a-simple-way-to-create-and-share-reproducible-data-science-and-research) _open data science platform versioning of data, code and environment_  
+[protocols.io](https://www.protocols.io/) _like GitHub but for science protocols
 
 ## Scholarly publishing
 [Open Access Netherlands](http://openaccess.nl/en) _information on OA deals with Dutch universities_  
