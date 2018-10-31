@@ -17,12 +17,12 @@ activities are:
 
 - familiarizing scholars with advantages and disadvantages of OS
 - familiarizing scholars with their possibilities in using OS workflows and tools
-- encouraging presence of local OS-expertise at events in (inter)national OS events
-- lobbying for change with local policies and decision-making
+- encouraging presence of local OS expertise in (inter)national OS events
+- lobbying for change with local policies and decision-makers
 
 ### Facilitating the adoption of open scholarship
 
-OSCN wants to foster open scholarship skill development in individual workers
+OSCN wants to foster open scholarship skill development in individual scholars active
 on Nijmegen campus. OSCN resources and activities contribute to:
 
 - familiarizing scholars with the OS infrastructure and workflows available on Nijmegen campus
