@@ -32,8 +32,8 @@ toc_icon: "list-ul"
 [Copyright Information Point (CIP), RU Library](mailto:copyright@ubn.ru.nl) _Getting competent answers surrounding the rights to your or others publishable work (within hours of working days)_
 [Copyright Information Point (CIP), RU Library](mailto:openaccess@ubn.ru.nl) _Getting competent help surrounding publishing and copyright_
 [Open Access Initative of RU Library](http://www.ru4openaccess.nl) _What the Libray of the RU has to offer in terms of open access_ 
-[RIS Interface](https://ris.ru.nl) _Register and upload your publications, full text and datasets, _
-[Research Data Management Support](https://www.ru.nl/rdm) _Get support or  feedback on your (funder-required) data management plan_
+[RIS Interface](https://ris.ru.nl) _Register and upload your publications, full text and datasets_
+[Research Data Management Support](https://www.ru.nl/rdm) _Get support or feedback on your (funder-required) data management plan_
 [Radboud Repository](https://www.ru.nl/radboudrepository) _Store and share your data, code and other digital material responsibly_
 [Radboud Open Access Browser](https://www.ru.nl/ubn/oa-browser) _Search for deals and discounts for some journals, list publisher's policies_
 
