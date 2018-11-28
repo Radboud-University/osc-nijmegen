@@ -28,14 +28,14 @@ toc_icon: "list-ul"
 
 ## Nijmegen Campus
 ### Radboud University Nijmegen 
-[Radboud Open Science](https://www.ru.nl/openscience) _Open science initiative of the Radboud University_
-[Copyright Information Point (CIP), RU Library](mailto:copyright@ubn.ru.nl) _Getting competent answers surrounding the rights to your or others publishable work (within hours of working days)_
-[Copyright Information Point (CIP), RU Library](mailto:openaccess@ubn.ru.nl) _Getting competent help surrounding publishing and copyright_
-[Open Access Initative of RU Library](http://www.ru4openaccess.nl) _What the Libray of the RU has to offer in terms of open access_ 
-[RIS Interface](https://ris.ru.nl) _Register and upload your publications, full text and datasets_
-[Research Data Management Support](https://www.ru.nl/rdm) _Get support or feedback on your (funder-required) data management plan_
-[Radboud Repository](https://www.ru.nl/radboudrepository) _Store and share your data, code and other digital material responsibly_
-[Radboud Open Access Browser](https://www.ru.nl/ubn/oa-browser) _Search for deals and discounts for some journals, list publisher's policies_
+[Radboud Open Science](https://www.ru.nl/openscience) _Open science initiative of the Radboud University_  
+[Copyright Information Point (CIP), RU Library](mailto:copyright@ubn.ru.nl) _Getting competent answers surrounding the rights to your or others publishable work (within hours of working days)_  
+[Copyright Information Point (CIP), RU Library](mailto:openaccess@ubn.ru.nl) _Getting competent help surrounding publishing and copyright_  
+[Open Access Initative of RU Library](http://www.ru4openaccess.nl) _What the Libray of the RU has to offer in terms of open access_  
+[RIS Interface](https://ris.ru.nl) _Register and upload your publications, full text and datasets_  
+[Research Data Management Support](https://www.ru.nl/rdm) _Get support or feedback on your (funder-required) data management plan_  
+[Radboud Repository](https://www.ru.nl/radboudrepository) _Store and share your data, code and other digital material responsibly_  
+[Radboud Open Access Browser](https://www.ru.nl/ubn/oa-browser) _Search for deals and discounts for some journals, list publisher's policies_  
 
 ## Research and data management
 [hypothes.is](https://hypothes.is) _annotate the web, including pdfs and preprints and every thing you
@@ -43,7 +43,7 @@ toc_icon: "list-ul"
 [osf.io](https://osf.io) and [cos.io](https://cos.io) _open science framework, start your science here
 and never stop it_  
 [eLife's Gigantum initiative](https://elifesciences.org/labs/bdbeac92/gigantum-a-simple-way-to-create-and-share-reproducible-data-science-and-research) _open data science platform versioning of data, code and environment_  
-[protocols.io](https://www.protocols.io/) _like GitHub but for science protocols
+[protocols.io](https://www.protocols.io/) _like GitHub but for science protocols_
 
 ## Scholarly publishing
 [Open Access Netherlands](http://openaccess.nl/en) _information on OA deals with Dutch universities_  
