@@ -12,8 +12,10 @@ main:
 
 # documentation links
 about-sidebar:
-  - title: Our community
+  - title: COMMUNITY
     children:
+      - title: Organizing team
+        url: _pages/team/
       - title: "OS @ Nijmegen campus"
         url: _pages/os_nijmegen/
       - title: "Goals and activities"
