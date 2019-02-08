@@ -11,6 +11,7 @@ Current members of the organizing team:
 - [Leonore Bovy](https://www.ru.nl/english/people/bovy-l/), Donders Institute
 - Jeanette Mostert, Radboud UMC
 - [Dirk van Gorp](https://www.ru.nl/english/people/gorp-d-van/), Radboud University Library
+- [Frederik D. Weber](https://www.ru.nl/english/people/weber-f/), Donders Institute
 
 
 If you want to join the organizing team or contribute with your ideas, contact us at contact@openscience-nijmegen.nl.
