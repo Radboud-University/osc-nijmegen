@@ -1,0 +1,42 @@
+---
+title: "OSCN_questionnaire"
+output: html_document
+---
+
+```{r load packages, warning=FALSE, include=FALSE}
+library(readr)         # read csv file
+library(tm)            # for text mining
+library(SnowballC)     # for text stemming
+library(wordcloud)     # word-cloud generator 
+library(RColorBrewer)  # color palettes
+library(ggplot2)       # for plotting pretty plots
+library(dplyr)         # for everything?
+
+```
+
+```{r import data, warning = FALSE}
+quest_data <- read_csv("open_scholarship_survey_responses.csv")
+quest_data$career_stage <- as.factor(quest_data$`Career stage`)
+
+```
+
+```{r}
+# Compute the frequency
+quest_data$career_stage <- sapply(quest_data$career_stage, tolower)
+
+career_stage_freq <- quest_data %>%
+                      group_by(career_stage) %>%
+                      summarise(counts = n())
+career_stage_freq
+
+
+
+
+```
+
+
+Make a wordcloud from the responses.
+This link gives a tutorial how to use an R package for that
+http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know
+
+
