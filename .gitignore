@@ -2,7 +2,11 @@
 .sass-cache
 Gemfile.lock
 
-# these dirs are only neede for local building
+# these dirs are only needed for local building
 .bundle
 bin
 vendor
+.Rproj.user
+
+#folders with data
+data
