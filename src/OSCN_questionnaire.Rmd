@@ -5,7 +5,7 @@ output: html_document
 
 ```{r setup, warning=FALSE, include=FALSE}
 
-knitr::opts_knit$set(root.dir = "C:/Users/Kristijan/Documents/git/osc-nijmegen/") # CHANGEME
+knitr::opts_knit$set(root.dir = "CHANGEME") # CHANGEME
 
 library(readr)          # read csv file
 #library(tm)            # for text mining
