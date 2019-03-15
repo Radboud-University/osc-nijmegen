@@ -8,9 +8,9 @@ output: html_document
 knitr::opts_knit$set(root.dir = "CHANGEME") # CHANGEME
 
 library(readr)          # read csv file
-#library(tm)            # for text mining
-#library(SnowballC)     # for text stemming
-#library(wordcloud)     # word-cloud generator 
+library(tm)             # for text mining
+library(SnowballC)      # for text stemming
+library(wordcloud)      # word-cloud generator 
 library(tidytext)       # (?)
 library(RColorBrewer)   # color palettes
 library(ggplot2)        # for plotting pretty plots
@@ -20,16 +20,38 @@ library(knitr)          # for displaying tables
 library(tidyverse)
 # devtools::install_github("jaredhuling/jcolors")
 library(jcolors)
+library(Hmisc)          ## for function "capitalize"
+library(wesanderson)    ## For the best colour palettes --> based on wes anderson movies :-)
 ```
 
+```{r functions}
+# Function to copy janitor clean_names() function but now for factor levels
+# https://stackoverflow.com/questions/47886409/r-is-there-a-function-to-clean-factor-levels-characters-columnwise-in-a-data-f
+clean_vec <- function (x, refactor=FALSE) {
+  require(magrittr, quietly=TRUE)
+  if (!(is.character(x) || is.factor(x))) return(x)
+  x_is_factor <- is.factor(x)
+  old_names <- as.character(x)
+  new_names <- old_names %>%
+    gsub("'", "", .) %>%
+    gsub("\"", "", .) %>%
+    gsub("%", "percent", .) %>%
+    gsub("^[ ]+", "", .) %>%
+    make.names(.) %>%
+    gsub("[.]+", "_", .) %>%
+    gsub("[_]+", "_", .) %>%
+    tolower(.) %>%
+    gsub("_$", "", .)
+  if (x_is_factor && refactor) factor(new_names) else new_names
+}
+```
+
+
 ```{r read_data, warning = FALSE, message = FALSE}
-
 quest_data <- read_csv("data/open_scholarship_survey_responses.csv") # assume 'data' folder in rootdir
-
 ```
 
 ```{r, tidy_data, include=FALSE}
-
 quest_data <- clean_names(quest_data, case = "snake")  # low-case column names with underscores
 
 # Rename some column names
@@ -131,7 +153,7 @@ Make a wordcloud from the responses.
 This link gives a tutorial how to use an R package for that
 http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know
 
-```{r word_cloud}
+```{r word_cloud, warning = FALSE, message = FALSE}
 
 t <- as_tibble(quest_data$keywords) # create a short-name variable
 
@@ -157,9 +179,42 @@ words <- rbind(words1, words2) # put together
 words <- sapply(words, FUN=trimws, USE.NAMES = FALSE) %>%
          as_tibble()
 
+
 kable(head(words)) # already sufficiently clean data for a word cloud
 
+## Cleaning the text: add underscore to bin the words properly
+docs <- clean_vec(factor(words$value), TRUE)
+docs <- Corpus(VectorSource(docs)) # VectorSource() function creates a corpus of character vectors
+
+docs <- tm_map(docs, content_transformer(function(x) gsub(x, pattern = "pre_registration", replacement = "preregistration")))
+docs <- tm_map(docs, removeWords, c("and")) 
+
+## Build a term-document matrix
+dtm <- TermDocumentMatrix(docs)
+dtm <- as.matrix(dtm)
+dtm <- sort(rowSums(dtm),decreasing=TRUE)
+dtm <- data.frame(word = names(dtm),freq=dtm)
+head(dtm, 10)
+
+## Remove the underscore again for plotting
+dtm$word <- as.factor(sub("_", " ", dtm$word))
+dtm$word <- as.factor(sub("_", " ", dtm$word)) ## repeat for multiple underscores
+
+dtm$word <- capitalize(as.character(dtm$word))
+
+## Generate wordcloud
+set.seed(1234)
+wordcloud(words = dtm$word, freq = dtm$freq, min.freq = 1,
+          max.words=200, random.order=FALSE, rot.per=0.35, 
+          colors=wes_palette("Zissou1"))
+
 ```
+
+```{r}
+
+
+```
+
 
 ### Aspects of OS practices
 
