@@ -106,6 +106,8 @@ http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5
 
 ```{r word_cloud}
 
+t <- as_tibble(quest_data$keywords) # create a short-name variable
+
 # distinguish those who used commas vs. semicolons as separators
 commasep <- grepl(",", t$value)
 semicsep <- grepl(";", t$value)
