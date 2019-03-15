@@ -11,12 +11,13 @@ library(readr)          # read csv file
 #library(tm)            # for text mining
 #library(SnowballC)     # for text stemming
 #library(wordcloud)     # word-cloud generator 
-#library(tidytext)      # (?)
+library(tidytext)       # (?)
 library(RColorBrewer)   # color palettes
 library(ggplot2)        # for plotting pretty plots
 library(dplyr)          # for everything?
 library(janitor)        # maybe
 library(knitr)          # for displaying tables
+library(tidyverse)
 ```
 
 ```{r read_data, warning = FALSE, message = FALSE}
@@ -86,12 +87,50 @@ career_stage_freq <- quest_data %>%
                      summarise(counts = n())
 kable(career_stage_freq)
 
+# Group participants' labels
+
+predefined <- c("pi or higher", "phd employee", "post-doctoral researcher","student (bachelor, master)")
+other <- (!career_stage_freq$career_stage %in% predefined) # labels given by participants
+
+
+
+# Compute and plot percentages
+
 ```
 
 ### Keywords
+
 Make a wordcloud from the responses.
 This link gives a tutorial how to use an R package for that
 http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know
+
+```{r word_cloud}
+
+# distinguish those who used commas vs. semicolons as separators
+commasep <- grepl(",", t$value)
+semicsep <- grepl(";", t$value)
+
+# encode keyword phrases per subject as individual strings (not single char)
+words1 <- sapply(t[commasep,], FUN=strsplit, split=",", USE.NAMES=FALSE) %>%
+         unlist() %>%
+         tolower()    # make it lowercase
+         as_tibble()
+
+# same, but for semicolons
+words2 <- sapply(t[semicsep,], FUN=strsplit, split=";", USE.NAMES=FALSE) %>%
+         unlist() %>%
+         tolower()    # make it lowercase
+         as_tibble()
+
+words <- cbind(words1, words2) # put together
+
+# trim trailing whitespaces
+words <- sapply(words, FUN=trimws, USE.NAMES = FALSE) %>%
+         as_tibble()
+
+kable(words) # already sufficiently clean data for a word cloud
+
+```
 
 ### Aspects of OS practices
 
