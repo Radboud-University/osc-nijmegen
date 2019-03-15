@@ -18,6 +18,8 @@ library(dplyr)          # for everything?
 library(janitor)        # maybe
 library(knitr)          # for displaying tables
 library(tidyverse)
+# devtools::install_github("jaredhuling/jcolors")
+library(jcolors)
 ```
 
 ```{r read_data, warning = FALSE, message = FALSE}
@@ -67,7 +69,7 @@ bad2good <- list(
  = "comments"
 )
 
-badnames <- names(bad2good)
+badnames  <- names(bad2good)
 goodnames <- paste(unlist(bad2good))
 
 colnames(quest_data)[colnames(quest_data) %in% badnames] <- goodnames # set new names
@@ -78,7 +80,7 @@ quest_data$career_stage <- as.factor(quest_data$career_stage)
 
 ### Participant demographics
 
-```{r}
+```{r demographics}
 # Compute the frequency
 quest_data$career_stage <- sapply(quest_data$career_stage, tolower)
 
@@ -90,8 +92,33 @@ kable(career_stage_freq)
 # Group participants' labels
 
 predefined <- c("pi or higher", "phd employee", "post-doctoral researcher","student (bachelor, master)")
-other <- (!career_stage_freq$career_stage %in% predefined) # labels given by participants
+other      <- (!career_stage_freq$career_stage %in% predefined) # labels given by participants
 
+## Create dataframe containing counts
+count_predefined_stages <- as.data.frame(subset(career_stage_freq, counts > 2))
+count_other_stages      <- as.data.frame(subset(career_stage_freq, counts <= 2))
+
+## Re-order the count-dataframes
+count_predefined_stages <- count_predefined_stages[order(count_predefined_stages$counts),]
+rownames(count_predefined_stages) <- NULL
+
+## Plot the predefined career stages
+count_predefined_stages %>%
+  ggplot(aes(x = reorder(career_stage, counts), y = counts)) +
+  geom_bar(aes(fill = counts), stat = "identity") +
+  geom_text(aes(label=counts), hjust = -0.5, size = 5) +
+  coord_flip() + 
+  theme_classic() +
+  ylim(0,110) +
+  labs(title="", x="", y="Amount") + 
+  theme(legend.position="none", 
+        axis.text.x  = element_text(size=15,  color="#000000"),     
+        axis.text.y  = element_text(size=15,  color="#000000"),       
+        axis.title.x = element_text(size=15,  color="#000000"),
+        axis.line.x  = element_line(size=1.3, color="#000000"),
+        axis.line.y  = element_line(size=1.3, color="#000000"),
+        panel.border = element_blank()) +
+  scale_x_discrete(labels = c("Student", "Assistant professor", "Post-doc", "PhD", "PI or higher")) 
 
 
 # Compute and plot percentages
