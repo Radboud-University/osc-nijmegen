@@ -115,22 +115,22 @@ semicsep <- grepl(";", t$value)
 # encode keyword phrases per subject as individual strings (not single char)
 words1 <- sapply(t[commasep,], FUN=strsplit, split=",", USE.NAMES=FALSE) %>%
          unlist() %>%
-         tolower()    # make it lowercase
+         tolower() %>%    # make it lowercase
          as_tibble()
 
 # same, but for semicolons
 words2 <- sapply(t[semicsep,], FUN=strsplit, split=";", USE.NAMES=FALSE) %>%
          unlist() %>%
-         tolower()    # make it lowercase
+         tolower() %>%    # make it lowercase
          as_tibble()
 
-words <- cbind(words1, words2) # put together
+words <- rbind(words1, words2) # put together
 
 # trim trailing whitespaces
 words <- sapply(words, FUN=trimws, USE.NAMES = FALSE) %>%
          as_tibble()
 
-kable(words) # already sufficiently clean data for a word cloud
+kable(head(words)) # already sufficiently clean data for a word cloud
 
 ```
 
