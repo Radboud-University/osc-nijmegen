@@ -22,14 +22,14 @@ library(Hmisc)          ## for function "capitalize"
 library(wesanderson)    ## For the best colour palettes --> based on wes anderson movies :-)
 ```
 
-```{r root_setup}
+```{r root_setup, include = FALSE}
 
 # set rootdir to where this script is (assuming in "repo-root/src")
 knitr::opts_knit$set(root.dir = getwd())
 
 ```
 
-```{r functions}
+```{r functions, include = FALSE}
 # Function to copy janitor clean_names() function but now for factor levels
 # https://stackoverflow.com/questions/47886409/r-is-there-a-function-to-clean-factor-levels-characters-columnwise-in-a-data-f
 clean_vec <- function (x, refactor=FALSE) {
@@ -57,7 +57,7 @@ clean_vec <- function (x, refactor=FALSE) {
 quest_data <- read_csv("../data/open_scholarship_survey_responses.csv") 
 ```
 
-```{r, tidy_data, include=FALSE}
+```{r, tidy_data, include = FALSE}
 quest_data <- clean_names(quest_data, case = "snake")  # low-case column names with underscores
 
 # Rename some column names
@@ -108,7 +108,7 @@ quest_data$career_stage <- as.factor(quest_data$career_stage)
 
 ### Participant demographics
 
-```{r demographics}
+```{r demographics, echo = FALSE}
 # Create a separate data frame (tibble)
 career_stage <- as_tibble(sapply(quest_data$career_stage, tolower))
 
@@ -130,6 +130,7 @@ non_tenure <- career_stage$value %in%
                 "junior lecturer (niv 4)",
                 "univeristair docent")
 
+# change the selected labels
 career_stage$value[pi_or_higher] <- "pi or higher"
 career_stage$value[non_tenure] <- "post-doctoral researcher"
 
@@ -137,34 +138,23 @@ predefined <- c("pi or higher", "phd employee", "post-doctoral researcher",
                 "student (bachelor's, master's)")
 other      <- career_stage$value[(!career_stage$value %in% predefined)] # labels given by participants
 
+# change the non-predefined labels as other
 career_stage$value[career_stage$value %in% other] <- "other"
 
+# compute counts
 career_stage_freq <- career_stage %>%
                      group_by(value) %>%
                      summarise(counts = n())
 
-kable(career_stage_freq)
-
-
-## Create dataframe containing counts based on above variables
-count_predefined_stages <- as.data.frame(subset(career_stage_freq, 
-                                                career_stage_freq$value %in% predefined))
-count_other_stages      <- as.data.frame(subset(career_stage_freq, 
-                                                career_stage_freq$value %in% other))
-
-## Re-order the count-dataframes
-count_predefined_stages <- count_predefined_stages[order(count_predefined_stages$counts),]
-rownames(count_predefined_stages) <- NULL
-
-## Plot the predefined career stages
+## Plot the histogram
 career_stage_freq %>%
   ggplot(aes(x = reorder(value, counts), y = counts)) +
   geom_bar(aes(fill = counts), stat = "identity") +
-  geom_text(aes(label=counts), hjust = -0.5, size = 5) +
+  geom_text(aes(label = counts), hjust = -0.5, size = 5) +
   coord_flip() + 
   theme_classic() +
   ylim(0,110) +
-  labs(title="", x="", y="Amount") + 
+  labs(title="", x = "", y = "Count") + 
   theme(legend.position="none", 
         axis.text.x  = element_text(size=15,  color="#000000"),     
         axis.text.y  = element_text(size=15,  color="#000000"),       
@@ -172,7 +162,8 @@ career_stage_freq %>%
         axis.line.x  = element_line(size=1.3, color="#000000"),
         axis.line.y  = element_line(size=1.3, color="#000000"),
         panel.border = element_blank()) +
-  scale_x_discrete(labels = c("Student", "other", "Post-doc", "PhD", "PI or higher")) 
+  scale_x_discrete(labels = c("student", "other", "post-doc", "PhD", "PI or higher"))
+
 ```
 
 ### Keywords
