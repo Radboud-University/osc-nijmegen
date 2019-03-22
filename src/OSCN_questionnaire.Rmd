@@ -24,8 +24,8 @@ library(wesanderson)    ## For the best colour palettes --> based on wes anderso
 
 ```{r root_setup}
 
-# set rootdir to where the script is (assuming in "repo-root/src")
-knitr::opts_knit$set(root.dir = dirname(rstudioapi::getActiveDocumentContext()$path))
+# set rootdir to where this script is (assuming in "repo-root/src")
+knitr::opts_knit$set(root.dir = getwd())
 
 ```
 
@@ -53,7 +53,8 @@ clean_vec <- function (x, refactor=FALSE) {
 
 
 ```{r read_data, warning = FALSE, message = FALSE}
-quest_data <- read_csv("../data/open_scholarship_survey_responses.csv") # assume 'data' folder in rootdir
+# assume 'data' folder in rootdir
+quest_data <- read_csv("../data/open_scholarship_survey_responses.csv") 
 ```
 
 ```{r, tidy_data, include=FALSE}
