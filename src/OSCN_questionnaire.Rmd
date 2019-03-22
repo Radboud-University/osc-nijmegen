@@ -3,9 +3,7 @@ title: "OSCN Open Science Survey"
 output: html_document
 ---
 
-```{r setup, warning=FALSE, include=FALSE}
-
-knitr::opts_knit$set(root.dir = "CHANGEME") # CHANGEME
+```{r packages, warning=FALSE, include=FALSE}
 
 library(readr)          # read csv file
 library(tm)             # for text mining
@@ -22,6 +20,13 @@ library(tidyverse)
 library(jcolors)
 library(Hmisc)          ## for function "capitalize"
 library(wesanderson)    ## For the best colour palettes --> based on wes anderson movies :-)
+```
+
+```{r root_setup}
+
+# set rootdir to where the script is (assuming in "repo-root/src")
+knitr::opts_knit$set(root.dir = dirname(rstudioapi::getActiveDocumentContext()$path))
+
 ```
 
 ```{r functions}
@@ -48,7 +53,7 @@ clean_vec <- function (x, refactor=FALSE) {
 
 
 ```{r read_data, warning = FALSE, message = FALSE}
-quest_data <- read_csv("data/open_scholarship_survey_responses.csv") # assume 'data' folder in rootdir
+quest_data <- read_csv("../data/open_scholarship_survey_responses.csv") # assume 'data' folder in rootdir
 ```
 
 ```{r, tidy_data, include=FALSE}
@@ -103,30 +108,56 @@ quest_data$career_stage <- as.factor(quest_data$career_stage)
 ### Participant demographics
 
 ```{r demographics}
-# Compute the frequency
-quest_data$career_stage <- sapply(quest_data$career_stage, tolower)
-
-career_stage_freq <- quest_data %>%
-                     group_by(career_stage) %>%
-                     summarise(counts = n())
-kable(career_stage_freq)
+# Create a separate data frame (tibble)
+career_stage <- as_tibble(sapply(quest_data$career_stage, tolower))
 
 # Group participants' labels
 
-predefined <- c("pi or higher", "phd employee", "post-doctoral researcher","student (bachelor, master)")
-other      <- (!career_stage_freq$career_stage %in% predefined) # labels given by participants
+# let's count these as PI or higher
+pi_or_higher <- career_stage$value %in% 
+                  c("professor", 
+                  "ik heb geen idee wat pi is, maar ik ben hoogleraar",
+                  "full professor",
+                  "lecturer") # labels that can be counted as "PI or higher"
 
-## Create dataframe containing counts
-count_predefined_stages <- as.data.frame(subset(career_stage_freq, counts > 2))
-count_other_stages      <- as.data.frame(subset(career_stage_freq, counts <= 2))
+# these can be counted as "post-doctorals" (perhaps a more suitable label can be used)
+non_tenure <- career_stage$value %in% 
+              c("assistant professor",
+                "assistant professor (temporary position)",
+                "associate pi",
+                "junior lecturer",
+                "junior lecturer (niv 4)",
+                "univeristair docent")
+
+career_stage$value[pi_or_higher] <- "pi or higher"
+career_stage$value[non_tenure] <- "post-doctoral researcher"
+
+predefined <- c("pi or higher", "phd employee", "post-doctoral researcher",
+                "student (bachelor's, master's)")
+other      <- career_stage$value[(!career_stage$value %in% predefined)] # labels given by participants
+
+career_stage$value[career_stage$value %in% other] <- "other"
+
+career_stage_freq <- career_stage %>%
+                     group_by(value) %>%
+                     summarise(counts = n())
+
+kable(career_stage_freq)
+
+
+## Create dataframe containing counts based on above variables
+count_predefined_stages <- as.data.frame(subset(career_stage_freq, 
+                                                career_stage_freq$value %in% predefined))
+count_other_stages      <- as.data.frame(subset(career_stage_freq, 
+                                                career_stage_freq$value %in% other))
 
 ## Re-order the count-dataframes
 count_predefined_stages <- count_predefined_stages[order(count_predefined_stages$counts),]
 rownames(count_predefined_stages) <- NULL
 
 ## Plot the predefined career stages
-count_predefined_stages %>%
-  ggplot(aes(x = reorder(career_stage, counts), y = counts)) +
+career_stage_freq %>%
+  ggplot(aes(x = reorder(value, counts), y = counts)) +
   geom_bar(aes(fill = counts), stat = "identity") +
   geom_text(aes(label=counts), hjust = -0.5, size = 5) +
   coord_flip() + 
@@ -140,11 +171,7 @@ count_predefined_stages %>%
         axis.line.x  = element_line(size=1.3, color="#000000"),
         axis.line.y  = element_line(size=1.3, color="#000000"),
         panel.border = element_blank()) +
-  scale_x_discrete(labels = c("Student", "Assistant professor", "Post-doc", "PhD", "PI or higher")) 
-
-
-# Compute and plot percentages
-
+  scale_x_discrete(labels = c("Student", "other", "Post-doc", "PhD", "PI or higher")) 
 ```
 
 ### Keywords
