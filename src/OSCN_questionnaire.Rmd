@@ -106,8 +106,9 @@ quest_data$career_stage <- as.factor(quest_data$career_stage)
 
 ```
 
-### Participant demographics
+## Participant demographics
 
+### Career stage
 ```{r demographics, echo = FALSE}
 # Create a separate data frame (tibble)
 career_stage <- as_tibble(sapply(quest_data$career_stage, tolower))
@@ -163,6 +164,40 @@ career_stage_freq %>%
         axis.line.y  = element_line(size=1.3, color="#000000"),
         panel.border = element_blank()) +
   scale_x_discrete(labels = c("student", "other", "post-doc", "PhD", "PI or higher"))
+
+```
+
+### Affiliation
+
+To see participants' affiliations, first map different tokens for the same affiliation to a single token (string). There will be some inappropriate input under affiliations (e.g. "professor" etc.), exclude those. Finally, plot a histogram of affiliations and include new labels into `quest_data` variable for further use if needed.
+
+to-do:  
+- finish grouping  
+- extra preprocessing (if needed)  
+- plot histogram  
+
+
+```{r demographics_affiliation}
+
+d <- tolower(quest_data$affiliation)   # put them all to lowercase to simplify grep searches
+a <- d                                 # variable for new affiliations 
+
+# find affiliation strings containing "donders" etc.
+a[grep("(donders|dcc|dcn|dccn)", d)] <- "donders"   # donders institute
+a[grep("(mpi|planck)", d)] <- "mpi"                 # max planck institute for psycholinguistics
+a[grep("(umc|medical|medicine)", d)] <- "umc"       # university medical centre
+a[grep("(faculty of science|fnwi)", d)] <- "fs"     # faculty of science
+a[grep("(imr|management)", d)] <- "management"      # nijmegen school of management
+a[grep("(bsi|behavioral|behavioural)", d)] <- "bsi" # behavioral science institute
+a[grep("(imm|materials)", d)] <- "imm"              # institute for molecules and materials (faculty of science)
+a[grep("(ster|law|rechten)", d)] <- "law"           # law faculty
+a[grep("(icis|information sciences)", d)] <- "icis" # institute for computing and information sciences (faculty of science)
+a[grep("(theology|ftr)", d)] <- "ftr"               # faculty of philosophy, theology, and religious studies
+a[grep("(arts|letteren)", d)] <- "arts"             # faculty of arts
+a[grep("(cls|language studies)", d)] <- "cls"       # centre for language studies (faculty of arts)
+
+
+# ... TO BE CONTINUED :)
 
 ```
 
@@ -230,6 +265,7 @@ wordcloud(words = dtm$word, freq = dtm$freq, min.freq = 1,
 ```
 
 ```{r}
+
 
 
 ```
