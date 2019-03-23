@@ -169,7 +169,10 @@ career_stage_freq %>%
 
 ### Affiliation
 
-To see participants' affiliations, first map different tokens for the same affiliation to a single token (string). There will be some inappropriate input under affiliations (e.g. "professor" etc.), exclude those. Finally, plot a histogram of affiliations and include new labels into `quest_data` variable for further use if needed.
+To see participants' affiliations, first map different tokens for the same affiliation
+to a single token (string). There will be some inappropriate input under affiliations
+(e.g. "professor" etc.), exclude those. Finally, plot a histogram of affiliations
+and include new labels into `quest_data` variable for further use if needed.
 
 to-do:  
 - finish grouping  
