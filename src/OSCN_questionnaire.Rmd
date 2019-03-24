@@ -271,9 +271,11 @@ wordcloud(words = dtm$word, freq = dtm$freq, min.freq = 1,
 ```
 
 
-### Components of OS practices
+## Components of OS
 
-```{r data_sharing}
+Perceived importance of specific OS components.
+
+```{r components, echo = FALSE}
 
 # create a separate dataframe
 dat <- quest_data
@@ -284,7 +286,7 @@ col2row <- c("data_sharing", "code_sharing", "resource_sharing", "open_access", 
 ordered_levels = c("Not at all important", "Mostly not important", "No idea", "Somewhat important", "Extremely important", 
                    "I don't know what this is")
 
-# perform selection and convert to long format (make 'aspect' variable)
+# perform selection and convert to long format (create the 'component' variable)
 long <- select(dat, career_stage, col2row) %>%
         gather(component, value, -c(career_stage))
 
