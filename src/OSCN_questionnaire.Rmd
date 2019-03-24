@@ -199,12 +199,15 @@ a[grep("(theology|ftr)", d)] <- "ftr"               # faculty of philosophy, the
 a[grep("(arts|letteren)", d)] <- "arts"             # faculty of arts
 a[grep("(cls|language studies)", d)] <- "cls"       # centre for language studies (faculty of arts)
 
-
 # ... TO BE CONTINUED :)
 
 ```
 
-### Keywords
+### Research field
+
+Preprocessing needed as with affiliations ...
+
+## Keywords
 
 Make a wordcloud from the responses.
 This link gives a tutorial how to use an R package for that
@@ -267,14 +270,38 @@ wordcloud(words = dtm$word, freq = dtm$freq, min.freq = 1,
 
 ```
 
-```{r}
 
+### Components of OS practices
+
+```{r data_sharing}
+
+# create a separate dataframe
+dat <- quest_data
+dat$career_stage <- career_stage$value  # use cleaned/grouped career_stage values
+
+# define needed columns and order the levels
+col2row <- c("data_sharing", "code_sharing", "resource_sharing", "open_access", "open_review", "open_edu", "alt_eval")
+ordered_levels = c("Not at all important", "Mostly not important", "No idea", "Somewhat important", "Extremely important", 
+                   "I don't know what this is")
+
+# perform selection and convert to long format (make 'aspect' variable)
+long <- select(dat, career_stage, col2row) %>%
+        gather(component, value, -c(career_stage))
+
+# order levels of 'value' variable for histogram
+long$value <- factor(long$value, levels = ordered_levels)
+
+# this df can be used for histograms e.g.:
+
+# too busy raw histogram
+ggplot(data = long, mapping = aes(x = value, fill = component)) +
+  geom_histogram(stat = "count", position = "dodge")
+
+# facet by aspect (very raw)
+ggplot(data = long, mapping = aes(x = value, fill = career_stage)) +
+  geom_histogram(stat = "count", position = "dodge") +
+  facet_wrap(~ component)
 
 
 ```
-
-
-### Aspects of OS practices
-
-
 
