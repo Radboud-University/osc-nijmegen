@@ -293,16 +293,87 @@ long <- select(dat, career_stage, col2row) %>%
 # order levels of 'value' variable for histogram
 long$value <- factor(long$value, levels = ordered_levels)
 
+
 # this df can be used for histograms e.g.:
 
-# too busy raw histogram
-ggplot(data = long, mapping = aes(x = value, fill = component)) +
-  geom_histogram(stat = "count", position = "dodge")
+new_xmarks = c("not at all", "mostly not", "no idea", "somewhat", "extremely", 
+                   "NA")
 
-# facet by aspect (very raw)
-ggplot(data = long, mapping = aes(x = value, fill = career_stage)) +
-  geom_histogram(stat = "count", position = "dodge") +
-  facet_wrap(~ component)
+cols = c("data_sharing", "code_sharing", "resource_sharing")
+long <- select(dat, career_stage, cols) %>%
+        gather(component, value, -c(career_stage))
+long$value <- factor(long$value, levels = ordered_levels)
+
+ggplot(data = long, mapping = aes(x = value)) +
+  geom_bar(stat = "count", 
+           fill = "#619CFF", 
+           color = "black", 
+           position = "dodge") +
+  facet_wrap(~ component)+
+  theme_classic() +
+  scale_x_discrete(labels = new_xmarks) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# 
+cols = c("open_access", "open_review", "open_edu", "alt_eval")
+long <- select(dat, career_stage, cols) %>%
+        gather(component, value, -c(career_stage))
+long$value <- factor(long$value, levels = ordered_levels)
+
+ggplot(data = long, mapping = aes(x = value)) +
+  geom_bar(stat = "count", 
+           fill = "#619CFF", 
+           color = "black", 
+           position = "dodge") +
+  facet_wrap(~ component)+
+  theme_classic() +
+  scale_x_discrete(labels = new_xmarks) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+## Experience with OS 
+
+### Have you ever requested data?
+```{r requested_data}
+
+# reorder levels for plotting
+reordered <- c("Yes", "No", "Not applicable to my field")
+
+# Basic histogram
+ggplot(data = quest_data, aes(x = factor(quest_data$requested_data, levels=reordered))) +
+  geom_bar(stat = "count", 
+           fill = "#619CFF", 
+           width = 0.5,
+           color = "black", 
+           position = "dodge") +
+  theme_classic() +
+  theme(aspect.ratio = 2/1,
+        axis.text.x = element_text(angle = 45, hjust = 1), 
+        axis.title.x = element_blank())
+
+```
+
+
+### Why did you request the data?
+```{r requested_why}
+
+
+
+```
+
+### What was the response?
+```{r requested_response}
+
+
+
+```
+
+### Have you ever practiced?
+
+```{r requested_response}
+
 
 
 ```
