@@ -332,6 +332,27 @@ ggplot(data = long, mapping = aes(x = value)) +
 
 
 ```
+### Very or somewhat important os component
+
+```{r most_important_component, echo = FALSE}
+
+tmp <- filter(long, value %in% c("Extremely important", "Somewhat important")) %>%
+       dplyr::count(component, sort = TRUE)
+
+tmp %>%
+  ggplot(mapping = aes(x = reorder(component, n), y = n)) +
+    geom_bar(mapping = aes(fill = n),
+             stat = "identity",
+             color = "black") +
+    geom_text(aes(label = n), hjust = -0.5, size = 5) +
+    coord_flip() +
+    labs(title="Very or somewhat important OS component", y = "Count", x = "") +
+    scale_x_discrete(labels = rev(c("open access", "data sharing", "code sharing", "resource sharing",
+                                "open education materials", "alternative evaluation metrics", "open review"))) +
+    theme_classic() +
+    theme(legend.position = "none")
+
+```
 
 ## Experience with OS 
 
@@ -359,7 +380,7 @@ ggplot(data = quest_data, aes(x = factor(quest_data$requested_data, levels=reord
 ### Why did you request the data?
 ```{r requested_why}
 
-
+# we need to sort out the predefined options from those provided in 'other'
 
 ```
 
