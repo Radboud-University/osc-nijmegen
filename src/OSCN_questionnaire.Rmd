@@ -299,36 +299,21 @@ long$value <- factor(long$value, levels = ordered_levels)
 new_xmarks = c("not at all", "mostly not", "no idea", "somewhat", "extremely", 
                    "NA")
 
-cols = c("data_sharing", "code_sharing", "resource_sharing")
-long <- select(dat, career_stage, cols) %>%
-        gather(component, value, -c(career_stage))
-long$value <- factor(long$value, levels = ordered_levels)
-
 ggplot(data = long, mapping = aes(x = value)) +
-  geom_bar(stat = "count", 
-           fill = "#619CFF", 
+  geom_bar(mapping = aes(fill = value),
+           stat = "count", 
            color = "black", 
            position = "dodge") +
+  #geom_text(aes(y = ..count.., 
+               # label = scales::percent(..count..)), 
+            #stat= "count", 
+            #vjust = -.5,
+            #size = 2) +
   facet_wrap(~ component)+
   theme_classic() +
-  scale_x_discrete(labels = new_xmarks) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-
-# 
-cols = c("open_access", "open_review", "open_edu", "alt_eval")
-long <- select(dat, career_stage, cols) %>%
-        gather(component, value, -c(career_stage))
-long$value <- factor(long$value, levels = ordered_levels)
-
-ggplot(data = long, mapping = aes(x = value)) +
-  geom_bar(stat = "count", 
-           fill = "#619CFF", 
-           color = "black", 
-           position = "dodge") +
-  facet_wrap(~ component)+
-  theme_classic() +
-  scale_x_discrete(labels = new_xmarks) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        aspect.ratio = 4/3)
 
 
 ```
@@ -393,7 +378,7 @@ ggplot(data = quest_data, aes(x = factor(quest_data$requested_data, levels=reord
 
 ### Have you ever practiced?
 
-```{r requested_response}
+```{r ever_practiced}
 
 
 
