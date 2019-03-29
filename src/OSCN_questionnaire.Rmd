@@ -337,12 +337,14 @@ tmp %>%
     theme_classic() +
     theme(legend.position = "none")
 
+rm(tmp)  # remove the variable
+
 ```
 
 ## Experience with OS 
 
 ### Have you ever requested data?
-```{r requested_data}
+```{r requested_data, echo=FALSE}
 
 # reorder levels for plotting
 reordered <- c("Yes", "No", "Not applicable to my field")
@@ -384,3 +386,86 @@ ggplot(data = quest_data, aes(x = factor(quest_data$requested_data, levels=reord
 
 ```
 
+## Support
+
+```{r support, echo=FALSE}
+
+tmp <- select(quest_data, support)
+tmp2 <- as_tibble(unlist(sapply(tmp, tmp$support, FUN=strsplit, split=", ")))
+
+predefined <- c("Tell me how to setup an open data repository",
+                "Tell me how to prepare public archives of an experiment",
+                "Tell me how to preregister a study",
+                "Tell me how to publish a preprint",
+                "Tell me how to make the research workflow more reproducible",
+                "Tell me how to avoid questionable research practices (QRPs)")
+
+other <- !(tmp2$value %in% predefined)  
+tmp2$value[other] <- "Other"
+tmp2$value[tmp2$value == "Tell me how to setup an open data repository"] <- "data repository"
+tmp2$value[tmp2$value == "Tell me how to prepare public archives of an experiment"] <- "archives"
+tmp2$value[tmp2$value == "Tell me how to publish a preprint"] <- "preprint"
+tmp2$value[tmp2$value == "Tell me how to preregister a study"] <- "preregister"
+tmp2$value[tmp2$value == "Tell me how to make the research workflow more reproducible"] <- "workflow reproducibility"
+tmp2$value[tmp2$value == "Tell me how to avoid questionable research practices (QRPs)"] <- "avoid QRPs" 
+
+tmp2 %>% 
+  count(value) %>%
+  ggplot(mapping = aes(x = reorder(value, n), y = n)) +
+    geom_bar(stat="identity",
+             mapping = aes(fill = n)) +
+    geom_text(mapping = aes(label = n), 
+              hjust = -0.3, 
+              size = 5) +
+    labs(x = "Count", y = "") +
+    coord_flip() +
+    theme_classic() +
+    theme(legend.position = "none")
+
+tmp3 <- select(quest_data, support)
+tmp3 <- as_tibble(unlist(sapply(tmp3, tmp3$support, FUN=strsplit, split=", ")))
+kable(tmp3$value[other])
+
+rm(tmp, predefined)
+
+```
+
+
+## Format
+
+```{r format, echo = FALSE}
+
+tmp <- select(quest_data, format)
+
+predefined <- c("Lectures",
+                "Hands-on workshops",
+                "Regular meet-ups",
+                "Panel discussions",
+                "Informal discussions",
+                "Courses",
+                "Self-study (e.g. by consulting online websites and resources)")
+
+other <- !(tmp$format %in% predefined)
+na    <- (tmp$format %in% c("NA", "na", "n.a.", "geen"))
+tmp$format[other] <- "Other"
+tmp$format[tmp$format == "Self-study (e.g. by consulting online websites and resources)"] <- "self-study"
+
+tmp %>% 
+  count(format) %>%
+  ggplot(mapping = aes(x = reorder(format, n), y = n)) +
+    geom_bar(stat="identity",
+             mapping = aes(fill = n)) +
+    geom_text(mapping = aes(label = n), 
+              hjust = -0.3, 
+              size = 5) +
+    labs(x = "Count", y = "") +
+    coord_flip() +
+    theme_classic() +
+    theme(legend.position = "none")
+
+quest_data %>% 
+  select(format) %>%
+  filter(other) %>%
+  kable()
+
+```
