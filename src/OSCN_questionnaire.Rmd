@@ -20,6 +20,7 @@ library(tidyverse)
 library(jcolors)
 library(Hmisc)          ## for function "capitalize"
 library(wesanderson)    ## For the best colour palettes --> based on wes anderson movies :-)
+library(extrafont)
 ```
 
 ```{r root_setup, include = FALSE}
@@ -49,6 +50,25 @@ clean_vec <- function (x, refactor=FALSE) {
     gsub("_$", "", .)
   if (x_is_factor && refactor) factor(new_names) else new_names
 }
+
+# xkcdFontURL <- "http://simonsoftware.se/other/xkcd.ttf" 
+# HumorSansFontURL <- "https://github.com/shreyankg/xkcd-desktop/blob/master/Humor-Sans.ttf"
+# download.file(xkcdFontURL,dest="xkcd.ttf",mode="wb")
+# download.file(HumorSansFontURL,dest="humorsans.ttf",mode="wb")
+# font_import(".")
+# loadfonts(device = "win")
+
+
+### XKCD theme
+theme_xkcd <- theme(
+    panel.background = element_rect(fill="white"), 
+    axis.ticks = element_line(colour=NA),
+    panel.grid = element_line(colour="white"),
+    axis.text.y = element_text(colour=NA), 
+    axis.text.x = element_text(colour="black"),
+    text = element_text(size=16, family="Humor Sans")
+    )
+
 ```
 
 
@@ -106,6 +126,7 @@ quest_data$career_stage <- as.factor(quest_data$career_stage)
 
 ```
 
+
 ## Participant demographics
 
 ### Career stage
@@ -149,23 +170,28 @@ career_stage_freq <- career_stage %>%
 
 ## Plot the histogram
 career_stage_freq %>%
-  ggplot(aes(x = reorder(value, counts), y = counts)) +
+  ggplot(aes(x = reorder(value, counts), y = counts)) + 
   geom_bar(aes(fill = counts), stat = "identity") +
   geom_text(aes(label = counts), hjust = -0.5, size = 5) +
   coord_flip() + 
   theme_classic() +
   ylim(0,110) +
-  labs(title="", x = "", y = "Count") + 
+  labs(title="Career stage", x = "", y = "Count") +
   theme(legend.position="none", 
         axis.text.x  = element_text(size=15,  color="#000000"),     
         axis.text.y  = element_text(size=15,  color="#000000"),       
         axis.title.x = element_text(size=15,  color="#000000"),
+        plot.title   = element_text(size=25,  color="#000000"),
         axis.line.x  = element_line(size=1.3, color="#000000"),
         axis.line.y  = element_line(size=1.3, color="#000000"),
         panel.border = element_blank()) +
-  scale_x_discrete(labels = c("student", "other", "post-doc", "PhD", "PI or higher"))
+  scale_x_discrete(labels = c("Student", "Other", "Post-doc", "PhD", "PI or higher")) 
+  # Optional text 
+  # annotate("text", x = 2, y = 55, label = "E.g. Lecturer, Project manager, RA, Software Engineer")
+
 
 ```
+
 
 ### Affiliation
 
@@ -180,32 +206,124 @@ to-do:
 - plot histogram  
 
 
-```{r demographics_affiliation}
+```{r demographics_affiliation, echo=FALSE}
 
 d <- tolower(quest_data$affiliation)   # put them all to lowercase to simplify grep searches
 a <- d                                 # variable for new affiliations 
+aa <- a 
 
-# find affiliation strings containing "donders" etc.
-a[grep("(donders|dcc|dcn|dccn)", d)] <- "donders"   # donders institute
-a[grep("(mpi|planck)", d)] <- "mpi"                 # max planck institute for psycholinguistics
-a[grep("(umc|medical|medicine)", d)] <- "umc"       # university medical centre
-a[grep("(faculty of science|fnwi)", d)] <- "fs"     # faculty of science
-a[grep("(imr|management)", d)] <- "management"      # nijmegen school of management
-a[grep("(bsi|behavioral|behavioural)", d)] <- "bsi" # behavioral science institute
-a[grep("(imm|materials)", d)] <- "imm"              # institute for molecules and materials (faculty of science)
-a[grep("(ster|law|rechten)", d)] <- "law"           # law faculty
-a[grep("(icis|information sciences)", d)] <- "icis" # institute for computing and information sciences (faculty of science)
-a[grep("(theology|ftr)", d)] <- "ftr"               # faculty of philosophy, theology, and religious studies
-a[grep("(arts|letteren)", d)] <- "arts"             # faculty of arts
-a[grep("(cls|language studies)", d)] <- "cls"       # centre for language studies (faculty of arts)
+# # find affiliation strings containing "donders" etc.
+# a[grep("(donders|dcc|dcn|dccn)", d)] <- "donders"   # donders institute
+# a[grep("(mpi|planck)", d)] <- "mpi"                 # max planck institute for psycholinguistics
+# a[grep("(umc|medical|medicine)", d)] <- "umc"  # university medical centre
+# a[grep("(faculty of science|fnwi|microbiology| spectroscopy)", d)] <- "fs"     # faculty of science
+# a[grep("(imr|management)", d)] <- "management"      # nijmegen school of management
+# a[grep("(bsi|behavioral|behavioural)", d)] <- "bsi" # behavioral science institute
+# a[grep("(imm|materials)", d)] <- "imm"              # institute for molecules and materials (faculty of science)
+# a[grep("(ster|law|rechten)", d)] <- "law"           # law faculty
+# a[grep("(icis|information sciences|software)", d)] <- "icis" # institute for computing and information sciences (faculty of science)
+# a[grep("(theology|ftr)", d)] <- "ftr"               # faculty of philosophy, theology, and religious studies
+# a[grep("(arts|letteren)", d)] <- "arts"             # faculty of arts
+# a[grep("(cls|language studies)", d)] <- "cls"       # centre for language studies (faculty of arts)
+# a[grep("(radboud|university|ru)", d)] <- "radboud university"       # general mention of Radboud university
+# a[grep("(imapp)", d)] <- "imapp"                    # Mathematics, Astrophysics and Particle Physics
+# a[grep("(rihs)", d)] <- "rihs"                      # Radboud Institute for Health Sciences
+# a[grep("(pwo)", d)] <- "pwo"                        # Pedagogische Wetenschappen en Onderwijswetenschappen
+# a[grep("(rimls | cell)", d)] <- "rimls"             # Radboud Institute for Molecular Life Sciences 
 
-# ... TO BE CONTINUED :)
+# Split only in main faculties: Arts, Law, Philosophy, Theology and Religious Studies, Science, Social Sciences, Nijmegen School of Management, Radboud University Medical Centre 
+aa[grep("(donders|dcc|dcn|dccn)", d)] <- "donders"                    # Donders institute
+aa[grep("(mpi|planck)", d)] <- "mpi"                                  # Max planck institute for psycholinguistics
+aa[grep("(umc|medical|medicine|rihs|rimls|cell biology|wetlands|iq|care)", d)] <- "umc"    # Radboud University Medical Centre
+aa[grep("(faculty of science|science faculty|fnwi|microbiology|spectroscopy|imapp|icis|information sciences|software|icis|information sciences|software |imm|materials)", d)] <- "science"                                         # Faculty of science
+aa[grep("(imr|management|nsm)", d)] <- "management"                       # Nijmegen school of management
+aa[grep("(bsi|behavioral|behavioural|pwo|fsw|rscr)", d)] <- "social sciences"           # Social Sciences
+aa[grep("(ster|law|rechten)", d)] <- "law"                            # Law faculty
+aa[grep("(theology|ftr)", d)] <- "philosophy..."                           # Faculty of philosophy, theology, and religious studies
+aa[grep("(arts|letteren|cls|language studies|talen)", d)] <- "arts"        # Faculty of arts
+aa[grep("(radboud|university|ru)", d)] <- "radboud university"        # General mention of Radboud university
+
+
+## Remove nonsense answers
+aa <- aa[ aa != "assistant professor" & aa != "1 fte" & aa != "teacher" & 
+          aa != "professor" & aa != "que?" & aa != "na" & aa != "researcher" & aa != "uhd"]
+aa <- as_tibble(aa)
+
+# compute counts
+affiliation_freq <- aa %>%
+                    group_by(value) %>%
+                    summarise(counts = n())
+
+## Subset those with equal to or more than 2 mentions
+a_index <- which(affiliation_freq$counts>=2)
+affiliation_freq_upper <- affiliation_freq[c(a_index),]
+
+
+## Plot the histogram
+affiliation_freq_upper %>%
+  ggplot(aes(x = reorder(value, counts), y = counts)) + 
+  geom_bar(aes(fill = counts), stat = "identity") +
+  geom_text(aes(label = counts), hjust = -0.5, size = 5) +
+  coord_flip() + 
+  theme_classic() +
+  ylim(0,150) +
+  labs(title="Affiliation", x = "", y = "Count") +
+  theme(legend.position="none", 
+        axis.text.x  = element_text(size=15,  color="#000000"),     
+        axis.text.y  = element_text(size=15,  color="#000000"),       
+        axis.title.x = element_text(size=15,  color="#000000"),
+        plot.title   = element_text(size=25,  color="#000000"),
+        axis.line.x  = element_line(size=1.3, color="#000000"),
+        axis.line.y  = element_line(size=1.3, color="#000000"),
+        panel.border = element_blank())
+
+
 
 ```
 
 ### Research field
 
-Preprocessing needed as with affiliations ...
+```{r demographics_researchfield, echo=FALSE}
+
+f <- tolower(quest_data$research_field)   # put them all to lowercase to simplify grep searches
+
+f[grep("(neuroscience|cognitive neuroscience)", f)] <- "neuroscience"             
+# f[grep("(social|sociology)", f)] <- "social"             
+f[grep("(statstics)", f)] <- "statstics"             
+f[grep("(psycholinguistics|linguistics)", f)] <- "linguistics"  
+f[grep("(developmental)", f)] <- "developmental"             
+f[grep("(education|educational)", f)] <- "education"             
+
+f <- as_tibble(f)
+
+# compute counts
+field_freq <- f %>%
+              group_by(value) %>%
+              summarise(counts = n())
+
+## Subset those with equal to or more than 3 mentions
+f_index <- which(field_freq$counts>=3)
+field_freq_upper <- field_freq[c(f_index),]
+
+## Plot the histogram
+field_freq_upper %>%
+  ggplot(aes(x = reorder(value, counts), y = counts)) + 
+  geom_bar(aes(fill = counts), stat = "identity") +
+  geom_text(aes(label = counts), hjust = -0.5, size = 5) +
+  coord_flip() + 
+  theme_classic() +
+  ylim(0,50) +
+  labs(title="Research field", x = "", y = "Count") +
+  theme(legend.position="none", 
+        axis.text.x  = element_text(size=15,  color="#000000"),     
+        axis.text.y  = element_text(size=15,  color="#000000"),       
+        axis.title.x = element_text(size=15,  color="#000000"),
+        plot.title   = element_text(size=25,  color="#000000"),
+        axis.line.x  = element_line(size=1.3, color="#000000"),
+        axis.line.y  = element_line(size=1.3, color="#000000"),
+        panel.border = element_blank())
+
+```
 
 ## Keywords
 
@@ -213,7 +331,7 @@ Make a wordcloud from the responses.
 This link gives a tutorial how to use an R package for that
 http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know
 
-```{r word_cloud, warning = FALSE, message = FALSE}
+```{r word_cloud, echo=FALSE, message=, warning=FALSE}
 
 t <- as_tibble(quest_data$keywords) # create a short-name variable
 
@@ -254,7 +372,7 @@ dtm <- TermDocumentMatrix(docs)
 dtm <- as.matrix(dtm)
 dtm <- sort(rowSums(dtm),decreasing=TRUE)
 dtm <- data.frame(word = names(dtm),freq=dtm)
-head(dtm, 10)
+# head(dtm, 10)
 
 ## Remove the underscore again for plotting
 dtm$word <- as.factor(sub("_", " ", dtm$word))
