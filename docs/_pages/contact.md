@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contributing
 layout: single
 author_profile: true
 ---
