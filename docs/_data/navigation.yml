@@ -5,9 +5,9 @@ main:
    url: /_pages/about
  - title: "Agenda"
    url: /_pages/agenda
- - title: "Links"
-   url: /_pages/links
- - title: "Contact"
+ - title: "Resources"
+   url: /_pages/os_nijmegen
+ - title: "Contribute"
    url: /_pages/contact
 
 # documentation links
@@ -16,11 +16,18 @@ about-sidebar:
     children:
       - title: Organizing team
         url: _pages/team/
-      - title: "OS @ Nijmegen campus"
-        url: _pages/os_nijmegen/
       - title: "Goals and activities"
         url: _pages/goals/
       - title: "Agenda"
         url: _pages/agenda/
       - title: "Contribute"
         url: _pages/contribute/
+
+# documentation links
+resources-sidebar:
+  - title: RESOURCES
+    children:
+      - title: "OS @ Nijmegen"
+        url: _pages/os_nijmegen/
+      - title: Links
+        url: _pages/links/
