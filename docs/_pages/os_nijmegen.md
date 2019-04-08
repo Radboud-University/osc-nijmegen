@@ -1,6 +1,11 @@
 ---
 title: "Open science @ Nijmegen"
 layout: single
+toc: true
+toc_label: "Contents"
+toc_icon: "list-ul"
+sidebar:
+  nav: "resources-sidebar"
 
 ---
 
@@ -23,7 +28,7 @@ initiatives maintained by various institutions on Nijmegen campus.
 ## Open source tools
 
 [Fieldtrip toolbox](http://www.fieldtriptoolbox.org/), Donders Institute  
-[LaMachine software](https://proycon.github.io/LaMachine/), Centre for Language and Speech Technology 
+[LaMachine software](https://proycon.github.io/LaMachine/), Centre for Language and Speech Technology
 
 ## Science evaluation
 
