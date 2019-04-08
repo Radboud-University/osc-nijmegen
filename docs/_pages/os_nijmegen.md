@@ -12,6 +12,8 @@ sidebar:
 The list below gives a cursory overview and links to open science related
 initiatives maintained by various institutions on Nijmegen campus.
 
+## Education materials
+
 ## Research data sharing
 
 [Research data management](https://repository.ubn.ru.nl/), Radboud University  
