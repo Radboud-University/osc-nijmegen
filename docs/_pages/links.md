@@ -1,7 +1,9 @@
 ---
-title: Resources
+title: Links
 layout: single
 toc: true
+sidebar:
+  nav: "resources-sidebar"
 toc_label: "Contents"
 toc_icon: "list-ul"
 ---
@@ -27,7 +29,7 @@ toc_icon: "list-ul"
 [Nijmegen](https://radboud-university.github.io/osc-nijmegen) _you are here_
 
 ## Nijmegen Campus
-### Radboud University Nijmegen 
+### Radboud University Nijmegen
 [Radboud Open Science](https://www.ru.nl/openscience) _Open science initiative of the Radboud University_  
 [Copyright Information Point (CIP), RU Library](mailto:copyright@ubn.ru.nl) _Getting competent answers surrounding the rights to your or others publishable work (within hours of working days)_  
 [Copyright Information Point (CIP), RU Library](mailto:openaccess@ubn.ru.nl) _Getting competent help surrounding publishing and copyright_  
@@ -54,7 +56,7 @@ and never stop it_
 [Open Access Button](https://openaccessbutton.org/) _find OA research contents_  
 [freejournals.org](https://freejournals.org/) _where to submit your work next_  
 [freeourknowledge.org](https://freeourknowledge.org/) _initiative to move towards community-owned free open access publication systems_
-[The Directory of Open Access Journals (DOAJ](https://doaj.org/) _all the open access journals listed_ 
+[The Directory of Open Access Journals (DOAJ](https://doaj.org/) _all the open access journals listed_
 [Sherpa/Romeo](https://www.sherpa.ac.uk/romeo) _all publishers policies_  
 
 ### Decentralized publishing
@@ -70,5 +72,3 @@ _fighting for realization of open science and more_
 ## Useful
 [ThinkCheckSubmit](http://thinkchecksubmit.org/) _Checklist to avoid predatory publishers_
 [ThinkCheckSubmit](http://tinyurl.com/licensingcc) _Check which Creative Commeons (CC) license you need_
-
-
