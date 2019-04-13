@@ -453,6 +453,7 @@ tmp %>%
     scale_x_discrete(labels = rev(c("open access", "data sharing", "code sharing", "resource sharing",
                                 "open education materials", "alternative evaluation metrics", "open review"))) +
     theme_classic() +
+    ylim(0, 270) +
     theme(legend.position = "none")
 
 rm(tmp)  # remove the variable
@@ -485,7 +486,47 @@ ggplot(data = quest_data, aes(x = factor(quest_data$requested_data, levels=reord
 ### Why did you request the data?
 ```{r requested_why}
 
+d <- as_tibble(quest_data$requested_why[!is.na(quest_data$requested_why)]) %>%  # Exclude NA rows
+          sapply(FUN=strsplit, split=",", USE.NAMES=FALSE) %>%
+          unlist() %>%
+          trimws() %>%
+          as_tibble()
+
 # we need to sort out the predefined options from those provided in 'other'
+given <- c("While reviewing a paper",
+           "I wanted to replicate the study",
+           "I wanted to use the analyses code",
+           "I needed part of the material for another study")
+
+sel <- mapply(grepl, sprintf("(%s|%s|%s|%s)", given[1], given[2], given[3], given[4]), d) %>%
+       unlist() %>%
+       as_tibble()
+colnames(sel) <- "value"
+
+pregiven <- d[sel$value,]
+other <- d[!sel$value,]
+
+# compute counts
+why_freq <- pregiven %>%
+              group_by(value) %>%
+              summarise(counts = n())
+
+pregiven %>%
+  
+        group_by(value) %>%
+        summarise(counts = n()) %>%
+  
+        ggplot() +
+        geom_bar(mapping = aes(x = reorder(value, counts), y = counts, fill=counts), 
+                 stat = "identity") +
+        geom_text(mapping = aes(x= reorder(value, counts), y = counts, label = counts), hjust = -0.5, size = 5) +
+        ylim(0, 140) +
+        theme_classic() +
+        coord_flip() +
+        theme(legend.position = "none",
+              aspect.ratio = 1/3,
+              axis.title.y = element_blank())
+
 
 ```
 
