@@ -509,9 +509,10 @@ sel <- mapply(grepl, sprintf("(%s|%s|%s|%s)", given[1], given[2], given[3], give
        as_tibble()
 colnames(sel) <- "value"
 
-pregiven <- d[sel$value,]
-other <- d[!sel$value,]
+other <- d[!sel$value,]  # other answer
 
+pregiven <- d
+pregiven[!sel$value,] <- "other"  # overwrite alternative options with "other"
 
 pregiven %>%
   
@@ -543,7 +544,53 @@ pregiven %>%
 
 ```{r ever_practiced}
 
+d <- select(quest_data, ever_practiced)
 
+# define responses
+given <- c("Made your data (or data tables) publicly available",
+           "Made your materials (experimental stimuli, scripts, etc.) publicly available",
+           "Used or analysed publicly available data or materials from someone else",
+           "Preregistered a study",
+           "Directly replicated findings (i.e. ran the exact same study, of yours or that of someone else, again)",
+           "Publish strictly open access (includes hybrid, green, gold...)",
+           "No, none of the above")
+
+renamed <- c("data sharing", "materials sharing", "data reuse", "preregistration", "direct replication",
+             "open access publishing", "no")
+
+# rename values slightly
+
+tmp <- d$ever_practiced %>%
+     { gsub("Made your data \\(or data tables\\) publicly available", "data sharing", .)} %>%
+     { gsub("Made your materials \\(experimental stimuli, scripts, etc.\\) publicly available", "materials sharing", .)}  %>%
+     { gsub("Used or analysed publicly available data or materials from someone else", "data reuse", .)} %>%
+     { gsub("Preregistered a study", "preregistration", .)} %>%
+     { gsub("Directly replicated findings \\(i.e. ran the exact same study, of yours or that of someone else, again\\)", "direct replication", .)} %>%
+     { gsub("Publish strictly open access \\(includes hybrid, green, gold...\\)", "open access publishing", .)} %>%
+     { gsub("No, none of the above", "no", .)} %>%
+     as_tibble() %>%
+     sapply(FUN=strsplit, split=",", USE.NAMES=FALSE) %>%
+     unlist() %>%
+     trimws() %>%
+     as_tibble()
+
+other <- as_tibble(tmp$value[!(tmp$value %in% renamed)])
+tmp$value[!(tmp$value %in% renamed)] <- "other"
+
+tmp %>%
+        group_by(value) %>%
+        summarise(counts = n()) %>%
+  
+        ggplot(mapping = aes(x = reorder(value, counts), y = counts)) +
+        geom_bar(mapping = aes(fill = counts),
+                 stat = "identity") +
+        geom_text(mapping = aes(label = counts), hjust = -0.5, size = 5) +
+        ylim(0, 170) +
+        theme_classic() +
+        coord_flip() +
+        theme(legend.position = "none",
+              aspect.ratio = 1/2,
+              axis.title.y = element_blank())
 
 ```
 
