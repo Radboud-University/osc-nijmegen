@@ -357,8 +357,27 @@ words <- rbind(words1, words2) # put together
 words <- sapply(words, FUN=trimws, USE.NAMES = FALSE) %>%
          as_tibble()
 
+# fixed some misspelled words
+words[words$value == "transparancy",] = "transparency"
+words[words$value == "transparant",] = "transparent"
+words[words$value == "open acces",] = "open access"
+words[words$value == "reproducability",] = "reproducibility"
+words[words$value == "rxiv",] = "arxiv"
 
-kable(head(words)) # already sufficiently clean data for a word cloud
+# fix some variants
+words[words$value == "sharing data",] = "data sharing"  # these two are the same
+words[words$value == "publishing open access",] = "open access"
+words[words$value == "open access publishing",] = "open access"
+words[words$value == "transparence",] = "transparency"
+words[words$value == "transparent",] = "transparency"
+words[words$value == "accessability",] = "accessibility"
+words[words$value == "replicable",] = "replication"
+words[words$value == "reproducible",] = "reproducibility"
+words[words$value == "open source code",] = "open source"
+words[words$value == "open code",] = "open source"
+words[words$value == "preregistered",] = "preregistration"
+#words[words$value == "shared",] = "sharing"
+
 
 ## Cleaning the text: add underscore to bin the words properly
 docs <- clean_vec(factor(words$value), TRUE)
