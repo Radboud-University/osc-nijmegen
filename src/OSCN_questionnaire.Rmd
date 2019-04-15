@@ -1,6 +1,8 @@
 ---
 title: "OSCN Open Science Survey"
-output: html_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ```{r packages, warning=FALSE, include=FALSE}
@@ -74,7 +76,7 @@ theme_xkcd <- theme(
 
 ```{r read_data, warning = FALSE, message = FALSE}
 # assume 'data' folder in rootdir
-quest_data <- read_csv("../data/open_scholarship_survey_responses.csv") 
+quest_data <- read_csv("../data/oscn-survey_responses_anonymized.csv") 
 ```
 
 ```{r, tidy_data, include = FALSE}
@@ -123,6 +125,7 @@ goodnames <- paste(unlist(bad2good))
 colnames(quest_data)[colnames(quest_data) %in% badnames] <- goodnames # set new names
 
 quest_data$career_stage <- as.factor(quest_data$career_stage)
+N = nrow(quest_data)
 
 ```
 
@@ -166,16 +169,17 @@ career_stage$value[career_stage$value %in% other] <- "other"
 # compute counts
 career_stage_freq <- career_stage %>%
                      group_by(value) %>%
-                     summarise(counts = n())
+                     summarise(counts = n()) %>%
+                     mutate(percent = (counts / sum(counts)))
 
 ## Plot the histogram
 career_stage_freq %>%
   ggplot(aes(x = reorder(value, counts), y = counts)) + 
   geom_bar(aes(fill = counts), stat = "identity") +
-  geom_text(aes(label = counts), hjust = -0.5, size = 5) +
+  geom_text(aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), hjust = -0.3, size = 5) +
   coord_flip() + 
   theme_classic() +
-  ylim(0,110) +
+  ylim(0,130) +
   labs(title="Career stage", x = "", y = "Count") +
   theme(legend.position="none", 
         axis.text.x  = element_text(size=15,  color="#000000"),     
@@ -252,7 +256,8 @@ aa <- as_tibble(aa)
 # compute counts
 affiliation_freq <- aa %>%
                     group_by(value) %>%
-                    summarise(counts = n())
+                    summarise(counts = n()) %>%
+                    mutate(percent = (counts / sum(counts)))
 
 ## Subset those with equal to or more than 2 mentions
 a_index <- which(affiliation_freq$counts>=2)
@@ -263,10 +268,10 @@ affiliation_freq_upper <- affiliation_freq[c(a_index),]
 affiliation_freq_upper %>%
   ggplot(aes(x = reorder(value, counts), y = counts)) + 
   geom_bar(aes(fill = counts), stat = "identity") +
-  geom_text(aes(label = counts), hjust = -0.5, size = 5) +
+  geom_text(aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), hjust = -0.3, size = 5) +
   coord_flip() + 
   theme_classic() +
-  ylim(0,150) +
+  ylim(0,160) +
   labs(title="Affiliation", x = "", y = "Count") +
   theme(legend.position="none", 
         axis.text.x  = element_text(size=15,  color="#000000"),     
@@ -299,7 +304,8 @@ f <- as_tibble(f)
 # compute counts
 field_freq <- f %>%
               group_by(value) %>%
-              summarise(counts = n())
+              summarise(counts = n()) %>%
+              mutate(percent = counts / sum(counts))
 
 ## Subset those with equal to or more than 3 mentions
 f_index <- which(field_freq$counts>=3)
@@ -309,7 +315,8 @@ field_freq_upper <- field_freq[c(f_index),]
 field_freq_upper %>%
   ggplot(aes(x = reorder(value, counts), y = counts)) + 
   geom_bar(aes(fill = counts), stat = "identity") +
-  geom_text(aes(label = counts), hjust = -0.5, size = 5) +
+  geom_text(aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), 
+            hjust = -0.5, size = 4) +
   coord_flip() + 
   theme_classic() +
   ylim(0,50) +
@@ -429,28 +436,44 @@ long <- select(dat, career_stage, col2row) %>%
 
 # order levels of 'value' variable for histogram
 long$value <- factor(long$value, levels = ordered_levels)
+names(long)[names(long) == 'value'] <- 'importance'
 
+
+long$component <- recode(long$component, alt_eval = "alt. evaluation", 
+                                                code_sharing = "code sharing",
+                                                data_sharing = "data sharing",
+                                                open_access = "open access",
+                                                open_edu = "open education",
+                                                open_review = "open review",
+                                                resource_sharing = "resource sharing")
 
 # this df can be used for histograms e.g.:
 
 new_xmarks = c("not at all", "mostly not", "no idea", "somewhat", "extremely", 
                    "NA")
 
-ggplot(data = long, mapping = aes(x = value)) +
-  geom_bar(mapping = aes(fill = value),
-           stat = "count", 
-           color = "black", 
-           position = "dodge") +
-  #geom_text(aes(y = ..count.., 
-               # label = scales::percent(..count..)), 
-            #stat= "count", 
-            #vjust = -.5,
-            #size = 2) +
-  facet_wrap(~ component)+
-  theme_classic() +
-  theme(axis.text.x = element_blank(),
-        axis.ticks.x = element_blank(),
-        aspect.ratio = 4/3)
+long %>%
+        group_by(component) %>%
+        count(importance) %>%
+        mutate(countT = sum(n)) %>%
+        mutate(percent=round(n/countT, 2)) %>%
+
+      ggplot(mapping = aes(x = importance, y = n)) +
+        geom_bar(mapping = aes(fill = importance),
+                 stat = "identity", 
+                 position = "dodge") +
+        geom_text(aes(label = scales::percent(percent)), 
+                  stat= "identity", 
+                  vjust = -.5,
+                  size = 1.5) +
+        facet_wrap(~ component, ncol=4)+
+        ylim(0, 180) +
+        ylab("Count") +
+        theme_classic() +
+        theme(axis.text.x = element_blank(),
+              axis.ticks.x = element_blank(),
+              axis.title.x = element_blank(),
+              aspect.ratio = 4/4)
 
 
 ```
@@ -464,8 +487,7 @@ tmp <- filter(long, value %in% c("Extremely important", "Somewhat important")) %
 tmp %>%
   ggplot(mapping = aes(x = reorder(component, n), y = n)) +
     geom_bar(mapping = aes(fill = n),
-             stat = "identity",
-             color = "black") +
+             stat = "identity") +
     geom_text(aes(label = n), hjust = -0.5, size = 5) +
     coord_flip() +
     labs(title="Very or somewhat important OS component", y = "Count", x = "") +
@@ -489,15 +511,15 @@ reordered <- c("Yes", "No", "Not applicable to my field")
 
 # Basic histogram
   
-
 quest_data %>%
       group_by(requested_data) %>%
-      dplyr::summarize(count = n()) %>%
+      summarise(count = n()) %>%
+      mutate(percent = count / sum(count)) %>%
 
       ggplot(mapping = aes(x = reorder(requested_data, count), y = count)) +
-      geom_bar(mapping = aes(fill =  count),
+      geom_bar(mapping = aes(fill = count),
                stat = "identity") +
-      geom_text(mapping = aes(label = count), hjust = -0.5, size = 5) +
+      geom_text(mapping = aes(label = scales::percent(percent)), hjust = -0.5, size = 5) +
       theme_classic() +
       ylim(0, 200) +
       coord_flip() +
@@ -537,11 +559,13 @@ pregiven %>%
   
         group_by(value) %>%
         summarise(counts = n()) %>%
+        mutate(percent = counts / sum(counts)) %>%
   
-        ggplot() +
-        geom_bar(mapping = aes(x = reorder(value, counts), y = counts, fill=counts), 
+        ggplot(mapping = aes(x = reorder(value, counts), y = counts)) +
+        geom_bar(mapping = aes(fill = counts), 
                  stat = "identity") +
-        geom_text(mapping = aes(x= reorder(value, counts), y = counts, label = counts), hjust = -0.5, size = 5) +
+        geom_text(mapping = aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), 
+                  hjust = -0.2, size = 3) +
         ylim(0, 140) +
         theme_classic() +
         coord_flip() +
@@ -599,12 +623,14 @@ tmp$value[!(tmp$value %in% renamed)] <- "other"
 tmp %>%
         group_by(value) %>%
         summarise(counts = n()) %>%
+        mutate(percent = counts / N) %>%
   
         ggplot(mapping = aes(x = reorder(value, counts), y = counts)) +
         geom_bar(mapping = aes(fill = counts),
                  stat = "identity") +
-        geom_text(mapping = aes(label = counts), hjust = -0.5, size = 5) +
-        ylim(0, 170) +
+        geom_text(mapping = aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), 
+                  hjust = -0.2, size = 4) +
+        ylim(0, 190) +
         theme_classic() +
         coord_flip() +
         theme(legend.position = "none",
@@ -628,7 +654,7 @@ predefined <- c("Tell me how to setup an open data repository",
                 "Tell me how to avoid questionable research practices (QRPs)")
 
 other <- !(tmp2$value %in% predefined)  
-tmp2$value[other] <- "Other"
+tmp2$value[other] <- "other"
 tmp2$value[tmp2$value == "Tell me how to setup an open data repository"] <- "data repository"
 tmp2$value[tmp2$value == "Tell me how to prepare public archives of an experiment"] <- "archives"
 tmp2$value[tmp2$value == "Tell me how to publish a preprint"] <- "preprint"
@@ -637,17 +663,22 @@ tmp2$value[tmp2$value == "Tell me how to make the research workflow more reprodu
 tmp2$value[tmp2$value == "Tell me how to avoid questionable research practices (QRPs)"] <- "avoid QRPs" 
 
 tmp2 %>% 
-  count(value) %>%
-  ggplot(mapping = aes(x = reorder(value, n), y = n)) +
+  group_by(value) %>%
+  summarise(counts = n()) %>%
+  mutate(percent = counts / N) %>%
+  
+  ggplot(mapping = aes(x = reorder(value, counts), y = counts)) +
     geom_bar(stat="identity",
-             mapping = aes(fill = n)) +
-    geom_text(mapping = aes(label = n), 
+             mapping = aes(fill = counts)) +
+    geom_text(mapping = aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), 
               hjust = -0.3, 
-              size = 5) +
-    labs(x = "Count", y = "") +
+              size = 4) +
     coord_flip() +
+    labs(y = "Count", y = "") +
+    ylim(0, 170) +
     theme_classic() +
-    theme(legend.position = "none")
+    theme(legend.position = "none",
+          aspect.ratio = 1/2)
 
 tmp3 <- select(quest_data, support)
 tmp3 <- as_tibble(unlist(sapply(tmp3, tmp3$support, FUN=strsplit, split=", ")))
