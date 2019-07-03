@@ -29,7 +29,7 @@ initiatives maintained by various institutions on Nijmegen campus.
 
 ## Open source tools
 
-[Expyriment](www.expyriment.org), Donders Institute, RadboudUMC  
+[Expyriment](https://www.expyriment.org/), Donders Institute, RadboudUMC  
 [FieldTrip toolbox](http://www.fieldtriptoolbox.org/), Donders Institute  
 [LaMachine software](https://proycon.github.io/LaMachine/), Centre for Language and Speech Technology  
 
