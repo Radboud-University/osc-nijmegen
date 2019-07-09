@@ -30,6 +30,8 @@ library(extrafont)
 # set rootdir to where this script is (assuming in "repo-root/src")
 knitr::opts_knit$set(root.dir = getwd())
 
+savedir = file.path(getwd(),"figures")
+
 ```
 
 ```{r functions, include = FALSE}
@@ -179,8 +181,8 @@ career_stage_freq %>%
   geom_text(aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), hjust = -0.3, size = 5) +
   coord_flip() + 
   theme_classic() +
-  ylim(0,130) +
-  labs(title="Career stage", x = "", y = "Count") +
+  ylim(0, 140) +
+  labs(x = "", y = "Count") +
   theme(legend.position="none", 
         axis.text.x  = element_text(size=15,  color="#000000"),     
         axis.text.y  = element_text(size=15,  color="#000000"),       
@@ -338,7 +340,7 @@ Make a wordcloud from the responses.
 This link gives a tutorial how to use an R package for that
 http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know
 
-```{r word_cloud, echo=FALSE, message=, warning=FALSE}
+```{r word_cloud, echo=FALSE, message=FALSE, warning=FALSE}
 
 t <- as_tibble(quest_data$keywords) # create a short-name variable
 
@@ -376,14 +378,12 @@ words[words$value == "sharing data",] = "data sharing"  # these two are the same
 words[words$value == "publishing open access",] = "open access"
 words[words$value == "open access publishing",] = "open access"
 words[words$value == "transparence",] = "transparency"
-words[words$value == "transparent",] = "transparency"
 words[words$value == "accessability",] = "accessibility"
 words[words$value == "replicable",] = "replication"
 words[words$value == "reproducible",] = "reproducibility"
 words[words$value == "open source code",] = "open source"
 words[words$value == "open code",] = "open source"
 words[words$value == "preregistered",] = "preregistration"
-#words[words$value == "shared",] = "sharing"
 
 
 ## Cleaning the text: add underscore to bin the words properly
@@ -411,6 +411,8 @@ set.seed(1234)
 wordcloud(words = dtm$word, freq = dtm$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=wes_palette("Zissou1"))
+
+ggsave("C:/Users/Kristijan/Documents/git/osc-nijmegen/src/figures/wordcloud.png", plot = last_plot(), device = "png")
 
 ```
 
@@ -454,38 +456,103 @@ new_xmarks = c("not at all", "mostly not", "no idea", "somewhat", "extremely",
 
 long %>%
         group_by(component) %>%
+        filter(component == "data sharing" | component == "resource sharing") %>%
         count(importance) %>%
         mutate(countT = sum(n)) %>%
-        mutate(percent=round(n/countT, 2)) %>%
+        mutate(percent=n/countT) %>%
 
-      ggplot(mapping = aes(x = importance, y = n)) +
-        geom_bar(mapping = aes(fill = importance),
-                 stat = "identity", 
+        ggplot(mapping = aes(x = importance, y = n)) +
+        geom_bar(stat = "identity",
+                 fill = "lightblue",
                  position = "dodge") +
-        geom_text(aes(label = scales::percent(percent)), 
+        geom_text(aes(label = sprintf("%d (%s)", n, scales::percent(percent))), 
                   stat= "identity", 
-                  vjust = -.5,
-                  size = 1.5) +
-        facet_wrap(~ component, ncol=4)+
-        ylim(0, 180) +
+                  hjust = -.3,
+                  size = 3.5) +
+        facet_wrap(~ component)+
+        coord_flip() +
+        ylim(0, 200) +
         ylab("Count") +
         theme_classic() +
-        theme(axis.text.x = element_blank(),
-              axis.ticks.x = element_blank(),
-              axis.title.x = element_blank(),
-              aspect.ratio = 4/4)
+        theme(aspect.ratio = 3/4)
 
+long %>%
+        group_by(component) %>%
+        filter(component == "code sharing" | component == "alt. evaluation") %>%
+        count(importance) %>%
+        mutate(countT = sum(n)) %>%
+        mutate(percent=n/countT) %>%
+
+        ggplot(mapping = aes(x = importance, y = n)) +
+        geom_bar(stat = "identity",
+                 fill = "lightblue",
+                 position = "dodge") +
+        geom_text(aes(label = sprintf("%d (%s)", n, scales::percent(percent))), 
+                  stat= "identity", 
+                  hjust = -.3,
+                  size = 3.5) +
+        facet_wrap(~ component)+
+        coord_flip() +
+        ylim(0, 200) +
+        ylab("Count") +
+        theme_classic() +
+        theme(aspect.ratio = 3/4)
+
+long %>%
+        group_by(component) %>%
+        filter(component == "open access" | component == "open review") %>%
+        count(importance) %>%
+        mutate(countT = sum(n)) %>%
+        mutate(percent=n/countT) %>%
+
+        ggplot(mapping = aes(x = importance, y = n)) +
+        geom_bar(stat = "identity",
+                 fill = "lightblue",
+                 position = "dodge") +
+        geom_text(aes(label = sprintf("%d (%s)", n, scales::percent(percent))), 
+                  stat= "identity", 
+                  hjust = -.3,
+                  size = 3.5) +
+        facet_wrap(~ component)+
+        coord_flip() +
+        ylim(0, 200) +
+        ylab("Count") +
+        theme_classic() +
+        theme(aspect.ratio = 3/4)
+
+long %>%
+        group_by(component) %>%
+        filter(component == "open education" | component == "alt. evaluation") %>%
+        count(importance) %>%
+        mutate(countT = sum(n)) %>%
+        mutate(percent=n/countT) %>%
+
+        ggplot(mapping = aes(x = importance, y = n)) +
+        geom_bar(stat = "identity",
+                 fill = "lightblue",
+                 position = "dodge") +
+        geom_text(aes(label = sprintf("%d (%s)", n, scales::percent(percent))), 
+                  stat= "identity", 
+                  hjust = -.3,
+                  size = 3.5) +
+        facet_wrap(~ component)+
+        coord_flip() +
+        ylim(0, 210) +
+        ylab("Count") +
+        theme_classic() +
+        theme(aspect.ratio = 3/4)
 
 ```
 ### Very or somewhat important os component
 
 ```{r most_important_component, echo = FALSE}
 
-tmp <- filter(long, value %in% c("Extremely important", "Somewhat important")) %>%
+tmp <- filter(long, importance %in% c("Extremely important", "Somewhat important")) %>%
        dplyr::count(component, sort = TRUE)
 
 tmp %>%
-  ggplot(mapping = aes(x = reorder(component, n), y = n)) +
+  
+    ggplot(mapping = aes(x = reorder(component, n), y = n)) +
     geom_bar(mapping = aes(fill = n),
              stat = "identity") +
     geom_text(aes(label = n), hjust = -0.5, size = 5) +
@@ -519,9 +586,9 @@ quest_data %>%
       ggplot(mapping = aes(x = reorder(requested_data, count), y = count)) +
       geom_bar(mapping = aes(fill = count),
                stat = "identity") +
-      geom_text(mapping = aes(label = scales::percent(percent)), hjust = -0.5, size = 5) +
+      geom_text(mapping = aes(label = sprintf("%d (%s)", count, scales::percent(percent))), hjust = -0.5, size = 5) +
       theme_classic() +
-      ylim(0, 200) +
+      ylim(0, N) +
       coord_flip() +
       theme(aspect.ratio = 0.5/2, 
             axis.title.y = element_blank(),
@@ -565,12 +632,12 @@ pregiven %>%
         geom_bar(mapping = aes(fill = counts), 
                  stat = "identity") +
         geom_text(mapping = aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), 
-                  hjust = -0.2, size = 3) +
-        ylim(0, 140) +
+                  hjust = -0.2, size = 4) +
+        ylim(0, 160) +
         theme_classic() +
         coord_flip() +
         theme(legend.position = "none",
-              aspect.ratio = 1/3,
+              aspect.ratio = 1/2,
               axis.title.y = element_blank())
 
 
@@ -708,15 +775,19 @@ na    <- (tmp$format %in% c("NA", "na", "n.a.", "geen"))
 tmp$format[other] <- "Other"
 tmp$format[tmp$format == "Self-study (e.g. by consulting online websites and resources)"] <- "self-study"
 
-tmp %>% 
-  count(format) %>%
-  ggplot(mapping = aes(x = reorder(format, n), y = n)) +
+tmp %>%
+  group_by(format) %>%
+  summarise(counts = n()) %>%
+  mutate(percent = counts / N) %>%
+
+  ggplot(mapping = aes(x = reorder(format, counts), y = counts)) +
     geom_bar(stat="identity",
-             mapping = aes(fill = n)) +
-    geom_text(mapping = aes(label = n), 
+             mapping = aes(fill = counts)) +
+    geom_text(mapping = aes(label = sprintf("%d (%s)", counts, scales::percent(percent))), 
               hjust = -0.3, 
               size = 5) +
     labs(x = "Count", y = "") +
+    ylim(0, 100) +
     coord_flip() +
     theme_classic() +
     theme(legend.position = "none")
