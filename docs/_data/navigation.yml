@@ -27,6 +27,8 @@ about-sidebar:
 resources-sidebar:
   - title: RESOURCES
     children:
+      - title: "OS survey results (2019)"
+        url: _pages/OSCN_questionnaire/
       - title: "OS @ Nijmegen"
         url: _pages/os_nijmegen/
       - title: Links
