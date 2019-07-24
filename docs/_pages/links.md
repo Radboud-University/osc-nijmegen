@@ -14,11 +14,12 @@ toc_icon: "list-ul"
 [Foster Open Science](https://www.fosteropenscience.eu/) _e-learning platform for open science training resources_  
 [Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings) _Documentary about the need for open access in academic publishing_    
 
-## Organisations/communities
+## Organisations, communities, initiatives
 
 ### International
 [cOAlition S](https://www.scienceeurope.org/coalition-s/) _an initiative campainging for full and immediate Open Access to research publications_  
-[opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open source science from now on_
+[opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open source science from now on_  
+[freeourknowledge](https://freeourknowledge.org) _a collective action platform where researchers can pledge to change their behaviour in line with various open science goals_  
 [rOpenSci](https://ropensci.org/) _a non-profit initiative developing an ecosystem of open source tools centered on R language_  
 
 ### National
