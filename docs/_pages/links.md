@@ -25,8 +25,14 @@ toc_icon: "list-ul"
 [Netherlands](https://www.openscience.nl/)
 
 ### Local
+[Amsterdam](https://openscience-amsterdam.com/) _Open Science Community Amsterdam_  
+[Eindhoven](https://osceindhoven.github.io/) _Open Science Community Eindhoven_  
+[Groningen](https://twitter.com/oscgroningen) _Open Science Community Groningen_  
+[Leiden](https://www.universiteitleiden.nl/open-science-community-leiden) _Open Science Community Leiden_  
+[Rotterdam](https://twitter.com/OSCRotterdam) _Open Science Community Rotterdam_  
 [Utrecht](https://openscience-utrecht.com/) _Open Science Community Utrecht_  
-[Nijmegen](https://radboud-university.github.io/osc-nijmegen) _you are here_
+[Nijmegen](https://radboud-university.github.io/osc-nijmegen) _you are here!_  
+[Tilburg](https://twitter.com/opentilburg) _Open Science Community Tilburg_   
 
 ## Nijmegen Campus
 ### Radboud University Nijmegen
