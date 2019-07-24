@@ -17,6 +17,7 @@ toc_icon: "list-ul"
 ## Organisations, communities, initiatives
 
 ### International
+[Center for Open Science](https://cos.io/)  
 [cOAlition S](https://www.scienceeurope.org/coalition-s/) _an initiative campainging for full and immediate Open Access to research publications_  
 [opensourceforneuroscience.org](https://opensourceforneuroscience.org) _Pledge to do only open source science from now on_  
 [freeourknowledge](https://freeourknowledge.org) _a collective action platform where researchers can pledge to change their behaviour in line with various open science goals_  
