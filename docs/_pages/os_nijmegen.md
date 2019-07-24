@@ -12,6 +12,10 @@ sidebar:
 The list below gives a cursory overview and links to open science related
 initiatives maintained by various institutions on Nijmegen campus.
 
+## Research support  
+
+[Preregistration](https://www.ru.nl/bsi/research/preregistration/preregistration/), Behavioral Science Institute  
+
 ## Education materials and courseware 
 
 [Open Science for PhD candidates](https://www.ru.nl/phd/courses/courses/vm-eng/virtuele-map/open-science-for-phd-candidates/), Radbobud University    
