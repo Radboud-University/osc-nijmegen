@@ -1,5 +1,5 @@
 ---
-title: "OSCN Collaboration Cafe"
+title: "OCT 24 `|` OSCN Collaboration Cafe"
 layout: single
 excerpt: "Collaborative hacking of the OSCN website! :hammer: :muscle:"
 ---
