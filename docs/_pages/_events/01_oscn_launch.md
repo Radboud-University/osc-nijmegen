@@ -1,5 +1,5 @@
 ---
-title: "OSCN Launch: Lightning talks"
+title: "OCT 9 `|` OSCN Launch Event :boom:"
 layout: single
 excerpt: Join us for the official community launch and drinks afterwards!
 ---
