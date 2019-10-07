@@ -21,7 +21,7 @@ Register [here](https://forms.gle/gP5cFY4vLJARj2G27)
 2. Participants+Organizers = Authors: A born-open collaborative effort for a fully-shared paper <br>
 _by Frederik Weber_ (Radboud University)
 3. ORCID and Open Science <br> _by Jan Rijnders_ (Radboud University)
-4. Preregistration at the BSI <br> _by Willem Frankenhuis_ (Radboud University)
+4. Preregistration at the BSI <br> _by Jesse Fenneman_ (Radboud University)
 5. The Turing Way <br> _by Kirstie Whitaker_ (The Alan Turing Institute London)
 
 ![flyer](../../assets//images//oscn_launch_flyer.png)
