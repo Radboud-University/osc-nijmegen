@@ -18,7 +18,7 @@ initiatives maintained by various institutions on Nijmegen campus.
 
 ## Education materials and courseware 
 
-[Open Science for PhD candidates](https://www.ru.nl/phd/courses/courses/vm-eng/virtuele-map/open-science-for-phd-candidates/), Radbobud University    
+[Open Science for PhD candidates](https://www.ru.nl/phd/courses/courses/vm-eng/virtuele-map/open-science-for-phd-candidates/), Radboud University    
 
 ## Research data sharing
 
