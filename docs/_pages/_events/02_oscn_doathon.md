@@ -8,7 +8,7 @@ excerpt: "Collaborative hacking of the OSCN website!"
 workshop on how to improve the website. :wrench: :computer:
 
 Curious? Check the [doathon guidelines](https://radboud-university.github.io/osc-nijmegen/_pages/doathon_guidelines/).  
-Register by filling in this form: https://forms.gle/vpcCTfyC1zPGTVRFA
+Register [here](https://forms.gle/vpcCTfyC1zPGTVRFA).  
 
 **When**: October 24, 2019 at 15:00 - 17:00.
 
