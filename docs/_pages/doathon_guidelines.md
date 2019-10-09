@@ -40,11 +40,11 @@ with) that you can connect to the internet.
 
 (14.45-15.00 site setup, krank-up laptops, finding plugs :electric_plug: etc.)
 
-15.00-15.10 :coffee: coffee and intro
-15.10-16.00 :wrench: doing (see possible contributions below)
-16.00-16.10 :pizza: break, stretch, food! (or keep on doing)
-16.00-16.50 :wrench: more doing (see contributions below)
-16.50-17.00 :tada: wrap up and plan ahead
+15.00-15.10 :coffee: coffee and intro  
+15.10-16.00 :wrench: doing (see possible contributions below)  
+16.00-16.10 :pizza: break, stretch, food! (or keep on doing)  
+16.00-16.50 :wrench: more doing (see contributions below)  
+16.50-17.00 :tada: wrap up and plan ahead  
 
 ## How can you contribute?
 
