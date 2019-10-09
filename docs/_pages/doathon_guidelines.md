@@ -1,12 +1,10 @@
 ---
-title: OSCN doathon guidelines
+title: OSCN Do-A-Thon Guidelines
 layout: single
 toc: true
 toc_label: "Contents"
 toc_icon: "list-ul"
 ---
-
-# OSCN Do-A-Thon guidelines
 
 ## Goals
 
