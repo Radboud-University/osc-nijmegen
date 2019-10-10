@@ -80,11 +80,13 @@ result of on-the-go building, so there's certainly room for improvement.
 
 Example issues:
 
--	[explore options to have a member profiles page](https://github.com/Radboud-University/osc-nijmegen/issues/16)
--	create member initiatives (sub)page
--	do we want a blog/news subpage?
+-	[explore options to have a member profiles page](https://github.com/Radboud-University/osc-nijmegen/issues/16)  
+- [create a newsletter archive](https://github.com/Radboud-University/osc-nijmegen/issues/18)  
+- [past events page](https://github.com/Radboud-University/osc-nijmegen/issues/19)  
+-	[devise a system for categorizing contributions](https://github.com/Radboud-University/osc-nijmegen/issues/17)  
+-	create a member initiatives (sub)page  
+-	do we want a blog/news subpage?  
 -	can we have a tag system?
--	devise a system for categorizing contributions
 -	your very own issue :blush:
 
 ### Other :watermelon:
