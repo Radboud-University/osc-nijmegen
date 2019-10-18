@@ -26,10 +26,22 @@ There really only is one:
 *Bring your own laptop* (or, well, whatever device you're comfortable working
 with) that you can connect to the internet.
 
+### What can you learn at the event?
+
+Once you dig in the [issues](https://github.com/Radboud-University/osc-nijmegen/issues), you'll be more comfortable writing and publishing in [markdown]() (if you aren't already).
+Also, hopefully phrases like 'oh, the code is on my [repo](https://help.github.com/en/articles/about-repositories)' and 'just [fork](https://help.github.com/en/articles/fork-a-repo) the repo and do a [PR](https://help.github.com/en/articles/about-pull-requests)' will make a bit more sense (if they don't already). :blush: 
+
+### Useful external resources
+
+- [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [version control vs. git vs. GitHub] (https://guides.github.com/introduction/git-handbook/)(Git Handbook)
+
 ### On-site workflow :repeat:
 
-- you work on any way you like (e.g. writing in google docs or your text favourite editor)
-- once you're happy with your work, you create a [pull request (PR)](https://help.github.com/en/articles/about-pull-requests) to [our repository](https://github.com/Radboud-University/osc-nijmegen)
+- find the [issue](https://github.com/Radboud-University/osc-nijmegen/issues) you'd like to work on  
+- you work on any way you like (e.g. writing in google docs or your text favourite editor)  
+- once you're happy with your work, you [fork](https://help.github.com/en/articles/fork-a-repo) ('copy') the [OSCN repository](https://github.com/Radboud-University/osc-nijmegen) and make changes to your fork  
+- then create a [pull request (PR)](https://help.github.com/en/articles/about-pull-requests) to our repository to include your changes into the OSCN repository  
 - somebody reviews your contribution
 - after a successful review, contribution is live!
 - go back to step one :blush:
