@@ -34,7 +34,7 @@ Also, hopefully phrases like 'oh, the code is on my [repo](https://help.github.c
 ### Useful external resources
 
 - [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [version control vs. git vs. GitHub] (https://guides.github.com/introduction/git-handbook/)(Git Handbook)
+- [version control vs. git vs. GitHub](https://guides.github.com/introduction/git-handbook/) (Git Handbook)
 
 ### On-site workflow :repeat:
 
