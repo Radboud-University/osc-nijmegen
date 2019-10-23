@@ -66,7 +66,7 @@ Example issues (those with 'contents' tag):
 -	[code of conduct](https://github.com/Radboud-University/osc-nijmegen/issues/14)
 -	[populate OS resources tab](https://github.com/Radboud-University/osc-nijmegen/issues/6) (find links)
 -	[mention OSC Netherlands in about](https://github.com/Radboud-University/osc-nijmegen/issues/20)
--	write contributing guidelines
+-	[update contributing guidelines](https://github.com/Radboud-University/osc-nijmegen/issues/21)
 -	[review and proofread links subpage](https://github.com/Radboud-University/osc-nijmegen/issues/15)
 -	your original issue :blush:
 
