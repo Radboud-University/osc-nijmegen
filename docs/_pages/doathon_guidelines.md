@@ -78,7 +78,7 @@ if you are familiar with [Jekyll](https://jekyllrb.com/) and [GitHub pages](http
 
 Example issues:
 
-- optimize landing page
+- [optimize landing page](https://github.com/Radboud-University/osc-nijmegen/issues/22)
 - test search functionality
 - explore options for analytics (yes/no)
 - your issue :blush:
@@ -95,7 +95,7 @@ Example issues:
 - [create a newsletter archive](https://github.com/Radboud-University/osc-nijmegen/issues/18)  
 - [past events page](https://github.com/Radboud-University/osc-nijmegen/issues/19)  
 -	[devise a system for categorizing contributions](https://github.com/Radboud-University/osc-nijmegen/issues/17)  
--	create a member initiatives (sub)page  
+-	[create a member initiatives (sub)page](https://github.com/Radboud-University/osc-nijmegen/issues/23)  
 -	do we want a blog/news subpage?  
 -	can we have a tag system?
 -	your very own issue :blush:
