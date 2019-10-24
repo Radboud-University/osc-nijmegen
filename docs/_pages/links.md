@@ -8,13 +8,6 @@ toc_label: "Contents"
 toc_icon: "list-ul"
 ---
 
-## Educational resources
-* [Open Science Mooc](https://opensciencemooc.eu/) _Online course on open science tools_  
-* [The Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) _An open, living handbook on open science training_  
-* [Foster Open Science](https://www.fosteropenscience.eu/) _E-learning platform for open science training resources_  
-* [Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings) _Documentary about the need for open access in academic publishing_   
-* [The Turing Way](https://the-turing-way.netlify.com/introduction/introduction) _"a lightly opinionated guide to reproducible data science"_
-
 ## Useful
 * [ThinkCheckSubmit](http://thinkchecksubmit.org/) _Checklist to avoid predatory publishers_
 * [ThinkCheckSubmit Licensing](http://tinyurl.com/licensingcc) _Check which Creative Commeons (CC) license you need_
