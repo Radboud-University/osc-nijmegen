@@ -1,4 +1,5 @@
 Open Science Community Nijmegen
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 ---
 
 This repository hosts website of the Open Science Community Nijmegen:
@@ -25,3 +26,19 @@ Head over to the [issues
 tab](https://github.com/Radboud-University/osc-nijmegen/issues) to
 find out how to contribute to website development or event
 organization or submit a new issue.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/norok2"><img src="https://avatars1.githubusercontent.com/u/4312650?v=4" width="100px;" alt="Riccardo M."/><br /><sub><b>Riccardo M.</b></sub></a><br /><a href="#tool-norok2" title="Tools">🔧</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
