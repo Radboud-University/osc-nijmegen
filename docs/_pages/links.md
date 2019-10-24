@@ -12,7 +12,8 @@ toc_icon: "list-ul"
 [Open Science Mooc](https://opensciencemooc.eu/) _Online course on open science tools_  
 [The Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) _An open, living handbook on open science training_  
 [Foster Open Science](https://www.fosteropenscience.eu/) _E-learning platform for open science training resources_  
-[Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings) _Documentary about the need for open access in academic publishing_    
+[Paywall: The Business of Scholarship](https://paywallthemovie.com/screenings) _Documentary about the need for open access in academic publishing_   
+[The Turing Way](https://the-turing-way.netlify.com/introduction/introduction) _"a lightly opinionated guide to reproducible data science"
 
 ## Organisations, communities, initiatives
 
@@ -36,15 +37,6 @@ toc_icon: "list-ul"
 [Nijmegen](https://openscience-nijmegen.nl) _You are here!_  
 [Tilburg](https://www.tilburguniversity.edu/research/open-science-community) _Open Science Community Tilburg_   
 
-## Nijmegen Campus
-### Radboud University Nijmegen
-[Radboud Open Science](https://www.ru.nl/openscience) _Open science information for the Radboud University_  
-[Copyright Information Point (CIP), RU Library](mailto:copyright@ubn.ru.nl) _Getting competent answers surrounding the rights to your or others publishable work (within hours of working days)_  
-[Research Information Services (RIS) service desk, RU Library](mailto:ris@ubn.ru.nl) _Getting competent help surrounding open access, archiving of publications, deals and discounts with publishers_  
-[RIS Interface](https://ris.ru.nl) _Service to register and upload your publications, full text and datasets (in Radboud Repository)_  
-[Research Data Management Support](https://www.ru.nl/rdm) _Get support or feedback on your (funder-required) data management plan_  
-[Radboud Repository](https://www.ru.nl/radboudrepository) _Store and share your data, code and other digital material responsibly_  
-[Radboud Open Access Browser](https://www.ru.nl/ubn/oa-browser) _Search for deals and discounts for some journals, list publisher's policies_  
 
 ## Research and data management
 [hypothes.is](https://hypothes.is) _Annotate the web, including pdfs and preprints and every thing you
