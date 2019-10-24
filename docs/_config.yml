@@ -65,7 +65,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "OSCNijmegen"
 facebook:
   username               :
   app_id                 :
@@ -113,11 +113,15 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "OSCNijmegen"
   vine             :
   weibo            :
   xing             :
   youtube          : #
+  links            :
+   - label: "Twitter"
+     icon: "fab fa-fw fa-twitter-square"
+     url: "https://twitter.com/OSCNijmegen"
 
 
 # Reading Files
@@ -266,3 +270,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+      toc: false
+ 
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/OSCNijmegen"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Radboud-University/osc-nijmegen"
