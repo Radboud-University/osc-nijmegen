@@ -271,3 +271,9 @@ defaults:
       share: true
       related: true
       toc: false
+ 
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/OSCNijmegen"
