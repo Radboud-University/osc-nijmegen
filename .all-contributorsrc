@@ -13,6 +13,16 @@
       "contributions": [
         "tool"
       ]
+    },
+    {
+      "login": "marieke-woensdregt",
+      "name": "Marieke Woensdregt",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10545959?v=4",
+      "profile": "https://marieke-woensdregt.github.io/",
+      "contributions": [
+        "doc",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
