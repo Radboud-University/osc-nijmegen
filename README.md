@@ -1,5 +1,5 @@
 Open Science Community Nijmegen
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 ---
 
 This repository hosts website of the Open Science Community Nijmegen:
@@ -36,6 +36,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/norok2"><img src="https://avatars1.githubusercontent.com/u/4312650?v=4" width="100px;" alt="Riccardo M."/><br /><sub><b>Riccardo M.</b></sub></a><br /><a href="#tool-norok2" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://marieke-woensdregt.github.io/"><img src="https://avatars2.githubusercontent.com/u/10545959?v=4" width="100px;" alt="Marieke Woensdregt"/><br /><sub><b>Marieke Woensdregt</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=marieke-woensdregt" title="Documentation">📖</a> <a href="#content-marieke-woensdregt" title="Content">🖋</a></td>
   </tr>
 </table>
 
