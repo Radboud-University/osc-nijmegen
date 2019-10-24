@@ -1,5 +1,5 @@
 ---
-title: "Open science @ Nijmegen"
+title: "Educational Resources"
 layout: single
 toc: true
 toc_label: "Contents"
