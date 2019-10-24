@@ -1,7 +1,7 @@
 ---
-title: "OCT 9 `|` OSCN Launch Event :boom:"
-layout: single
+title: "Oct 9 - OSCN Launch Event :boom:"
 excerpt: Join us for the official community launch and drinks afterwards!
+categories: [event]
 ---
 
 **What:** Official launch event of OSC Nijmegen. 🎉
