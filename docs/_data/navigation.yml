@@ -18,6 +18,8 @@ about-sidebar:
         url: _pages/team/
       - title: "Goals and activities"
         url: _pages/goals/
+      - title: "Code of conduct"
+        url: _pages/code_of_conduct/
       - title: "Agenda"
         url: _pages/agenda/
       - title: "Contribute"
