@@ -8,7 +8,12 @@ sidebar:
 
 ## Who are we?
 
-Open science community Nijmegen (OSCN) is a community of scholars and other academic workers devoted to maintaining and developing scientific practices that ensure transparency, rigour, and reproducibilty of research and related academic work (the term 'science' is used in its broadest, inclusive sense to include humanities and social sciences, i.e. it more suitably refers to open scholarship). Although the target audience are academic workers from Nijmegen, the Netherlands, the OSCN considers itself a part of a global open science movement (see [Links](https://radboud-university.github.io/osc-nijmegen/_pages/links/) for more information).
+Open Science Community Nijmegen (OSCN) is a community of scholars and other academic workers devoted to maintaining and developing scientific practices that ensure transparency, rigour, and reproducibilty of research and related academic work (the term 'science' is used in its broadest, inclusive sense to include humanities and social sciences, i.e. it more suitably refers to open scholarship).
+
+Although the target audience are academic workers from Nijmegen, OSCN considers itself a part of a larger open science movement. On a national level, OSCN is one of eight [Open Science Communities in the Netherlands (OSC-NL)](https://openscience-nijmegen.nl/_pages/links/#local):
+![](OSC-NL.png) 
+
+See [Links](https://radboud-university.github.io/osc-nijmegen/_pages/links/) for more information.
 
 ## What is open science (open scholarship)?
 
