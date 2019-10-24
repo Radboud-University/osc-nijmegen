@@ -31,5 +31,7 @@ resources-sidebar:
         url: _pages/OSCN_questionnaire/
       - title: "OS @ Nijmegen"
         url: _pages/os_nijmegen/
+      - title: "Educational Resources
+         url: _pages/education
       - title: Links
         url: _pages/links/
