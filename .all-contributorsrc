@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "norok2",
+      "name": "Riccardo M.",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4312650?v=4",
+      "profile": "https://github.com/norok2",
+      "contributions": [
+        "tool"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "osc-nijmegen",
+  "projectOwner": "Radboud-University",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
