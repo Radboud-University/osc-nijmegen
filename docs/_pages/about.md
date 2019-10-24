@@ -14,6 +14,9 @@ Although the target audience are academic workers from Nijmegen, OSCN considers 
 
 ![OSC-NL map](../assets//images//OSC-NL.jpg) 
 
+image credit: Anita Eerland
+
+
 See [Links](https://radboud-university.github.io/osc-nijmegen/_pages/links/) for more information on national and international initiatives as well as educational resources to get you up to speed with everything open science!
 
 ## What is open science (open scholarship)?
