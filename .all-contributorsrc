@@ -68,6 +68,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "johalgermissen",
+      "name": "Johannes Algermissen",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/36693723?v=4",
+      "profile": "https://github.com/johalgermissen",
+      "contributions": [
+        "eventOrganizing",
+        "blog"
+      ]
     }
   ],
   "contributorsPerLine": 7,
