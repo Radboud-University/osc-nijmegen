@@ -78,6 +78,18 @@
         "eventOrganizing",
         "blog"
       ]
+    },
+    {
+      "login": "jeanette-mostert",
+      "name": "jeanette-mostert",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/56967046?v=4",
+      "profile": "https://github.com/jeanette-mostert",
+      "contributions": [
+        "content",
+        "eventOrganizing",
+        "blog",
+        "fundingFinding"
+      ]
     }
   ],
   "contributorsPerLine": 7,
