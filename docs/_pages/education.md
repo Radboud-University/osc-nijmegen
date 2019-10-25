@@ -1,7 +1,7 @@
 ---
 title: "Educational Resources"
 layout: single
-toc: true
+toc: false
 toc_label: "Contents"
 toc_icon: "list-ul"
 sidebar:
