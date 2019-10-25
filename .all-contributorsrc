@@ -104,6 +104,17 @@
         "content",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "leonorebovy",
+      "name": "Leonore Bovy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/36054122?v=4",
+      "profile": "https://github.com/leonorebovy",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
