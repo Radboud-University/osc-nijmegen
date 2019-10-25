@@ -1,5 +1,5 @@
 Open Science Community Nijmegen
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors)
 ---
 
 This repository hosts website of the Open Science Community Nijmegen:
@@ -47,6 +47,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/johalgermissen"><img src="https://avatars1.githubusercontent.com/u/36693723?v=4" width="100px;" alt="Johannes Algermissen"/><br /><sub><b>Johannes Algermissen</b></sub></a><br /><a href="#eventOrganizing-johalgermissen" title="Event Organizing">📋</a> <a href="#blog-johalgermissen" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/jeanette-mostert"><img src="https://avatars0.githubusercontent.com/u/56967046?v=4" width="100px;" alt="jeanette-mostert"/><br /><sub><b>jeanette-mostert</b></sub></a><br /><a href="#content-jeanette-mostert" title="Content">🖋</a> <a href="#eventOrganizing-jeanette-mostert" title="Event Organizing">📋</a> <a href="#blog-jeanette-mostert" title="Blogposts">📝</a> <a href="#fundingFinding-jeanette-mostert" title="Funding Finding">🔍</a></td>
     <td align="center"><a href="https://github.com/KristijanArmeni"><img src="https://avatars3.githubusercontent.com/u/14061041?v=4" width="100px;" alt="Kristijan Armeni"/><br /><sub><b>Kristijan Armeni</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=KristijanArmeni" title="Code">💻</a> <a href="#maintenance-KristijanArmeni" title="Maintenance">🚧</a> <a href="#content-KristijanArmeni" title="Content">🖋</a> <a href="#eventOrganizing-KristijanArmeni" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="https://github.com/leonorebovy"><img src="https://avatars1.githubusercontent.com/u/36054122?v=4" width="100px;" alt="Leonore Bovy"/><br /><sub><b>Leonore Bovy</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=leonorebovy" title="Code">💻</a> <a href="#content-leonorebovy" title="Content">🖋</a> <a href="#ideas-leonorebovy" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
