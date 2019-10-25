@@ -1,5 +1,5 @@
 Open Science Community Nijmegen
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 ---
 
 This repository hosts website of the Open Science Community Nijmegen:
@@ -39,6 +39,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://marieke-woensdregt.github.io/"><img src="https://avatars2.githubusercontent.com/u/10545959?v=4" width="100px;" alt="Marieke Woensdregt"/><br /><sub><b>Marieke Woensdregt</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=marieke-woensdregt" title="Documentation">📖</a> <a href="#content-marieke-woensdregt" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/eirini-zormpa"><img src="https://avatars3.githubusercontent.com/u/30151074?v=4" width="100px;" alt="Eirini Zormpa"/><br /><sub><b>Eirini Zormpa</b></sub></a><br /><a href="#content-eirini-zormpa" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/suhasvijayakumar"><img src="https://avatars1.githubusercontent.com/u/4101365?v=4" width="100px;" alt="Suhas Vijayakumar"/><br /><sub><b>Suhas Vijayakumar</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=suhasvijayakumar" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/robertoostenveld"><img src="https://avatars1.githubusercontent.com/u/899043?v=4" width="100px;" alt="Robert Oostenveld"/><br /><sub><b>Robert Oostenveld</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=robertoostenveld" title="Code">💻</a></td>
   </tr>
 </table>
 
