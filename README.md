@@ -1,5 +1,5 @@
 Open Science Community Nijmegen
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
 ---
 
 This repository hosts website of the Open Science Community Nijmegen:
@@ -45,6 +45,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/johalgermissen"><img src="https://avatars1.githubusercontent.com/u/36693723?v=4" width="100px;" alt="Johannes Algermissen"/><br /><sub><b>Johannes Algermissen</b></sub></a><br /><a href="#eventOrganizing-johalgermissen" title="Event Organizing">📋</a> <a href="#blog-johalgermissen" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://github.com/jeanette-mostert"><img src="https://avatars0.githubusercontent.com/u/56967046?v=4" width="100px;" alt="jeanette-mostert"/><br /><sub><b>jeanette-mostert</b></sub></a><br /><a href="#content-jeanette-mostert" title="Content">🖋</a> <a href="#eventOrganizing-jeanette-mostert" title="Event Organizing">📋</a> <a href="#blog-jeanette-mostert" title="Blogposts">📝</a> <a href="#fundingFinding-jeanette-mostert" title="Funding Finding">🔍</a></td>
   </tr>
 </table>
 
