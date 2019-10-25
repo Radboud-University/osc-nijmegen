@@ -34,6 +34,6 @@ resources-sidebar:
       - title: "OS @ Nijmegen"
         url: _pages/os_nijmegen/
       - title: "Educational Resources"
-         url: _pages/education/
+        url: _pages/education/
       - title: "Links"
         url: _pages/links/
