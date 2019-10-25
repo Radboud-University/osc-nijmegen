@@ -1,5 +1,5 @@
 Open Science Community Nijmegen
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
 ---
 
 This repository hosts website of the Open Science Community Nijmegen:
@@ -41,6 +41,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/suhasvijayakumar"><img src="https://avatars1.githubusercontent.com/u/4101365?v=4" width="100px;" alt="Suhas Vijayakumar"/><br /><sub><b>Suhas Vijayakumar</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=suhasvijayakumar" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/robertoostenveld"><img src="https://avatars1.githubusercontent.com/u/899043?v=4" width="100px;" alt="Robert Oostenveld"/><br /><sub><b>Robert Oostenveld</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=robertoostenveld" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Frederik-D-Weber"><img src="https://avatars1.githubusercontent.com/u/19636325?v=4" width="100px;" alt="Frederik-D-Weber"/><br /><sub><b>Frederik-D-Weber</b></sub></a><br /><a href="https://github.com/Radboud-University/osc-nijmegen/commits?author=Frederik-D-Weber" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/JoKeyser"><img src="https://avatars1.githubusercontent.com/u/8722846?v=4" width="100px;" alt="Johannes Keyser"/><br /><sub><b>Johannes Keyser</b></sub></a><br /><a href="#design-JoKeyser" title="Design">🎨</a></td>
   </tr>
 </table>
 
