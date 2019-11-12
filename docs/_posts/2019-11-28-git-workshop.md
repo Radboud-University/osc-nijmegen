@@ -20,6 +20,7 @@ Part I:
 Part II:
 - using the git command line (cloning a repository, creating branches, creating commits, undoing commits, viewing changes, adding tags...)
 - collaborative work through GitHub ('pushing and pulling' changes, creating a pull request, reviewing a pull request, working with 'issues' ...)
+- wrap up  
 
 **When**: 28 November, 2019 at 15:00 - 17:00.
 
