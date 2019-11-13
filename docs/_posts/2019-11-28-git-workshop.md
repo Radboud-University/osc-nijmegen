@@ -12,7 +12,7 @@ categories: [event]
 
 In this workshop, we'll set you up with the minimal basics needed to start using git and GitHub for version control in your projects. In the first part, we'll do a git crash course and demos of the basic scenarios you'll use for the second part. To prep you real good, we'll also show you how stuff doesn't always work (been there, done that).
 
-In the second part, we'll work together on a project hosted on a GitHub :octocat: repository. There, you'll start using the real magic of git :boom:, meaning you'll work on issues, pull changes from the repo, push your changes to the remote, make a PR, merge changes ... (and you'll get tons of new jargon to throw around ...)
+In the second part, we'll work together on a project hosted on a GitHub :octocat: repository. There, you'll start using the real magic of git :boom:, meaning you'll work on issues, pull changes from the repo, push your changes to the remote, make a PR, merge changes ... (as a bonus, you'll get tons of new jargon to throw around)
 
 ### Program:  
 
