@@ -18,7 +18,7 @@ In the second part, we'll work together on a project hosted on a GitHub :octocat
 
 | time | what  | topics covered |  
 |------| ----- | -------------- |  
-|15.00 | intro | goals & useful resources |  
+|15.00 | intro | workshop goals & overview of useful resources |  
 |15.05 | benefits of using version control, git command line basics | starting a git repository, recording changes, undoing changes, viewing changes |  
 |15.20 | basic collaborative workflow :octocat: | 'pushing and pulling' changes, creating a pull request, reviewing a pull request |  
 |15.40 | Q & A, hands-on prep | clone the hands-on repo, add first changes |  
