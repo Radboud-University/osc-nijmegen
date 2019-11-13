@@ -29,7 +29,7 @@ REGISTER here: https://forms.gle/o5VKjaxtEj7hgnCz8
 |16.50 | wrap-up (quick preview of what you can learn next) | integrating git with IDEs, version control for manuscript writing, gitHub for project management, troubleshooting |  
 
 ### How to best prepare for the workshop  
-If possible, make sure you have a [GitHub account](https://github.com) prior to coming to the workshop. That's the service, we'll use for the hands-on part. It will save some time, if you already have an account.
+If possible, make sure you have a [GitHub account](https://github.com) prior to coming to the workshop. That's the service we'll use for the hands-on part. It will save some time if you already have an account.
 
 Note, that you can [apply for the GitHub pro account](https://education.github.com/pack) as a student. (free account is absolutely fine for the workshop, however)
 
