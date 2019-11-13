@@ -23,8 +23,8 @@ In the second part, we'll work together on a project hosted on a GitHub :octocat
 |15.20 | basic collaborative workflow :octocat: | 'pushing and pulling' changes, creating a pull request, reviewing a pull request |  
 |15.40 | Q & A, hands-on prep | clone the hands-on repo, add first changes |  
 |15.50 | *break* | :coffee: :cookie: :coffee: :cookie: |  
-|16.00 | hands-on project | using gitHub issues, contributing to a public repository, resolving git conflicts |  
-|16.50 | wrap-up (quick preview of what you can learn next) | creating forks, integrating git with IDEs, version control for manuscript writing, gitHub for project management, troubleshooting |  
+|16.00 | hands-on project | using gitHub issues, contributing to a public repository, resolving git conflicts, creating forks |  
+|16.50 | wrap-up (quick preview of what you can learn next) | integrating git with IDEs, version control for manuscript writing, gitHub for project management, troubleshooting |  
 
 ### How to best prepare for the workshop  
 
