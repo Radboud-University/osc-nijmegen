@@ -4,6 +4,10 @@ excerpt: A short workshop on basics of working git and GitHub
 categories: [event]
 ---
 
+**When**: 28 November, 2019 at 15:00 - 17:00.
+
+**Where**: Instruction room of the Trigon Building (Kapittelweg 29, 6525 EN Nijmegen)
+
 **What:** A hands-on workshop on using git and GitHub for collaborative work. Organized in collaboration with the [Dondrite](https://dondrite.ruhosting.nl/) study association for students of the Cognitive Neuroscience Masters.
 
 In this workshop, we'll set you up with the minimal basics needed to start using git and GitHub for version control in your projects. In the first part, we'll do a git crash course and demos of the basic scenarios you'll use for the second part. To prep you real good, we'll also show you how stuff doesn't always work (been there, done that).
@@ -12,16 +16,20 @@ In the second part, we'll work together on a project hosted on a GitHub :octocat
 
 ### Program:
 
-Part I:  
-- version control 101 (lightweight)
-- ways of working with git & basic concepts
-- demos (personal use case, basic collaborative cycle, when stuff goes wrong (and it does...))
+*Schedule*:  
 
-Part II:
-- using the git command line (cloning a repository, creating branches, creating commits, undoing commits, viewing changes, adding tags...)
-- collaborative work through GitHub ('pushing and pulling' changes, creating a pull request, reviewing a pull request, working with 'issues' ...)
-- wrap up  
+| time | what  | topics covered |  
+|------| ----- | -------------- |  
+|15.00 | intro | goals & useful resources |  
+|15.05 | version control and git basics | starting a git repository, recording changes, undoing changes, viewing changes |  
+|15.20 | collaborative workflow basics :octocat: | 'pushing and pulling' changes, creating a pull request, reviewing a pull request |  
+|15.40 | Q & A, hands-on prep | clone the hands-on repo, add first changes |  
+|15.50 | *break* | :coffee::cookie::coffee::cookie: |  
+|16.00 | hands-on project | gitHub issues, contributing to a public repository, git conflicts |  
+|16.50 | wrap-up (and extra topics) | creating forks, version control for manuscript writing. troubleshooting |  
 
-**When**: 28 November, 2019 at 15:00 - 17:00.
+### Useful resources
 
-**Where**: Instruction room of the Trigon Building (Kapittelweg 29, 6525 EN Nijmegen)
+Coming soon... :blush::v:
+
+
