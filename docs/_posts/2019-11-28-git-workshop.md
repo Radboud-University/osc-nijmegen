@@ -14,19 +14,17 @@ In this workshop, we'll set you up with the minimal basics needed to start using
 
 In the second part, we'll work together on a project hosted on a GitHub :octocat: repository. There, you'll start using the real magic of git :boom:, meaning you'll work on issues, pull changes from the repo, push your changes to the remote, make a PR, merge changes ... (and you'll get tons of new jargon to throw around ...)
 
-### Program:
-
-*Schedule*:  
+### Program:  
 
 | time | what  | topics covered |  
 |------| ----- | -------------- |  
 |15.00 | intro | goals & useful resources |  
-|15.05 | version control and git basics | starting a git repository, recording changes, undoing changes, viewing changes |  
-|15.20 | collaborative workflow basics :octocat: | 'pushing and pulling' changes, creating a pull request, reviewing a pull request |  
+|15.05 | benefits of using version control, git command line basics | starting a git repository, recording changes, undoing changes, viewing changes |  
+|15.20 | basic collaborative workflow :octocat: | 'pushing and pulling' changes, creating a pull request, reviewing a pull request |  
 |15.40 | Q & A, hands-on prep | clone the hands-on repo, add first changes |  
-|15.50 | *break* | :coffee::cookie::coffee::cookie: |  
-|16.00 | hands-on project | gitHub issues, contributing to a public repository, git conflicts |  
-|16.50 | wrap-up (and extra topics) | creating forks, version control for manuscript writing. troubleshooting |  
+|15.50 | *break* | :coffee: :cookie: :coffee: :cookie: |  
+|16.00 | hands-on project | using gitHub issues, contributing to a public repository, resolving git conflicts |  
+|16.50 | wrap-up (quick preview of what you can learn next) | creating forks, integrating git with IDEs, version control for manuscript writing, gitHub for project management, troubleshooting |  
 
 ### Useful resources
 
