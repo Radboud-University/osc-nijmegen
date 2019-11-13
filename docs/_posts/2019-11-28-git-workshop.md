@@ -26,6 +26,10 @@ In the second part, we'll work together on a project hosted on a GitHub :octocat
 |16.00 | hands-on project | using gitHub issues, contributing to a public repository, resolving git conflicts |  
 |16.50 | wrap-up (quick preview of what you can learn next) | creating forks, integrating git with IDEs, version control for manuscript writing, gitHub for project management, troubleshooting |  
 
+### How to best prepare for the workshop  
+
+Coming soon ... :see_no_evil:
+
 ### Useful resources
 
 Coming soon... :blush::v:
