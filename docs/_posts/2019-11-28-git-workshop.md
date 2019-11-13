@@ -10,9 +10,9 @@ categories: [event]
 
 **What:** A hands-on workshop on using git and GitHub for collaborative work. Organized in collaboration with the [Dondrite](https://dondrite.ruhosting.nl/) study association for students of the Cognitive Neuroscience Masters.
 
-In this workshop, we'll set you up with the minimal basics needed to start using git and GitHub for version control in your projects. In the first part, we'll do a git crash course and demos of the basic scenarios you'll use for the second part. To prep you real good, we'll also show you how stuff doesn't always work (been there, done that).
+In this workshop, we'll set you up with the minimal basics needed to start using git and GitHub for version control in your projects. In the first part, we'll do a git crash course and demos of the basic scenarios you'll use for the second part.
 
-In the second part, we'll work together on a project hosted on a GitHub :octocat: repository. There, you'll start using the real magic of git :boom:, meaning you'll work on issues, pull changes from the repo, push your changes to the remote, make a PR, merge changes ... (as a bonus, you'll get tons of new jargon to throw around)
+In the second part, we'll work together on a project hosted on a GitHub :octocat: repository. There, you'll start using the real magic of git :boom:, meaning you'll work on issues, pull changes from others to your repo, push your changes to the remote, make a PR, review your colleagues' contributsion, merge the changes ... (as a bonus, you'll get tons of new jargon to throw around). To prep you real good, we'll also show you how stuff can go wrong (been there, done that)
 
 ### Program:  
 
@@ -27,11 +27,15 @@ In the second part, we'll work together on a project hosted on a GitHub :octocat
 |16.50 | wrap-up (quick preview of what you can learn next) | integrating git with IDEs, version control for manuscript writing, gitHub for project management, troubleshooting |  
 
 ### How to best prepare for the workshop  
+If possible, make sure you have a [GitHub account](https://github.com) prior to coming to the workshop. That's the service, we'll use for the hands-on part. It will save some time, if you already have an account.
 
-Coming soon ... :see_no_evil:
+Note, that you can [apply for the GitHub pro account](https://education.github.com/pack) as a student. (free account is absolutely fine for the workshop, however)
+
+The workshop is self-contained and you _don't need to prepare for it_. If you're eager, we list some useful resources below. Dig in!
 
 ### Useful resources
 
-Coming soon... :blush::v:
-
+- [GitHub guides](https://guides.github.com/)
+- [Git Pro book](https://git-scm.com/book/en/v2) (chapters 1, 2, and 6)
+- [The Turing Way](https://the-turing-way.netlify.com/introduction/introduction) (chapters 4 and 5 on version control and GitHub)  
 
