@@ -14,7 +14,7 @@ In this workshop, we'll set you up with the minimal basics needed to start using
 
 In the second part, we'll work together on a project hosted on a GitHub :octocat: repository. There, you'll start using the real magic of git :boom:, meaning you'll work on issues, pull changes from others to your repo, push your changes to the remote, make a PR, review your colleagues' contributsion, merge the changes ... (as a bonus, you'll get tons of new jargon to throw around). To prep you real good, we'll also show you how stuff can go wrong (been there, done that).
 
-REGISTER [](https://forms.gle/o5VKjaxtEj7hgnCz8) 
+REGISTER [here](https://forms.gle/o5VKjaxtEj7hgnCz8) 
 
 ### Program:  
 
