@@ -40,4 +40,4 @@ The workshop is self-contained and you _don't need to prepare for it_. But if yo
 - [GitHub guides](https://guides.github.com/)
 - [Git Pro book](https://git-scm.com/book/en/v2) (chapters 1, 2, and 6)
 - [The Turing Way](https://the-turing-way.netlify.com/introduction/introduction) (chapters 4 and 5 on version control and GitHub)  
-
+- [A grip on git](https://agripongit.vincenttunru.com/) A splendid visual tutorial on git (~10 min)
