@@ -19,4 +19,5 @@ Stay tuned! The schedule for all upcoming meeting will be shown here. The next R
 
 ## Inclusivity
 Everyone is welcome :blush:
+
 We want to hear from anyone who's interested in open science and reproducibility (pro or against) regardless of background, discipline, and career stage.
