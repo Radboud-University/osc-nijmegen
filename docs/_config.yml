@@ -118,10 +118,7 @@ author:
   weibo            :
   xing             :
   youtube          : #
-  links            :
-   - label: "Twitter"
-     icon: "fab fa-fw fa-twitter-square"
-     url: "https://twitter.com/OSCNijmegen"
+
 
 
 # Reading Files
@@ -271,7 +268,7 @@ defaults:
       layout: single
       author_profile: true
       toc: false
- 
+
 footer:
   links:
     - label: "Twitter"
