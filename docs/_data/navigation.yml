@@ -5,6 +5,8 @@ main:
    url: /_pages/about
  - title: "Agenda"
    url: /_pages/agenda
+ - title: "Initiatives"
+   url: /_pages/initiatives
  - title: "Resources"
    url: /_pages/os_nijmegen
  - title: "Contribute"
@@ -24,6 +26,13 @@ about-sidebar:
         url: _pages/agenda/
       - title: "Contribute"
         url: _pages/contribute/
+
+# documentation links
+initiatives-sidebar:
+  - title: INITIATIVES
+    children:
+      - title: ReproducibiliTea
+        url: _pages/reproducibilitea
 
 # documentation links
 resources-sidebar:
