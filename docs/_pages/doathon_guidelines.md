@@ -29,7 +29,7 @@ with) that you can connect to the internet.
 ### What can you learn at the event?
 
 Once you dig in the [issues](https://github.com/Radboud-University/osc-nijmegen/issues), you'll be more comfortable writing and publishing in [markdown](https://daringfireball.net/projects/markdown/) (if you aren't already).
-Also, hopefully phrases like 'oh, the code is on my [repo](https://help.github.com/en/articles/about-repositories)' and 'just [fork](https://help.github.com/en/articles/fork-a-repo) the repo and do a [PR](https://help.github.com/en/articles/about-pull-requests)' will make a bit more sense (if they don't already). :blush: 
+Also, hopefully phrases like 'oh, the code is on my [repo](https://help.github.com/en/articles/about-repositories)' and 'just [fork](https://help.github.com/en/articles/fork-a-repo) the repo and do a [PR](https://help.github.com/en/articles/about-pull-requests)' will make a bit more sense (if they don't already). :blush:
 
 ### Useful external resources
 

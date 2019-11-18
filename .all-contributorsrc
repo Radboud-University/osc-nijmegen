@@ -1,0 +1,125 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "norok2",
+      "name": "Riccardo M.",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4312650?v=4",
+      "profile": "https://github.com/norok2",
+      "contributions": [
+        "tool"
+      ]
+    },
+    {
+      "login": "marieke-woensdregt",
+      "name": "Marieke Woensdregt",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10545959?v=4",
+      "profile": "https://marieke-woensdregt.github.io/",
+      "contributions": [
+        "doc",
+        "content"
+      ]
+    },
+    {
+      "login": "eirini-zormpa",
+      "name": "Eirini Zormpa",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/30151074?v=4",
+      "profile": "https://github.com/eirini-zormpa",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "suhasvijayakumar",
+      "name": "Suhas Vijayakumar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4101365?v=4",
+      "profile": "https://github.com/suhasvijayakumar",
+      "contributions": [
+        "code",
+        "eventOrganizing",
+        "content"
+      ]
+    },
+    {
+      "login": "robertoostenveld",
+      "name": "Robert Oostenveld",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/899043?v=4",
+      "profile": "https://github.com/robertoostenveld",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Frederik-D-Weber",
+      "name": "Frederik-D-Weber",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19636325?v=4",
+      "profile": "https://github.com/Frederik-D-Weber",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "JoKeyser",
+      "name": "Johannes Keyser",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8722846?v=4",
+      "profile": "https://github.com/JoKeyser",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "johalgermissen",
+      "name": "Johannes Algermissen",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/36693723?v=4",
+      "profile": "https://github.com/johalgermissen",
+      "contributions": [
+        "eventOrganizing",
+        "blog"
+      ]
+    },
+    {
+      "login": "jeanette-mostert",
+      "name": "jeanette-mostert",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/56967046?v=4",
+      "profile": "https://github.com/jeanette-mostert",
+      "contributions": [
+        "content",
+        "eventOrganizing",
+        "blog",
+        "fundingFinding"
+      ]
+    },
+    {
+      "login": "KristijanArmeni",
+      "name": "Kristijan Armeni",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14061041?v=4",
+      "profile": "https://github.com/KristijanArmeni",
+      "contributions": [
+        "code",
+        "maintenance",
+        "content",
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "leonorebovy",
+      "name": "Leonore Bovy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/36054122?v=4",
+      "profile": "https://github.com/leonorebovy",
+      "contributions": [
+        "code",
+        "content",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "osc-nijmegen",
+  "projectOwner": "Radboud-University",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}

@@ -5,6 +5,8 @@ main:
    url: /_pages/about
  - title: "Agenda"
    url: /_pages/agenda
+ - title: "Initiatives"
+   url: /_pages/initiatives
  - title: "Resources"
    url: /_pages/os_nijmegen
  - title: "Contribute"
@@ -18,10 +20,19 @@ about-sidebar:
         url: _pages/team/
       - title: "Goals and activities"
         url: _pages/goals/
+      - title: "Code of conduct"
+        url: _pages/code_of_conduct/
       - title: "Agenda"
         url: _pages/agenda/
       - title: "Contribute"
         url: _pages/contribute/
+
+# documentation links
+initiatives-sidebar:
+  - title: INITIATIVES
+    children:
+      - title: ReproducibiliTea
+        url: _pages/reproducibilitea
 
 # documentation links
 resources-sidebar:
@@ -31,5 +42,7 @@ resources-sidebar:
         url: _pages/OSCN_questionnaire/
       - title: "OS @ Nijmegen"
         url: _pages/os_nijmegen/
-      - title: Links
+      - title: "Educational Resources"
+        url: _pages/education/
+      - title: "Links"
         url: _pages/links/
