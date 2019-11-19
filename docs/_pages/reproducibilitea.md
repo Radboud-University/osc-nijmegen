@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "ReproducibiliTea"
 layout: single
 ---
 
