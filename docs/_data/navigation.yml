@@ -27,6 +27,15 @@ about-sidebar:
       - title: "Contribute"
         url: _pages/contribute/
 
+# agenda links
+agenda-sidebar:
+  - title: AGENDA
+    children:
+      - title: upcoming events
+        url: _pages/agenda
+      - title: past events
+        url: _pages/agenda_past
+
 # documentation links
 initiatives-sidebar:
   - title: INITIATIVES
