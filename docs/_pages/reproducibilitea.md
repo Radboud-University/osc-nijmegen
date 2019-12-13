@@ -12,7 +12,7 @@ ReproducibiliTea is a global initiative bringing journal clubs on reproducibilit
 - :tea: :tea: :tea:
 
 ## Practical info
-The journal club will meet every third Wednesday of the month at 16:00. The person who suggested the topic of discussion will introduce it in 10 minutes or under and then we discuss! Meetings will last no longer than an hour.
+The journal club will meet every third Wednesday of the month at 15:00. The person who suggested the topic of discussion will introduce it in 10 minutes or under and then we discuss! Meetings will last no longer than an hour.
 
 ## Schedule
 Stay tuned! The schedule for all upcoming meeting will be shown here. The next ReproducibiliTea will also be shown in the [Agenda](https://openscience-nijmegen.nl/_pages/agenda/).
