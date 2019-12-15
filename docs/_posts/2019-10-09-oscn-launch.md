@@ -1,7 +1,7 @@
 ---
 title: "Oct 9 - OSCN Launch Event :boom:"
 excerpt: Join us for the official community launch and drinks afterwards!
-categories: [event]
+categories: [past_event]
 ---
 
 **What:** Official launch event of OSC Nijmegen. 🎉

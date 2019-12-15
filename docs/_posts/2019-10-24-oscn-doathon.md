@@ -1,7 +1,7 @@
 ---
 title: "Oct 24 - OSCN Do-A-Thon :hammer::muscle:"
 excerpt: "Collaborative hacking of the OSCN website!"
-categories: [event]
+categories: [past_event]
 ---
 
 **What:** Social event, skill learning, collaborative brainstorm and hands-on
