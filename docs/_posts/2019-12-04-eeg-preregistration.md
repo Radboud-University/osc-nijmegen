@@ -1,7 +1,7 @@
 ---
 title: "Dec 4 - beta testing the EEG preregistration template :wrench::sunglasses:"
 excerpt: Beta testing the EEG preregistration template
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: 4 December, 2019 at 15:00 - 16:00.
