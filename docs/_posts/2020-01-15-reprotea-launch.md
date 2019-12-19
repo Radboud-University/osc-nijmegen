@@ -14,4 +14,4 @@ As this is our first meeting, we'll start with the basics! After some introdicti
 
 If time allows, we'll also go over the schedule for future meetings and see what papers would be interesting to discuss. Eirini and Johannes have already thought of some articles but we want these discussions to reflect the interests of the attendees - you!
 
-![flyer](../../assets//images//2020.01.15_reproTea_flyer_v2.png)
+![flyer](../assets//images//2020.01.15_reproTea_flyer_v2.png)
