@@ -1,7 +1,7 @@
 ---
 title: "Jan 15 - ReproducibiliTea Nijmegen Launch :tada::tea:"
 excerpt: Join us for discussion on open science and tea!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: 15 January 2020 from 15:00 to 16:00
