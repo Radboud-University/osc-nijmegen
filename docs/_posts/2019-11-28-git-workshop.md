@@ -1,7 +1,7 @@
 ---
 title: "Nov 28 - Git & GitHub workshop :octocat::computer:"
 excerpt: A short workshop on basics of working git and GitHub
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: 28 November, 2019 at 15:00 - 17:00.

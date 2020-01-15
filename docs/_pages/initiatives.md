@@ -8,6 +8,6 @@ author_profile: false
 
 This page will list an overview of active projects and initiatives by OSCN members:
 
-- [ReproducibiliTea Nijmegen](https://openscience-nijmegen.nl/_pages/reproducibilitea/) (starting January, 2020)
+- [ReproducibiliTea Nijmegen](https://openscience-nijmegen.nl/_pages/reproducibilitea/)
 
 Have an idea for open science initiative? Send us [an email](https://openscience-nijmegen.nl/_pages/contact/)! 
