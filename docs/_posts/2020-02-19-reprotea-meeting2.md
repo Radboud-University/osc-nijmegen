@@ -1,5 +1,5 @@
 ---
-title: "Jan 15 - ReproducibiliTea Nijmegen Launch :tada::tea:"
+title: "Jan 15 - ReproducibiliTea Nijmegen meeting :tea::tea:"
 excerpt: Join us for discussion on open science and tea!
 categories: [event]
 ---
