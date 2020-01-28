@@ -50,3 +50,5 @@ The next ReproducibiliTea will also be shown in the [Agenda](https://openscience
 Everyone is welcome :blush:
 
 We want to hear from anyone who's interested in open science and reproducibility (pro or against) regardless of background, discipline, and career stage.
+
+Do you have questions? You can contact us at **contact at openscience-nijmegen.nl**.
