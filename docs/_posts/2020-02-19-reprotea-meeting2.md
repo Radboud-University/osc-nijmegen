@@ -22,3 +22,5 @@ Do you know of more initiatives like this? Let us know :blush:
 Other ReproducibiliTea journal clubs are partnering up with [repliCATS](https://replicats.research.unimelb.edu.au/) this February to assess the replicability of scientific claims.
 Eirini attended a preSIPS repliCATS workshop this summer and she loved it!
 If there's interest, we can organise a second ReproducibiliTea in February :heart_eyes_cat:
+
+![flyer](../assets//images//reproTea_flyer_meeting2.png)
