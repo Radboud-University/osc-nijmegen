@@ -11,8 +11,25 @@ ReproducibiliTea is a global initiative bringing journal clubs on reproducibilit
 - meet new people interested in these topics in the Radboud campus
 - :tea: :tea: :tea:
 
+## Paper suggestions
+We want this journal club to reflect the interests of its members--you!
+You can add your suggestions and contact information [here](https://docs.google.com/spreadsheets/d/1efHsgzEu9OqKNRk9EARDNL3gBfsPNRgbdt7-PhfWS-U/edit?usp=sharing).
+Suggestions can be peer-reviewed papers, but also preprints, blog posts, iniatives etc.
+
+When you suggest papers for discussion please keep these guidelines in mind:
+- the topic of the paper should be relevant for open science (e.g.  pre-registration, replicability, reproducibility, robustness, open access, transparency, inclusivity, diversity, philosophy of science)
+- length should not exceed 12 pages (for journal-formatted papers; 24 for double-spaced ones)
+- not too technical please--discussion should be accessible to be people of different backgrounds!
+
 ## Practical info
 The journal club will meet monthly (see dates below) at **15:00** at the **Max Planck Institute for Psycholinguistics (room A229)**. The person who suggested the topic of discussion will introduce it in 10 minutes or under and then we discuss! Meetings will last no longer than an hour.
+
+In the presentation of the paper/topic of discussion identify:
+- the *problem* the paper addresses
+- the *solution* the paper advocates
+- the *relevance* of the paper (for the presenter or more generally)
+- what is *special* about the paper
+- the *limitations* of the paper
 
 ## Schedule
 This is the schedule for all upcoming meetings:
