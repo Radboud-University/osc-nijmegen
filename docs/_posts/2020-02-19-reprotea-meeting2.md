@@ -1,7 +1,7 @@
 ---
 title: "Feb 19 - ReproducibiliTea Nijmegen meeting :tea::tea:"
 excerpt: Join us for discussion on open science and tea!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: 19 February 2020 from 15:00 to 16:00
