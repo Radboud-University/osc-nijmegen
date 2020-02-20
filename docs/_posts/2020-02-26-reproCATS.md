@@ -1,5 +1,5 @@
 ---
-title: "Feb 26 - ReproducibiliTea Nijmegen & repliCATS collaboration :heart_eyes_cat::tea:"
+title: "Feb 26 - ReproducibiliTea Nijmegen & repliCATS collaboration :heart_eyes_cat::tea::pizza:"
 excerpt: Come evaluate scientific claims with us!
 categories: [event]
 ---
@@ -22,4 +22,4 @@ After the discussion it's possible to privately update the final replicability e
 
 **IMPORTANT**
 * You'll have to create a repliCATS account to participate in the event, which takes a little bit of time (15-20 minutes). You can sign up [here](https://score.eresearch.unimelb.edu.au/).
-* There will be pizza.
+* There will be pizza. Help us get the right amount by registering [here](https://forms.gle/wdzWCt2Fmu9pTDef6).
