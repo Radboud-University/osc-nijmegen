@@ -1,7 +1,7 @@
 ---
 title: "Feb 26 - ReproducibiliTea Nijmegen & repliCATS collaboration :heart_eyes_cat::tea::pizza:"
 excerpt: Come evaluate scientific claims with us!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: 26 February 2020 from 16:00 to 18:00
