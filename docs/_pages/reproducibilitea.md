@@ -22,7 +22,7 @@ When you suggest papers for discussion please keep these guidelines in mind:
 - not too technical please--discussion should be accessible to be people of different backgrounds!
 
 ## Practical info
-The journal club will meet monthly (see dates below) at **15:00** at the **Max Planck Institute for Psycholinguistics (room A229)**. The person who suggested the topic of discussion will introduce it in 10 minutes or under and then we discuss! Meetings will last no longer than an hour.
+The journal club will meet monthly (see dates below) at **15:00**. During the lockdown, meetings take place **online**. The person who suggested the topic of discussion will introduce it in 10 minutes or under and then we discuss! Meetings will last no longer than an hour.
 
 In the presentation of the paper/topic of discussion identify:
 - the *problem* the paper addresses
