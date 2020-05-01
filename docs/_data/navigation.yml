@@ -18,6 +18,8 @@ about-sidebar:
     children:
       - title: Organizing team
         url: _pages/team/
+      - title: Members
+        url: _pages/members/
       - title: "Goals and activities"
         url: _pages/goals/
       - title: "Code of conduct"
