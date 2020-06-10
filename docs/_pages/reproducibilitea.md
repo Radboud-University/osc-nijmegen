@@ -40,8 +40,8 @@ This is the schedule for all upcoming meetings:
 | February 19<sup>th</sup> | [Bishop, D. V. M. (2018)](https://doi.org/10.1177/2515245918776632) | transparency | Eirini |
 | March 18<sup>th</sup> | CANCELLED |  |  |
 | April 15<sup>th</sup> | [Gernsbacher, M. A. (2018)](https://doi.org/10.1016/j.tics.2018.07.002) | incentives, the "system" | Eirini |
-| May 20<sup>th</sup> | [van Rooij & Baggio](https://psyarxiv.com/7qbpr/) | theory building | Johannes |
-| June 17<sup>th</sup> | up for discussion | ? | You? |
+| May 20<sup>th</sup> | [van Rooij & Baggio (2020)](https://psyarxiv.com/7qbpr/) | theory building | Johannes |
+| June 24<sup>th</sup> | [Scheel, Schijen, & Lakens (2020)](https://psyarxiv.com/p6e9c) | publication bias, preregistration, registered reports | Judit |
 
 
 The next ReproducibiliTea will also be shown in the [Agenda](https://openscience-nijmegen.nl/_pages/agenda/).
