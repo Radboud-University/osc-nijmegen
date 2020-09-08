@@ -22,7 +22,7 @@ When you suggest papers for discussion please keep these guidelines in mind:
 - not too technical please--discussion should be accessible to be people of different backgrounds!
 
 ## Practical info
-The journal club will meet monthly (see dates below) at **15:00**. During the lockdown, meetings take place **online**. The person who suggested the topic of discussion will introduce it in 10 minutes or under and then we discuss! Meetings will last no longer than an hour.
+The journal club will meet monthly (usually the 3rd Wednesday of the month; see exact dates below) at **15:00**. During the lockdown, meetings take place **online**. The person who suggested the topic of discussion will introduce it in 10 minutes or under and then we discuss! Meetings will last no longer than an hour.
 
 In the presentation of the paper/topic of discussion identify:
 - the *problem* the paper addresses
@@ -42,6 +42,12 @@ This is the schedule for all upcoming meetings:
 | April 15<sup>th</sup> | [Gernsbacher, M. A. (2018)](https://doi.org/10.1016/j.tics.2018.07.002) | incentives, the "system" | Eirini |
 | May 20<sup>th</sup> | [van Rooij & Baggio (2020)](https://psyarxiv.com/7qbpr/) | theory building | Johannes |
 | June 24<sup>th</sup> | [Scheel, Schijen, & Lakens (2020)](https://psyarxiv.com/p6e9c) | publication bias, preregistration, registered reports | Judit |
+| September 17<sup>th</sup> | [Simonsohn (2015)](http://urisohn.com/sohn_files/wp/wordpress/wp-content/uploads/2019/01/small-telescopes-detectability-published.pdf) | publication bias,  replication | Johannes |
+| October 21<sup>th</sup> | open for suggestions! | - | tba |
+| November 18<sup>th</sup> |  open for suggestions! | - | tba |
+| December 16<sup>th</sup> |  open for suggestions! | - | tba |
+| January 20<sup>th</sup> |  open for suggestions! | - | tba |
+| February 17<sup>th</sup> |  open for suggestions! | - | tba |
 
 
 The next ReproducibiliTea will also be shown in the [Agenda](https://openscience-nijmegen.nl/_pages/agenda/).
