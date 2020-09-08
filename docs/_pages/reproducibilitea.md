@@ -49,7 +49,6 @@ This is the schedule for all upcoming meetings:
 | October 21<sup>th</sup> | open for suggestions! | - | tba |
 | November 18<sup>th</sup> |  open for suggestions! | - | tba |
 | December 16<sup>th</sup> |  open for suggestions! | - | tba |
-|-----|----------|----------|-----------|
 | 2021 | - | - | - |
 | January 20<sup>th</sup> |  open for suggestions! | - | tba |
 | February 17<sup>th</sup> |  open for suggestions! | - | tba |
