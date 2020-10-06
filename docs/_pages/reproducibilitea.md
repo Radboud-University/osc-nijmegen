@@ -46,7 +46,7 @@ This is the schedule for all upcoming meetings:
 | May 20<sup>th</sup> | [van Rooij & Baggio (2020)](https://psyarxiv.com/7qbpr/) | theory building | Johannes |
 | June 24<sup>th</sup> | [Scheel, Schijen, & Lakens (2020)](https://psyarxiv.com/p6e9c) | publication bias, preregistration, registered reports | Judit |
 | September 16<sup>th</sup> | [Simonsohn (2015)](http://urisohn.com/sohn_files/wp/wordpress/wp-content/uploads/2019/01/small-telescopes-detectability-published.pdf) | publication bias,  replication | Johannes |
-| October 21<sup>th</sup> | open for suggestions! | - | tba |
+| October 21<sup>th</sup> | [Szollosi & Donkin (preprint)](https://psyarxiv.com/suzej/) | theory building, confirmatory vs. exploratory research | Lena |
 | November 18<sup>th</sup> |  open for suggestions! | - | tba |
 | December 16<sup>th</sup> |  open for suggestions! | - | tba |
 | 2021 | - | - | - |
