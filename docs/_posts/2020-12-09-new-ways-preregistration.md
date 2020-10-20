@@ -4,7 +4,7 @@ excerpt: Learn about old and new ways of pre-registration!
 categories: [event]
 ---
 
-**When**: Wednesday, 8 December from 16:00 to 17:00
+**When**: Wednesday, 9 December from 16:00 to 17:00
 
 **Where**: Online! Register [here](https://forms.gle/pcvZzrqbBw7VduRJ9) to get the link and password.
 
