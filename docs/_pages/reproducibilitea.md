@@ -47,8 +47,8 @@ This is the schedule for all upcoming meetings:
 | June 24<sup>th</sup> | [Scheel, Schijen, & Lakens (2020)](https://psyarxiv.com/p6e9c) | publication bias, preregistration, registered reports | Judit |
 | September 16<sup>th</sup> | [Simonsohn (2015)](http://urisohn.com/sohn_files/wp/wordpress/wp-content/uploads/2019/01/small-telescopes-detectability-published.pdf) | publication bias,  replication | Johannes |
 | October 21<sup>th</sup> | [Szollosi & Donkin (preprint)](https://psyarxiv.com/suzej/) | theory building, confirmatory vs. exploratory research | Lena |
-| November 18<sup>th</sup> |  Vazire & Holcombe (2020) (https://psyarxiv.com/kgqzt/) | self-correction, open science movement | Lena |
-| December 16<sup>th</sup> |  Whitaker & Guest (2020) Blogpost: #bropenscience is broken science (https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) | inclusivity, open science movement | Eva |
+| November 18<sup>th</sup> |  [Vazire & Holcombe (2020)](https://psyarxiv.com/kgqzt/) | self-correction, open science movement | Lena |
+| December 16<sup>th</sup> |  [Whitaker & Guest (2020) Blogpost: #bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) | inclusivity, open science movement | Eva |
 | 2021 | - | - | - |
 | January 20<sup>th</sup> |  open for suggestions! | - | tba |
 | February 17<sup>th</sup> |  open for suggestions! | - | tba |
