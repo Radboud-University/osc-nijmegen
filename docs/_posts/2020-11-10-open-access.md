@@ -1,7 +1,7 @@
 ---
 title: "November 10 - Open Access step-by-step :open_book: :thinking: :open_mouth:"
 excerpt: Learn all you want to know about publishing open access!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Tuesday, 10 November from 15:00 to 16:00
