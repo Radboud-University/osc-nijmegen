@@ -29,9 +29,10 @@ toc_icon: "list-ul"
 * [Eindhoven](https://osceindhoven.github.io/) _Open Science Community Eindhoven_  
 * [Groningen](https://openscience-groningen.nl/oscg/) _Open Science Community Groningen_  
 * [Leiden](https://www.universiteitleiden.nl/open-science-community-leiden) _Open Science Community Leiden_  
+* [Maastricht](https://www.openscience-maastricht.nl/) _Open Science Community Maastricht_  
+* [Nijmegen](https://openscience-nijmegen.nl) _You are here!_  
 * [Rotterdam](https://www.openscience-rotterdam.com/home/) _Open Science Community Rotterdam_  
 * [Utrecht](https://openscience-utrecht.com/) _Open Science Community Utrecht_  
-* [Nijmegen](https://openscience-nijmegen.nl) _You are here!_  
 * [Tilburg](https://www.tilburguniversity.edu/research/open-science-community) _Open Science Community Tilburg_   
 
 
