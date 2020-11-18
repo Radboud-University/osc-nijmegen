@@ -1,7 +1,7 @@
 ---
 title: "October 28 - Make your code more readable through best coding practices :computer: :mag:"
 excerpt: Learn how to write clean code!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Wednesday, 28 October from 16:30 to 17:30
