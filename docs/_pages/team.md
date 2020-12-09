@@ -5,6 +5,7 @@ layout: single
 
 Current members of the organizing team:
 
+- [Eva Poort](https://www.mpi.nl/people/poort-eva), Max Planck Institute for Psycholinguistics
 - Jeanette Mostert, Radboud UMC
 - [Johannes Algermissen](https://www.ru.nl/english/people/algermissen-j/), Donders Institute
 - [Lena Ackermann](https://www.ru.nl/english/people/ackermann-l/), Donders Institute
