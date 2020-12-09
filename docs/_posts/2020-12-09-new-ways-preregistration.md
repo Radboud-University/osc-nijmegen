@@ -1,7 +1,7 @@
 ---
 title: "December 9 - Challenges and new trends in pre-registration :writing_hand: :thinking: :registered:"
 excerpt: Learn about old and new ways of pre-registration!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Wednesday, 9 December from 16:00 to 17:00

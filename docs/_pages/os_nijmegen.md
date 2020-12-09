@@ -12,6 +12,9 @@ sidebar:
 The list below gives a cursory overview and links to open science related
 initiatives maintained by various institutions on Nijmegen campus.
 
+## Materials from past events
+* Slides to webinar [Challenges and new trends in pre-registration](../assets//slides//Challenges_trends_pre-registration_JohannesAlgermissen_2020_12_09.pdf) by Johannes Algermissen, 09 December, 2020
+
 ## General
 
 * [Radboud Open Science](https://www.ru.nl/openscience) Open science information for the Radboud University
