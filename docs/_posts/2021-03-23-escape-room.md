@@ -1,5 +1,5 @@
 ---
-title: "March 23 - Data horror escape room :computer: :supervillain: :mechanical_arm: :eyes:"
+title: "March 23 - Data horror escape room :computer: :scream: :neckbeard: :eyes:"
 excerpt: Learn about data management and sharing while escaping Professor Hutseephluts's office!
 categories: [event]
 ---
