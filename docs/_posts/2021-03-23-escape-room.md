@@ -16,3 +16,5 @@ The escape room takes approximately one hour. No research data management knowle
 To receive the Zoom-link, please sign up [here](https://forms.gle/DdpYaNHd8qdpj9cH9).
 
 See you there! :wave: :sparkles:
+
+![flyer](../assets//images//data_horror_escape_room.png.png)

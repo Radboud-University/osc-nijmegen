@@ -4,7 +4,7 @@ excerpt: Help us improve the resources page on our OSCN webpage!
 categories: [event]
 ---
 
-**When**: Thursday, 11 March, and Monday, March 15, both from 15:00 to 17:00
+**When**: Thursday, 11 March, and Monday, March 15, both from 15:30 to 17:00
 
 **Where**: Online! Register [here for the March 11 session](https://forms.gle/zNbQ33zs8JCiymZ86) and [here for the March 15 session](https://forms.gle/ZgG3RtcZzu446PDT9) to get the link and password.
 
