@@ -17,4 +17,4 @@ To receive the Zoom-link, please sign up [here](https://forms.gle/DdpYaNHd8qdpj9
 
 See you there! :wave: :sparkles:
 
-![flyer](../assets//images//data_horror_escape_room.png.png)
+![flyer](../assets//images//data_horror_escape_room.png)
