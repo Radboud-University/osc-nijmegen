@@ -5,11 +5,11 @@ main:
    url: /_pages/about
  - title: "Agenda"
    url: /_pages/agenda
- - title: "Initiatives"
-   url: /_pages/initiatives
+ - title: "reproducibiliTea"
+   url: /_pages/reproducibilitea
  - title: "Resources"
    url: /_pages/os_nijmegen
- - title: "Contribute"
+ - title: "Contact"
    url: /_pages/contact
 
 # documentation links
