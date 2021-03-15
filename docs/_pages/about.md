@@ -10,14 +10,21 @@ sidebar:
 
 Open Science Community Nijmegen (OSCN) is a community of scholars and other academic workers devoted to maintaining and developing scientific practices that ensure transparency, rigour, and reproducibilty of research and related academic work (the term 'science' is used in its broadest, inclusive sense to include humanities and social sciences, i.e. it more suitably refers to open scholarship).
 
-Although the target audience are academic workers from Nijmegen, OSCN considers itself a part of a larger open science movement. On a national level, OSCN is one of eight [Open Science Communities in the Netherlands (OSC-NL)](https://openscience-nijmegen.nl/_pages/links/#local):
+Although the target audience are academic workers from Nijmegen, OSCN considers itself a part of a larger open science movement. On a national level, OSCN is one of eight Open Science Communities in the Netherlands (OSC-NL).
 
 ![OSC-NL map](../assets//images//OSC-NL.jpg) 
 
 image credit: Anita Eerland
 
-
-See [Links](https://radboud-university.github.io/osc-nijmegen/_pages/links/) for more information on national and international initiatives as well as educational resources to get you up to speed with everything open science!
+* [Amsterdam](https://openscience-amsterdam.com/) _Open Science Community Amsterdam_  
+* [Eindhoven](https://osceindhoven.github.io/) _Open Science Community Eindhoven_  
+* [Groningen](https://openscience-groningen.nl/oscg/) _Open Science Community Groningen_  
+* [Leiden](https://www.universiteitleiden.nl/open-science-community-leiden) _Open Science Community Leiden_  
+* [Maastricht](https://www.openscience-maastricht.nl/) _Open Science Community Maastricht_  
+* [Nijmegen](https://openscience-nijmegen.nl) _You are here!_  
+* [Rotterdam](https://www.openscience-rotterdam.com/home/) _Open Science Community Rotterdam_  
+* [Utrecht](https://openscience-utrecht.com/) _Open Science Community Utrecht_  
+* [Tilburg](https://www.tilburguniversity.edu/research/open-science-community) _Open Science Community Tilburg_ 
 
 ## What is open science (open scholarship)?
 
