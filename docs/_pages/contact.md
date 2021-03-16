@@ -25,4 +25,6 @@ Want to share an idea or give feedback? Then send us a line to __contact at open
 # Contribute
 We are always looking for open science enthusiasts who want to contribute to our work! Do you have an idea for an event or an initiative you want to start and where we can help you? Or you want to support the daily business of OSCN? Just contact us via __contact at openscience-nijmegen.nl__.
 
+If you would like to promote us in an event you host, please consider using [this slide](../assets//slides//Slide_OSCN_promo.pptx) to introduce us!
+
 If you prefer to get started immediately, see our [contributing](https://openscience-nijmegen.nl/_pages/contribute/) page.

@@ -50,9 +50,12 @@ This is the schedule for all upcoming meetings:
 | November 18<sup>th</sup> |  [Vazire & Holcombe (2020)](https://psyarxiv.com/kgqzt/) | self-correction, open science movement | Lena |
 | December 16<sup>th</sup> |  [Whitaker & Guest (2020) Blogpost: #bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) | inclusivity, open science movement | Eva |
 | 2021 | - | - | - |
-| January 20<sup>th</sup> |  open for suggestions! | - | tba |
-| February 17<sup>th</sup> |  open for suggestions! | - | tba |
-
+| January 20<sup>th</sup> |  [Scheel et al. (2020)](http://leotiokhin.com/assets/uploads/Scheel_etal_2020_HypothesisTesters_PPS.pdf) | hypothesis testing | Eva |
+| February 17<sup>th</sup> |  [Locke (2009)](https://journals.sagepub.com/doi/pdf/10.1111/j.1745-6924.2009.01090.x) | research methods | Rowan |
+| March 17<sup>th</sup> |  [Tiokhin et al. (2021)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0246675) | Lena | Lena |
+| April 21<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
+| May 19<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
+| June 16<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
 
 The next ReproducibiliTea will also be shown in the [Agenda](https://openscience-nijmegen.nl/_pages/agenda/).
 

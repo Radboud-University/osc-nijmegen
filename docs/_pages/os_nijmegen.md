@@ -1,5 +1,5 @@
 ---
-title: "Resources"
+title: "Open science @ Nijmegen"
 layout: single
 toc: true
 toc_label: "Contents"
@@ -23,9 +23,7 @@ The OSCN is part of the International Network of Open Science & Scholarship Comm
 In 2019 we conducted a survey about open science among academics in Nijmegen. You can view the results [here](https://openscience-nijmegen.nl/_pages/OSCN_questionnaire/).
 
 ### How can I contribute to the OSCN?
-Anyone affiliated to the Radboud University, Radboud University Medical Center, Max Planck Institute for Psycholinguistics or Hogeschool Arnhem Nijmegen can become a member of the OSCN. [You can sign up for our mailinglist](https://openscience-nijmegen.nl/_pages/contact/) or contact us with ideas, suggestions or interesting events via __contact at openscience-nijmegen.nl__.
-
-If you would like to promote us in an event you host, please consider using [this slide](../assets//slides//Slide_OSCN_promo.pptx) to introduce us!
+Anyone affiliated to the Radboud University, Radboud University Medical Center, Max Planck Institute for Psycholinguistics or Hogeschool Arnhem Nijmegen can become a member of the OSCN. [You can sign up for our mailinglist](https://openscience-nijmegen.nl/_pages/contact/) or contact us with ideas, suggestions or interesting events: contact [at] openscience-nijmegen.nl
 
 ## Materials from past events
 * Slides to webinar [Challenges and new trends in pre-registration](../assets//slides//Challenges_trends_pre-registration_JohannesAlgermissen_2020_12_09.pdf) by Johannes Algermissen, 09 December, 2020
@@ -166,6 +164,7 @@ A Registered Report describes a scientific paper in which the theoretical framew
 ### Resources
 * [Hunt, L. T. (2019). The life-changing magic of sharing your data. _Nature Human Behaviour_, 3(4), 312-315.](https://www.nature.com/articles/s41562-019-0560-3)
 * [van Vliet, M. (2020). Seven quick tips for analysis scripts in neuroimaging. _PLOS Computational Biology_, 16(3), e1007358.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007358)
+* [Best Practices for Programming in R](https://arushigarg.com/2020/09/06/best-practices-for-programming-in-r/), slides to webinar by Arushi Garg, 28 October, 2020
 * [#Matlab / #Octave: divide and conquer m-scripts](https://www.youtube.com/watch?v=AWfrlKTLkqw), Youtube lecture by Agah Karakuzu at the OHBM Hackathon 2020
 * [Sharing matlab_code](https://osf.io/53cte/), lecture slides by Aurina Arnatkeviciute on the OSF.
 * [Naming things](https://speakerdeck.com/jennybc/how-to-name-files), slide deck by Jenny Bryan (UBC, Canada)

@@ -3,7 +3,7 @@ main:
    url: /index
  - title: "About"
    url: /_pages/about
- - title: "Agenda"
+ - title: "Events"
    url: /_pages/agenda
  - title: "reproducibiliTea"
    url: /_pages/reproducibilitea
