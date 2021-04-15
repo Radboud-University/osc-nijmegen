@@ -164,11 +164,13 @@ A Registered Report describes a scientific paper in which the theoretical framew
 * [osf.io](https://osf.io) and [cos.io](https://cos.io) _Open Science Framework_, repository to share data sets
 
 ### Resources
+* [Eglen, S. J., Marwick, B., Halchenko, Y. O., Hanke, M., Sufi, S., Gleeson, P., ... & Poline, J. B. (2017). Toward standard practices for sharing computer code and programs in neuroscience. _Nature Neuroscience_, 20(6), 770-773.](https://www.nature.com/articles/nn.4550)
 * [Hunt, L. T. (2019). The life-changing magic of sharing your data. _Nature Human Behaviour_, 3(4), 312-315.](https://www.nature.com/articles/s41562-019-0560-3)
 * [van Vliet, M. (2020). Seven quick tips for analysis scripts in neuroimaging. _PLOS Computational Biology_, 16(3), e1007358.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007358)
+* [Project structure](https://slides.djnavarro.net/project-structure/#1), slide deck by Danielle Navarro (UNSW, Australia)
+* [Naming things](https://speakerdeck.com/jennybc/how-to-name-files), slide deck by Jenny Bryan (UBC, Canada)
 * [#Matlab / #Octave: divide and conquer m-scripts](https://www.youtube.com/watch?v=AWfrlKTLkqw), Youtube lecture by Agah Karakuzu at the OHBM Hackathon 2020
 * [Sharing matlab_code](https://osf.io/53cte/), lecture slides by Aurina Arnatkeviciute on the OSF.
-* [Naming things](https://speakerdeck.com/jennybc/how-to-name-files), slide deck by Jenny Bryan (UBC, Canada)
 
 ## Research data management
 
@@ -234,6 +236,7 @@ Open Science is aiming for reproducible science: Findings should be replicable i
 * [Guest, O., & Martin, A. E. (2020). How computational modeling can force theory building in psychological science. _Perspectives of Psychological Science_.](https://journals.sagepub.com/doi/full/10.1177/1745691620970585)
 * [Van Rooij, I., & Baggio, G. (2020). Theory before the test: How to build high-verisimilitude explanatory theories in psychological science. Perspectives on Psychological Science, 1745691620970604.](https://journals.sagepub.com/doi/full/10.1177/1745691620970604)
 * [Van Rooij, I., & Blokpoel, M. (2020). Formalizing Verbal Theories. Social Psychology.](https://econtent.hogrefe.com/doi/full/10.1027/1864-9335/a000428)
+* [van Rooij, I. (2019) Psychological science needs theory development before preregistration, Psychonomic Society.](https://featuredcontent.psychonomic.org/psychological-science-needs-theory-development-before-preregistration/)
 * [Course on Computational & Formal modeling]( https://www.ru.nl/courseguide/2018/socsci/courses-osiris/ai/sow-bki211-computational-and-formal-modeling/)  in the Artificial Intelligence programme at Radboud University
 
 ## Copyright and licenses
