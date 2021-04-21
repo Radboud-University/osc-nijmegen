@@ -7,10 +7,10 @@ Current members of the organizing team:
 
 - [Eva Poort](https://www.mpi.nl/people/poort-eva), Max Planck Institute for Psycholinguistics
 - Jeanette Mostert, Radboud UMC
-- [Jeroen Bos](https://www.rug.nl/staff/jeroen.bos/), open acess officer at Radboud library
+- [Jeroen Bos](https://www.rug.nl/staff/jeroen.bos/), open access officer at Radboud library
 - [Johannes Algermissen](https://www.ru.nl/english/people/algermissen-j/), Donders Institute
 - [Lena Ackermann](https://www.ru.nl/english/people/ackermann-l/), Donders Institute
-- Max Primbs, Behavioural Science Institute
+- [Max Primbs](https://max-primbs.netlify.app/), Behavioural Science Institute
 
 Advisers:
 - [Dirk van Gorp](https://www.ru.nl/english/people/gorp-d-van/), Radboud University Library
