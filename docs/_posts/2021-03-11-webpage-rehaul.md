@@ -1,7 +1,7 @@
 ---
 title: "March 11 & 15 - Collaborative working on the OSCN website :computer: :hammer: :muscle:"
 excerpt: Help us improve the resources page on our OSCN webpage!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Thursday, 11 March, and Monday, March 15, both from 15:30 to 17:00
