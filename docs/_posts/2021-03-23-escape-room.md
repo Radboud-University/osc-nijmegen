@@ -1,7 +1,7 @@
 ---
 title: "March 23 - Data horror escape room :computer: :scream: :neckbeard: :eyes:"
 excerpt: Learn about data management and sharing while escaping Professor Hutseephluts's office!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Tuesday, 23 March from 16:00 to 17:00
