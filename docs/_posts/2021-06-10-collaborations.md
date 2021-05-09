@@ -1,5 +1,5 @@
 ---
-title: "June 10 - Large-scale collaborations in science :earth_africa: :globe_with_meridians: :man_scientist: :woman_scientist: :handshake: "
+title: "June 10 - Large-scale collaborations in science :earth_africa: :woman_scientist: :handshake: :man_scientist: :globe_with_meridians:"
 excerpt: Hear about how other scientists work together in big groups!
 categories: [event]
 ---

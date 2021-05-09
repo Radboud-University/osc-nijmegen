@@ -1,5 +1,5 @@
 ---
-title: "May 26 - From chaos to order: Efficient file management :computer: :scream: :neckbeard: :eyes:"
+title: "May 26 - From chaos to order: Efficient file management :computer: :scream: :file_folder: :eyes:"
 excerpt: Learn about efficient management of files, code, and more!
 categories: [event]
 ---

@@ -1,5 +1,5 @@
 ---
-title: "June 17 - Does science correct itself? :thinking: :raised_eyebrow: :microscope: :petri_dish: :male_detective: :female_detective:"
+title: "June 17 - Does science correct itself? :thinking: :microscope: :x: :male_detective: :female_detective:"
 excerpt: Hear about successful and failed attempts of correction errors in scientific research!
 categories: [event]
 ---
