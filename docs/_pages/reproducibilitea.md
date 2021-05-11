@@ -6,7 +6,7 @@ layout: single
 ReproducibiliTea is a global initiative bringing journal clubs on reproducibility and open science to, at the time of writing, about 20 countries spread over 4 continents. There is more information on the initiative and current chapter on the [ReproducibiliTea website](https://reproducibilitea.org/).
 
 ## Next event
-Our next event will be on April 21, 2021, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea13/). 
+Our next event will be on **May 19**, 2021, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea14/). 
 For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/).
 
 
