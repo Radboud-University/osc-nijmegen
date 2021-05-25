@@ -4,7 +4,7 @@ excerpt: Learn about efficient management of files, code, and more!
 categories: [event]
 ---
 
-**When**: Tuesday, 26 May from 15:30 to 17:00
+**When**: Wednesday, 26 May from 15:30 to 17:00
 
 **Where**: Online! Register [here](https://forms.gle/BCBepSCNVNgcXoAt7) to get the link and password.
 
