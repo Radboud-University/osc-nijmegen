@@ -15,3 +15,5 @@ Have you maybe downloaded one of the OSF templates for pre-registration, started
 Johannes is a PhD student at the Donders Institute and involved in the development of new pre-registration templates.
 
 See you there! :wave: :sparkles:
+
+The slides to the event can be found [here](../assets//slides//Challenges_trends_pre-registration_JohannesAlgermissen_2020_12_09.pdf).

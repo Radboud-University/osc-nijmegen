@@ -13,3 +13,5 @@ categories: [past_event]
 Does your funder require you to publish your research open access? Do you want your articles to be accessible to anyone in the world? But do you get lost in all the rules, regulations, jargon and high fees? Open access officer Jeroen Bos will walk you through publishing OA step-by-step. There will also be time for questions & answers. 
 
 See you there! :wave: :sparkles:
+
+The slides to the event can be found [here](../assets//slides//2020_11_10_Open Access Presentatie_Step-by-Step_OSCN.pdf).
