@@ -1,7 +1,7 @@
 ---
 title: "May 26 - From chaos to order: Efficient file management :computer: :scream: :file_folder: :eyes:"
 excerpt: Learn about efficient management of files, code, and more!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Wednesday, 26 May from 15:30 to 17:00
@@ -19,3 +19,5 @@ Eva is a postdoctoral researcher at the Max Planck Institute for Psycholinguisti
 To receive the Zoom-link, please sign up [here](https://forms.gle/BCBepSCNVNgcXoAt7).
 
 See you there! :wave: :sparkles:
+
+The slides to the event can be found [here](../assets//slides//2021_05_26_From_Chaos_to_Order_Efficient_file_management.pdf)
