@@ -16,4 +16,4 @@ Johannes is a PhD student at the Donders Institute and involved in the developme
 
 See you there! :wave: :sparkles:
 
-The slides to the event can be found [here](../assets//slides//Challenges_trends_pre-registration_JohannesAlgermissen_2020_12_09.pdf).
+The slides to the event can be found [here](../assets//slides//2020_12_09_Challenges_trends_pre-registration_JohannesAlgermissen.pdf).

@@ -28,8 +28,12 @@ Anyone affiliated to the Radboud University, Radboud University Medical Center, 
 If you would like to promote us in an event you host, please consider using [this slide](../assets//slides//Slide_OSCN_promo.pptx) to introduce us!
 
 ## Materials from past events
+* Slides to webinar _Large-scale collaborations in science_:
+    * [Slides Christina Bergmann (ManyBabies)](../assets//slides//2021_06_10_Collaboration_ManyBabies_Bergmann.pdf). 
+    * [Slides Martine Hoogman (ENIGMA)](../assets//slides//2021_06_10_Collaboration_ENIGMA_Hoogman.pdf). 
+    * [Slides Angelique Janssens (SHiP)](../assets//slides//2021_06_10_Collaboration_SHiP_AngeliqueJanssens.pdf).
 * Slides to webinar [From Chaos to Order: Efficient file management](../assets//slides//2021_05_26_From_Chaos_to_Order_Efficient_file_management.pdf) by Johannes Algermissen, Hannah Peetz, and Eva Poort, 26 May, 2021
-* Slides to webinar [Challenges and new trends in pre-registration](../assets//slides//Challenges_trends_pre-registration_JohannesAlgermissen_2020_12_09.pdf) by Johannes Algermissen, 09 December, 2020
+* Slides to webinar [Challenges and new trends in pre-registration](../assets//slides//2020_12_09_Challenges_trends_pre-registration_JohannesAlgermissen.pdf) by Johannes Algermissen, 09 December, 2020
 * Slides to webinar [Open Access step-by-step](../assets//slides//2020_11_10_Open Access Presentatie_Step-by-Step_OSCN.pdf) by Jeroen Bos, 10 November, 2020
 * Slides to webinar [Plan S](../assets//slides//2020_11_12_Open Access Presentatie_Plans S_OSCN.pdf) by Dirk van Gorp, 12 November, 2020
 * Slides to webinar [Make your code more readable through best coding practices](https://arushigarg.com/2020/09/06/best-practices-for-programming-in-r/) by Arushi Garg, 28 October, 2020
