@@ -10,7 +10,6 @@ Current members of the organizing team:
 - [Jeroen Bos](https://www.rug.nl/staff/jeroen.bos/), open access officer at Radboud library
 - [Johannes Algermissen](https://www.ru.nl/english/people/algermissen-j/), Donders Institute
 - [Lena Ackermann](https://www.ru.nl/english/people/ackermann-l/), Donders Institute
-- [Max Primbs](https://max-primbs.netlify.app/), Behavioural Science Institute
 
 Advisers:
 - [Dirk van Gorp](https://www.ru.nl/english/people/gorp-d-van/), Radboud University Library
@@ -23,4 +22,5 @@ Former organizing team members:
 - [Frederik D. Weber](https://www.ru.nl/english/people/weber-f/), Donders Institute
 - [Kristijan Armeni](https://www.ru.nl/english/people/armeni-k/), Donders Institute
 - [Leonore Bovy](https://www.ru.nl/english/people/bovy-l/), Donders Institute
+- [Max Primbs](https://max-primbs.netlify.app/), Behavioural Science Institute
 - [Suhas Vijayakumar](http://suhasvijayakumar.in/), Donders Institute
