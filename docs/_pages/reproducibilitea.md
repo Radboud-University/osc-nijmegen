@@ -6,13 +6,14 @@ layout: single
 ReproducibiliTea is a global initiative bringing journal clubs on reproducibility and open science to, at the time of writing, about 20 countries spread over 4 continents. There is more information on the initiative and current chapter on the [ReproducibiliTea website](https://reproducibilitea.org/).
 
 ## Next event
-Our next event will be on **June 16**, 2021, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea15/). 
+Our next event will be on **15**, 2021, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea15/). 
 For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/).
 
 
 ## New series in April - July 2021: Fixing the publishing system series
 
-From April onwards, we’re going to do ReproducibiliTea a little differently. For three to four sessions, we will focus on a particular aspect of the academic world, identify its problems and brainstorm solutions. The first topic we will tackle is the publishing system. Ever been bothered by the fact that publishing Open Access feels a lot like being the victim of grand larceny? Or that it can take years to get through the review process, only for your paper to be rejected (yet again)? Ever heard of the 450 Movement? In the first session of this new series, we will diagnose exactly what’s wrong with the current publishing system and identify its problems. In the second (and possibly third) session, we will discuss concrete solutions to those problems. In the final session, we will sum up the discussion and fine-tune our solutions. At the end of the series, we also plan to write a (short) report on the outcome of these three to four sessions, which we will make available on the OSCN website as a white paper and possibly also look to publish in a journal (if we still have confidence in the publishing system after we’re done!). Anyone who comes to one or more of the sessions will of course be acknowledged as a contributor to the report and paper.
+From April onwards, we’re going to do ReproducibiliTea a little differently. For three to four sessions, we will focus on a particular aspect of the academic world, identify its problems and brainstorm solutions. The first topic we will tackle is the publishing system. Ever been bothered by the fact that publishing Open Access feels a lot like being the victim of grand larceny? Or that it can take years to get through the review process, only for your paper to be rejected (yet again)? Ever heard of the 450 Movement? In the first session of this new series, we will diagnose exactly what’s wrong with the current publishing system and identify its problems. In the second third session, we will discuss concrete solutions to those problems. In the final session, we will sum up the discussion and fine-tune our solutions.
+In the last meeting, we will wrap up and discuss any further points left open. We will also collect more concrete examples of how these problems are already being addressed. After the series, we also plan to write a (short) report on the outcome of these three to four sessions, which we will make available on the OSCN website as a white paper and possibly also look to publish in a journal (if we still have confidence in the publishing system after we’re done!). Anyone who comes to one or more of the sessions will of course be acknowledged as a contributor to the report and paper.
 
 ![flyer](../assets//images//ReproTea_series.png)
 
@@ -67,6 +68,7 @@ This is the schedule for all upcoming meetings:
 | April 21<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
 | May 19<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
 | June 16<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
+| September 15<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
 
 The next ReproducibiliTea will also be shown in the [Agenda](https://openscience-nijmegen.nl/_pages/agenda/).
 

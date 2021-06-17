@@ -1,7 +1,7 @@
 ---
 title: "June 17 - Does science correct itself? :thinking: :microscope: :x: :male_detective: :female_detective:"
 excerpt: Hear about successful and failed attempts of correction errors in scientific research!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Thursday, June 17, 15.00 - 16:00
