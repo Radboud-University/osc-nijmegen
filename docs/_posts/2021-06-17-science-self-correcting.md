@@ -15,4 +15,6 @@ As researchers, we are trained in the conviction that science is a process of co
 
 To receive the Zoom-link, please sign up [here](https://forms.gle/DmCU3UmcPLQrKBaF6).
 
+You can find the slides from this event [here](../assets//slides//2021_06_17_Does_science_correct_itself_Halffman.pdf).
+
 See you there! :wave: :sparkles:
