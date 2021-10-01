@@ -6,7 +6,7 @@ layout: single
 ReproducibiliTea is a global initiative bringing journal clubs on reproducibility and open science to, at the time of writing, about 20 countries spread over 4 continents. There is more information on the initiative and current chapter on the [ReproducibiliTea website](https://reproducibilitea.org/).
 
 ## Next event
-Our next event will be on **October 27**, 2021, 15:00 CEST, during the International Open Access week. For more information, see [here](https://openscience-nijmegen.nl/reproTea15/). 
+Our next event will be on **October 27**, 2021, 15:00 CEST, during the International Open Access week. For more information, see [here](https://openscience-nijmegen.nl/reproTea17/). 
 For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/).
 
 ## Objectives
@@ -61,7 +61,7 @@ This is the schedule for all upcoming meetings:
 | May 19<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
 | June 16<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
 | September 15<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
-| October 27<sup>th</sup> |  [Gilmore et al. (2018)](https://journals.sagepub.com/doi/full/10.1177/2515245917746500) | - | Johannes |
+| October 27<sup>th</sup> |  [Gilmore et al. (2018)](https://journals.sagepub.com/doi/full/10.1177/2515245917746500) | data sharing | Johannes |
 
 The next ReproducibiliTea will also be shown in the [Agenda](https://openscience-nijmegen.nl/_pages/agenda/).
 
