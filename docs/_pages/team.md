@@ -5,6 +5,7 @@ layout: single
 
 Current members of the organizing team:
 
+- [Anita Eerland](https://www.anitaeerland.com/), Behavioural Science Institute (BSI)
 - [Eva Poort](https://www.mpi.nl/people/poort-eva), Max Planck Institute for Psycholinguistics
 - Jeanette Mostert, Radboud UMC
 - [Jeroen Bos](https://www.rug.nl/staff/jeroen.bos/), open access officer at Radboud library
