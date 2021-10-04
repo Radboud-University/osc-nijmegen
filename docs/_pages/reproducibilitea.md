@@ -3,11 +3,13 @@ title: "ReproducibiliTea"
 layout: single
 ---
 
-ReproducibiliTea is a global initiative bringing journal clubs on reproducibility and open science to, at the time of writing, about 20 countries spread over 4 continents. There is more information on the initiative and current chapter on the [ReproducibiliTea website](https://reproducibilitea.org/).
+ReproducibiliTea is a global initiative bringing journal clubs on reproducibility and open science to, at the time of writing, 139 institutes in 27 countries spread over 5 continents. There is more information on the initiative and current chapter on the [ReproducibiliTea website](https://reproducibilitea.org/).
 
 ## Next event
 Our next event will be on **October 27**, 2021, 15:00 CEST, during the International Open Access week. For more information, see [here](https://openscience-nijmegen.nl/reproTea17/). 
-For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/).
+For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/). For past meetings, see the schedule below.
+
+Information on the special series we hosted from April to September 2021 can be found [here](https://openscience-nijmegen.nl/_pages/publishing_system/).
 
 ## Objectives
 - learn about cool papers/initiatives related to open open science and reproducibility
@@ -26,7 +28,7 @@ When you suggest papers for discussion please keep these guidelines in mind:
 - not too technical please--discussion should be accessible to be people of different backgrounds!
 
 ## Practical info
-The journal club will meet monthly (usually the 3rd Wednesday of the month; see exact dates below) at **15:00**. During the lockdown, meetings take place **online**. 
+The journal club will meet monthly (usually the 3rd Wednesday of the month; see exact dates below) at **15:00**. For the time being, meetings will take place **online**. 
 
 The person who suggested the topic of discussion will introduce it in 10 minutes or under and then we discuss! Meetings will last no longer than an hour.
 
@@ -42,26 +44,19 @@ This is the schedule for all upcoming meetings:
 
 | Day | Paper(s) | Keywords | Presenter |
 |-----|----------|----------|-----------|
-| 2020 | - | - | - |
-| January 15<sup>th</sup> | [Simmons, J. P., Nelson, L. D., & Simonsohn, U. (2011)](https://journals.sagepub.com/doi/full/10.1177/0956797611417632) | preregistration, *p*-hacking, transparency | Johannes |
-| February 19<sup>th</sup> | [Bishop, D. V. M. (2018)](https://doi.org/10.1177/2515245918776632) | transparency | Eirini |
-| March 18<sup>th</sup> | CANCELLED |  |  |
-| April 15<sup>th</sup> | [Gernsbacher, M. A. (2018)](https://doi.org/10.1016/j.tics.2018.07.002) | incentives, the "system" | Eirini |
-| May 20<sup>th</sup> | [van Rooij & Baggio (2020)](https://psyarxiv.com/7qbpr/) | theory building | Johannes |
-| June 24<sup>th</sup> | [Scheel, Schijen, & Lakens (2020)](https://psyarxiv.com/p6e9c) | publication bias, preregistration, registered reports | Judit |
-| September 16<sup>th</sup> | [Simonsohn (2015)](http://urisohn.com/sohn_files/wp/wordpress/wp-content/uploads/2019/01/small-telescopes-detectability-published.pdf) | publication bias,  replication | Johannes |
-| October 21<sup>th</sup> | [Szollosi & Donkin (preprint)](https://psyarxiv.com/suzej/) | theory building, confirmatory vs. exploratory research | Lena |
-| November 18<sup>th</sup> |  [Vazire & Holcombe (2020)](https://psyarxiv.com/kgqzt/) | self-correction, open science movement | Lena |
-| December 16<sup>th</sup> |  [Whitaker & Guest (2020) Blogpost: #bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) | inclusivity, open science movement | Eva |
 | 2021 | - | - | - |
-| January 20<sup>th</sup> |  [Scheel et al. (2020)](http://leotiokhin.com/assets/uploads/Scheel_etal_2020_HypothesisTesters_PPS.pdf) | hypothesis testing | Eva |
-| February 17<sup>th</sup> |  [Locke (2009)](https://journals.sagepub.com/doi/pdf/10.1111/j.1745-6924.2009.01090.x) | research methods | Rowan |
-| March 17<sup>th</sup> |  [Tiokhin et al. (2021)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0246675) | publishing system | Lena |
+| October 27<sup>th</sup> |  [Gilmore et al. (2018)](https://journals.sagepub.com/doi/full/10.1177/2515245917746500) | data sharing | Johannes |
+| September 15<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
+| June 16<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
 | April 21<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
 | May 19<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
-| June 16<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
-| September 15<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
-| October 27<sup>th</sup> |  [Gilmore et al. (2018)](https://journals.sagepub.com/doi/full/10.1177/2515245917746500) | data sharing | Johannes |
+| March 17<sup>th</sup> |  [Tiokhin et al. (2021)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0246675) | publishing system | Lena |
+| February 17<sup>th</sup> |  [Locke (2009)](https://journals.sagepub.com/doi/pdf/10.1111/j.1745-6924.2009.01090.x) | research methods | Rowan |
+| January 20<sup>th</sup> |  [Scheel et al. (2020)](http://leotiokhin.com/assets/uploads/Scheel_etal_2020_HypothesisTesters_PPS.pdf) | hypothesis testing | Eva |
+| 2020 | - | - | - |
+| December 16<sup>th</sup> |  [Whitaker & Guest (2020) Blogpost: #bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) | inclusivity, open science movement | Eva |
+| November 18<sup>th</sup> |  [Vazire & Holcombe (2020)](https://psyarxiv.com/kgqzt/) | self-correction, open science movement | Lena |
+| October 21<sup>th</sup> | [Szollosi & Donkin (preprint)](https://psyarxiv.com/suzej/) | theory building, confirmatory vs. exploratory research | Lena |
 
 The next ReproducibiliTea will also be shown in the [Agenda](https://openscience-nijmegen.nl/_pages/agenda/).
 
