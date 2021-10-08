@@ -1,5 +1,5 @@
 ---
-title: "October 20 - Recognition & Rewards: panel discussion Efficient file management :man_scientist: :woman_scientist: :newspaper: :trophy:"
+title: "October 20 - Recognition & Rewards: panel discussion :man_scientist: :woman_scientist: :newspaper: :trophy:"
 excerpt: A panel discussion on how research and researchers should be evaluated.
 categories: [event]
 ---
