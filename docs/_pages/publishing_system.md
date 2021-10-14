@@ -1,5 +1,5 @@
 ---
-title: "publishing_system"
+title: ""
 layout: single
 ---
 
