@@ -128,6 +128,17 @@
         "tutorial",
         "talk"
       ]
+    },
+    {
+      "login": "evapoort",
+      "name": "evapoort",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15691786?v=4",
+      "profile": "https://github.com/evapoort",
+      "contributions": [
+        "eventOrganizing",
+        "ideas",
+        "blog"
+      ]
     }
   ],
   "contributorsPerLine": 7,
