@@ -4,7 +4,7 @@ excerpt: A panel discussion on how research and researchers should be evaluated.
 categories: [event]
 ---
 
-**When**: Thursday, 20 October from 15:00 to 16:30, followed by drinks
+**When**: Wednesday, 20 October from 15:00 to 16:30, followed by drinks
 
 **Where**: **Lecture hall SP3**, Spinozagebouw, Montessorilaan 3, Nijmegen & **online** (you will receive the link when you register).
 ! Register [here](https://forms.gle/LK3uNAtpyjdGKdGb9) for both on campus and online attendance.
