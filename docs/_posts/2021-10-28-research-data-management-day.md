@@ -12,9 +12,7 @@ categories: [event]
 
 * 10.30-11.00 Welcome + Introduction -- by the Open Science Team (University Library)
 * 11.00-12.45 From chaos to order: Efficient file management -- by Johannes Algermissen, Hannah Peetz & Eva Poort
-* 12.45-13.30 Break
-* 13.30-14.30 Data Stewardship at the RU -- by the Team of Data Stewards
-* 14.30-14.45 Break
+* 12.45-14.45 Break
 * 14.45-16.00 Data Horror Escape Room -- by Jeroen Bos
 
 More information on the activities is provided below. 
