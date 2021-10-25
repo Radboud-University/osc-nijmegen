@@ -8,11 +8,15 @@ categories: [event]
 
 **Where**: Online! Register [here](https://forms.gle/zoZHuK4p5LQ6fW8YA) to get the link and password. The same link is used for all the individual activities in the schedule.
 
-**What**: The schedule for the day is as follows:
+**What**: The Radboud University Library team has teamed up with the OSCN to organise a day of events around the topic of research data management.
+
+The schedule for the day is as follows:
 
 * 10.30-11.00 Welcome + Introduction -- by the Open Science Team (University Library)
 * 11.00-12.45 From chaos to order: Efficient file management -- by Johannes Algermissen, Hannah Peetz & Eva Poort
-* 12.45-14.45 Break
+* 12.45-13.30 Break
+* **CANCELLED** 13.30-14.30 Data Stewardship at the RU -- by the Team of Data Stewards
+* 14.30-14.45 Break
 * 14.45-16.00 Data Horror Escape Room -- by Jeroen Bos
 
 More information on the activities is provided below. 
@@ -39,7 +43,7 @@ Hannah is a PhD student at the Behavioural Science Institute.
 Eva is a postdoctoral researcher at the Max Planck Institute for Psycholinguistics.
 
 
-*Data stewardship at the RU -- by the Team of Data Stewards*
+**CANCELLED** *Data stewardship at the RU -- by the Team of Data Stewards*
 
 The discipline-specific Data Stewards will present themselves and the specific support they offer with regard to (local) policies for data storage and management. Political scientist Alex Lehr will briefly share his experiences.
 
