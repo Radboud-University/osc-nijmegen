@@ -1,7 +1,7 @@
 ---
 title: "October 20 - Recognition & Rewards: panel discussion :man_scientist: :woman_scientist: :newspaper: :trophy:"
 excerpt: A panel discussion on how research and researchers should be evaluated.
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Wednesday, 20 October from 15:00 to 16:30, followed by drinks

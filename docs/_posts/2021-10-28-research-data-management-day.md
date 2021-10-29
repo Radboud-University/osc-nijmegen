@@ -1,7 +1,7 @@
 ---
 title: "October 28 - Research Data Management Day"
 excerpt: A day full of events to learn more about research data management!
-categories: [event]
+categories: [past_event]
 ---
 
 **When**: Thursday, 28 October from 10:30 to 16:30
