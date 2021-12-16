@@ -6,7 +6,7 @@ layout: single
 ReproducibiliTea is a global initiative bringing journal clubs on reproducibility and open science to, at the time of writing, 139 institutes in 27 countries spread over 5 continents. There is more information on the initiative and current chapter on the [ReproducibiliTea website](https://reproducibilitea.org/).
 
 ## Next event
-Our next event will be on **December 15**, 2021, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea19/). 
+Our next event will be on **January 19**, 2022, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea20/). 
 For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/). For past meetings, see the schedule below.
 
 Information on the special series we hosted from April to September 2021 can be found [here](https://openscience-nijmegen.nl/_pages/publishing_system/).
@@ -45,6 +45,7 @@ This is the schedule for all upcoming meetings:
 | Day | Paper(s) | Keywords | Presenter |
 |-----|----------|----------|-----------|
 | 2021 | - | - | - |
+| December 15<sup>th</sup> |  [Maier and Lakens (pre-print)](https://psyarxiv.com/ts4r6/) | statistics | Eva |
 | November 17<sup>th</sup> |  [Parsons and Bagliani (2021)](https://doi.org/10.1016/j.tics.2021.05.003) | peer review | Lena |
 | October 27<sup>th</sup> |  [Gilmore et al. (2018)](https://journals.sagepub.com/doi/full/10.1177/2515245917746500) | data sharing | Lena |
 | September 15<sup>th</sup> |  Series: How do we fix the publishing system? | - | Eva, Johannes, Lena |
