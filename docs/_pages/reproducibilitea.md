@@ -6,7 +6,7 @@ layout: single
 ReproducibiliTea is a global initiative bringing journal clubs on reproducibility and open science to, at the time of writing, 139 institutes in 27 countries spread over 5 continents. There is more information on the initiative and current chapter on the [ReproducibiliTea website](https://reproducibilitea.org/).
 
 ## Next event
-Our next event will be on **January 19**, 2022, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea20/). 
+Our next event will be on **February 16**, 2022, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea21/). 
 For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/). For past meetings, see the schedule below.
 
 Information on the special series we hosted from April to September 2021 can be found [here](https://openscience-nijmegen.nl/_pages/publishing_system/).
@@ -44,6 +44,8 @@ This is the schedule for all upcoming meetings:
 
 | Day | Paper(s) | Keywords | Presenter |
 |-----|----------|----------|-----------|
+| 2022 | - | - | - |
+| January 19<sup>th</sup> |  [Debrouwere and Rosseel (2021)](https://doi.org/10.1177/17456916211026947) | research methods | Johannes |
 | 2021 | - | - | - |
 | December 15<sup>th</sup> |  [Maier and Lakens (pre-print)](https://psyarxiv.com/ts4r6/) | statistics | Eva |
 | November 17<sup>th</sup> |  [Parsons and Bagliani (2021)](https://doi.org/10.1016/j.tics.2021.05.003) | peer review | Lena |
@@ -55,10 +57,6 @@ This is the schedule for all upcoming meetings:
 | March 17<sup>th</sup> |  [Tiokhin et al. (2021)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0246675) | publishing system | Lena |
 | February 17<sup>th</sup> |  [Locke (2009)](https://journals.sagepub.com/doi/pdf/10.1111/j.1745-6924.2009.01090.x) | research methods | Rowan |
 | January 20<sup>th</sup> |  [Scheel et al. (2020)](http://leotiokhin.com/assets/uploads/Scheel_etal_2020_HypothesisTesters_PPS.pdf) | hypothesis testing | Eva |
-| 2020 | - | - | - |
-| December 16<sup>th</sup> |  [Whitaker & Guest (2020) Blogpost: #bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) | inclusivity, open science movement | Eva |
-| November 18<sup>th</sup> |  [Vazire & Holcombe (2020)](https://psyarxiv.com/kgqzt/) | self-correction, open science movement | Lena |
-| October 21<sup>th</sup> | [Szollosi & Donkin (preprint)](https://psyarxiv.com/suzej/) | theory building, confirmatory vs. exploratory research | Lena |
 
 The next ReproducibiliTea will also be shown in the [Agenda](https://openscience-nijmegen.nl/_pages/agenda/).
 
