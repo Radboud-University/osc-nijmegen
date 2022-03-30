@@ -3,11 +3,15 @@ title: "ReproducibiliTea"
 layout: single
 ---
 
+**ReproducibiliTea Nijmegen is currently inactive (as of March 31, 2022) due to the organising members's recent moves away from Nijmegen/academia. If you're interested in bringing this back alive, reach out to the OSCN via the email address on the [contact page](https://openscience-nijmegen.nl/_pages/contact)!**
+
 ReproducibiliTea is a global initiative bringing journal clubs on reproducibility and open science to, at the time of writing, 139 institutes in 27 countries spread over 5 continents. There is more information on the initiative and current chapter on the [ReproducibiliTea website](https://reproducibilitea.org/).
 
 ## Next event
-Our next event will be on **February 16**, 2022, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea21/). 
-For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/). For past meetings, see the schedule below.
+There are no events scheduled.
+## Most recent event
+Our last event was on **February 16**, 2022, 15:00 CEST. For more information, see [here](https://openscience-nijmegen.nl/reproTea21/). 
+For all future meetings, see our [agenda](https://openscience-nijmegen.nl/_pages/agenda/). For all past meetings, see the schedule below.
 
 Information on the special series we hosted from April to September 2021 can be found [here](https://openscience-nijmegen.nl/_pages/publishing_system/).
 
@@ -45,6 +49,7 @@ This is the schedule for all upcoming meetings:
 | Day | Paper(s) | Keywords | Presenter |
 |-----|----------|----------|-----------|
 | 2022 | - | - | - |
+| February 16<sup>th</sup> |  [Ngiam (2021)](https://www.psychologicalscience.org/observer/fully-credited-making-publishing-more-equitable) | CRediT | Eva |
 | January 19<sup>th</sup> |  [Debrouwere and Rosseel (2021)](https://doi.org/10.1177/17456916211026947) | research methods | Johannes |
 | 2021 | - | - | - |
 | December 15<sup>th</sup> |  [Maier and Lakens (pre-print)](https://psyarxiv.com/ts4r6/) | statistics | Eva |
