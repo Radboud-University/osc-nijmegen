@@ -28,6 +28,8 @@ Anyone affiliated to the Radboud University, Radboud University Medical Center, 
 If you would like to promote us in an event you host, please consider using [this slide](../assets//slides//Slide_OSCN_promo.pptx) to introduce us!
 
 ## Materials from past events
+2022_06_29_OpenScience_Donders_GSD.pdf
+* Slides to workshop [Open Science](../assets//slides//2022_06_29_OpenScience_Donders_GSD.pdf) at the Donders Graduate School Day by Johannes Algermissen, 29 June, 2022.
 * Slides to webinar [Does science correct itself?](../assets//slides//2021_06_17_Does_science_correct_itself_Halffman.pdf) by Willem Halffman, 17 June, 2021
 * Slides to webinar _Large-scale collaborations in science_, 11 June, 2021:
     * [Slides Christina Bergmann (ManyBabies)](../assets//slides//2021_06_10_Collaboration_ManyBabies_Bergmann.pdf). 
