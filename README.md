@@ -2,9 +2,11 @@ Open Science Community Nijmegen
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors)
 ---
 
-This repository hosts website of the Open Science Community Nijmegen:
+This repository used to host the website of the Open Science Community Nijmegen. The website has now moved to a new location which does **not** use GitHub Pages:
 
-[https://openscience-nijmegen.nl/](https://openscience-nijmegen.nl/)
+[https://osc-international.com/osc-nijmegen/](https://osc-international.com/osc-nijmegen/)
+
+The old website content and the documentation below is for now retained to be able to track the history.
 
 ## Contributing
 
